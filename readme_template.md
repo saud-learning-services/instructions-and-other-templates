@@ -9,21 +9,15 @@
 
 ## Output
 (example from quiz-reports)
-### `.zip` file containing a PDF per student _(who submitted the quiz)_
+### `file` with info
 
-- **ID** (randomly-generated, anonymous student identifier)
-- **Course name** (as it appears on Canvas)
-- **Question text** (as it appears on Canvas)
-- **Student's response** (all submitted text -- does not preserving formatting)
+- notes about info
 
-> NOTE: all of the above will repeat for as many questions as are in the quiz (on seperate pages)
+> NOTE: 
 
-### `.csv` detailing
+### `file` detailing
 
-- **Student Name** (as it appears on Canvas)
-- **Student ID** (UBC student ID)
-- **Canvas ID** (Canvas LMS ID)
-- **Anonymous ID** (as it appears in the output PDFs)
+- notes
 
 > NOTE: this table contains sensitive information and should **NOT** be distributed or uploaded anywhere
 
@@ -33,7 +27,7 @@
 
 ## Getting Started
 
-_Are you Sauder Operations Staff? Please go [here](sauder-ops-guide.md) for detailed instructions_
+_Are you Sauder Operations Staff? Please go [here](location of details for ls) for detailed instructions_
 
 > Project uses **conda** to manage environment (See official **conda** documentation [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file))
 
