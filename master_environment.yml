@@ -5,11 +5,13 @@ channels:
   - defaults
 dependencies:
   - python-dotenv
-  - reportlab
+  - reportlab #only used in quiz-reports
   - termcolor
   - requests
   - jupyter
   - pandas
+  - datetime
+  - getpass
   - pip
   - pip:
       - canvasapi
