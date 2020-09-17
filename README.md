@@ -21,3 +21,6 @@ master_environment.yml - sauder_canvas_api environment so only need one environm
 -- for screenshots using examples, clearly indicate as example
 - assume that Ops uses GitHub Desktop setup to locate files in Documents/GitHub/Sauder_Learning_Services
 
+## Other
+- keep a copy of unedited images for other uses
+- use Snagit for editing images, try to keep consistent
