@@ -19,3 +19,5 @@ d) confirm
 
 
 ## Terminal
+
+`conda remove sauder_canvas_api`

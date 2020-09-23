@@ -1,0 +1,1592 @@
+{
+  "QuickStyles" : [
+    {
+      "ShadowDirectionY" : -3,
+      "ArrowEnd" : "TaperArrow",
+      "ToolMode" : "Arrow",
+      "ArrowEndWidth" : 5,
+      "ShadowColor" : "#FF000000",
+      "ArrowStart" : "Round",
+      "ShadowOpacity" : 60,
+      "ShadowBlur" : 2,
+      "ArrowStartWidth" : 5,
+      "DashType" : "Solid",
+      "DropShadowEnabled" : true,
+      "StrokeWidth" : 10,
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0,
+      "ForegroundColor" : "#FF1A92B3"
+    },
+    {
+      "DashType" : "Solid",
+      "StrokeWidth" : 10,
+      "ShadowOpacity" : 60,
+      "ArrowEndWidth" : 5,
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "ForegroundColor" : "#FF94B2C0",
+      "ShadowColor" : "#FF000000",
+      "ArrowStartWidth" : 5,
+      "ArrowStart" : "Round",
+      "ToolMode" : "Arrow",
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "ArrowEnd" : "TaperArrow",
+      "ShadowDirectionY" : -3
+    },
+    {
+      "ToolMode" : "Arrow",
+      "ShadowColor" : "#FF000000",
+      "DropShadowEnabled" : true,
+      "ShadowOpacity" : 60,
+      "ArrowEndWidth" : 5,
+      "Opacity" : 100,
+      "DashType" : "Solid",
+      "ArrowStartWidth" : 5,
+      "ArrowStart" : "Round",
+      "ForegroundColor" : "#FF7F7F7F",
+      "ShadowBlur" : 2,
+      "StrokeWidth" : 10,
+      "ShadowDirectionX" : 0,
+      "ArrowEnd" : "TaperArrow",
+      "ShadowDirectionY" : -3
+    },
+    {
+      "ShadowColor" : "#FF000000",
+      "StrokeWidth" : 10,
+      "ForegroundColor" : "#FF4D9974",
+      "ArrowStartWidth" : 5,
+      "ArrowEndWidth" : 5,
+      "ShadowDirectionX" : 0,
+      "DropShadowEnabled" : true,
+      "ShadowOpacity" : 60,
+      "ShadowDirectionY" : -3,
+      "ShadowBlur" : 2,
+      "ArrowEnd" : "TaperArrow",
+      "ArrowStart" : "Round",
+      "ToolMode" : "Arrow",
+      "DashType" : "Solid",
+      "Opacity" : 100
+    },
+    {
+      "ToolMode" : "Arrow",
+      "ArrowEndWidth" : 4,
+      "ShadowColor" : "#FF000000",
+      "DashType" : "Solid",
+      "ArrowEnd" : "Round",
+      "ArrowStart" : "Round",
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60,
+      "ArrowStartWidth" : 4,
+      "Opacity" : 100,
+      "ShadowDirectionY" : -3,
+      "StrokeWidth" : 7,
+      "ForegroundColor" : "#FF1A92B3",
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2
+    },
+    {
+      "ArrowEnd" : "Round",
+      "ArrowEndWidth" : 4,
+      "StrokeWidth" : 7,
+      "ShadowColor" : "#FF000000",
+      "ForegroundColor" : "#FF94B2C0",
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "Opacity" : 100,
+      "ShadowOpacity" : 60,
+      "ArrowStartWidth" : 4,
+      "ToolMode" : "Arrow",
+      "ArrowStart" : "Round",
+      "DashType" : "Solid",
+      "ShadowDirectionY" : -3,
+      "DropShadowEnabled" : true
+    },
+    {
+      "StrokeWidth" : 7,
+      "ShadowDirectionY" : -3,
+      "ShadowOpacity" : 60,
+      "ArrowEndWidth" : 4,
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0,
+      "DropShadowEnabled" : true,
+      "ShadowColor" : "#FF000000",
+      "ShadowBlur" : 2,
+      "ForegroundColor" : "#FF7F7F7F",
+      "ToolMode" : "Arrow",
+      "ArrowEnd" : "Round",
+      "ArrowStartWidth" : 4,
+      "ArrowStart" : "Round",
+      "DashType" : "Solid"
+    },
+    {
+      "DashType" : "Solid",
+      "ShadowColor" : "#FF000000",
+      "StrokeWidth" : 7,
+      "ArrowStart" : "Round",
+      "ArrowEnd" : "Round",
+      "ForegroundColor" : "#FF4D9974",
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "ArrowEndWidth" : 4,
+      "ShadowDirectionY" : -3,
+      "ToolMode" : "Arrow",
+      "DropShadowEnabled" : true,
+      "ShadowOpacity" : 60,
+      "ArrowStartWidth" : 4,
+      "Opacity" : 100
+    },
+    {
+      "ShadowOpacity" : 60,
+      "BackgroundColor" : "#00000000",
+      "ShadowDirectionY" : -3,
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "ToolShape" : "Rectangle",
+      "DashType" : "Solid",
+      "ForegroundColor" : "#FF1A92B3",
+      "DropShadowEnabled" : true,
+      "ShadowColor" : "#FF000000",
+      "Opacity" : 100,
+      "ToolMode" : "Shape",
+      "StrokeWidth" : 5,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      }
+    },
+    {
+      "ShadowDirectionX" : 0,
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "ToolMode" : "Shape",
+      "StrokeWidth" : 5,
+      "ShadowBlur" : 2,
+      "ForegroundColor" : "#FF94B2C0",
+      "ToolShape" : "Rectangle",
+      "DashType" : "Solid",
+      "ShadowOpacity" : 60,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionY" : -3,
+      "BackgroundColor" : "#00000000",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      }
+    },
+    {
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "DashType" : "Solid",
+      "BackgroundColor" : "#00000000",
+      "ToolMode" : "Shape",
+      "ToolShape" : "Rectangle",
+      "ShadowOpacity" : 60,
+      "ShadowDirectionX" : 0,
+      "StrokeWidth" : 5,
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "ShadowDirectionY" : -3,
+      "ForegroundColor" : "#FF7F7F7F",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      }
+    },
+    {
+      "ShadowDirectionY" : -3,
+      "BackgroundColor" : "#00000000",
+      "ShadowColor" : "#FF000000",
+      "ToolMode" : "Shape",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "StrokeWidth" : 5,
+      "ForegroundColor" : "#FF4D9974",
+      "DropShadowEnabled" : true,
+      "DashType" : "Solid",
+      "ToolShape" : "Rectangle",
+      "ShadowOpacity" : 60,
+      "ShadowBlur" : 2,
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0
+    },
+    {
+      "BackgroundColor" : "#00000000",
+      "ShadowOpacity" : 60,
+      "ShadowDirectionX" : 0,
+      "ShadowBlur" : 2,
+      "DashType" : "Solid",
+      "ToolShape" : "RoundedRectangle",
+      "StrokeWidth" : 5,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "Opacity" : 100,
+      "ShadowColor" : "#FF000000",
+      "ForegroundColor" : "#FF1A92B3",
+      "DropShadowEnabled" : true,
+      "ToolMode" : "Shape",
+      "ShadowDirectionY" : -3
+    },
+    {
+      "ForegroundColor" : "#FF94B2C0",
+      "ShadowDirectionY" : -3,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "Opacity" : 100,
+      "BackgroundColor" : "#00000000",
+      "DropShadowEnabled" : true,
+      "ToolShape" : "RoundedRectangle",
+      "DashType" : "Solid",
+      "ToolMode" : "Shape",
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "ShadowOpacity" : 60,
+      "ShadowDirectionX" : 0,
+      "StrokeWidth" : 5
+    },
+    {
+      "Opacity" : 100,
+      "DashType" : "Solid",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "ToolShape" : "RoundedRectangle",
+      "ToolMode" : "Shape",
+      "DropShadowEnabled" : true,
+      "ShadowColor" : "#FF000000",
+      "StrokeWidth" : 5,
+      "ForegroundColor" : "#FF7F7F7F",
+      "ShadowOpacity" : 60,
+      "ShadowBlur" : 2,
+      "ShadowDirectionY" : -3,
+      "ShadowDirectionX" : 0,
+      "BackgroundColor" : "#00000000"
+    },
+    {
+      "StrokeWidth" : 5,
+      "ToolMode" : "Shape",
+      "ShadowColor" : "#FF000000",
+      "BackgroundColor" : "#00000000",
+      "ToolShape" : "RoundedRectangle",
+      "ShadowBlur" : 2,
+      "Opacity" : 100,
+      "ShadowOpacity" : 60,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "ForegroundColor" : "#FF4D9974",
+      "ShadowDirectionX" : 0,
+      "ShadowDirectionY" : -3,
+      "DropShadowEnabled" : true,
+      "DashType" : "Solid"
+    },
+    {
+      "DropShadowEnabled" : true,
+      "ShadowOpacity" : 60,
+      "Opacity" : 100,
+      "StrokeWidth" : 5,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "DashType" : "Solid",
+      "ToolShape" : "Ellipse",
+      "ToolMode" : "Shape",
+      "ShadowBlur" : 2,
+      "ShadowDirectionY" : -3,
+      "ShadowDirectionX" : 0,
+      "BackgroundColor" : "#00000000",
+      "ShadowColor" : "#FF000000",
+      "ForegroundColor" : "#FF1A92B3"
+    },
+    {
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "DropShadowEnabled" : true,
+      "DashType" : "Solid",
+      "ShadowColor" : "#FF000000",
+      "ShadowBlur" : 2,
+      "ToolShape" : "Ellipse",
+      "ShadowDirectionY" : -3,
+      "Opacity" : 100,
+      "ForegroundColor" : "#FF94B2C0",
+      "ShadowDirectionX" : 0,
+      "StrokeWidth" : 5,
+      "ToolMode" : "Shape",
+      "ShadowOpacity" : 60,
+      "BackgroundColor" : "#00000000"
+    },
+    {
+      "ToolMode" : "Shape",
+      "ForegroundColor" : "#FF7F7F7F",
+      "ShadowOpacity" : 60,
+      "ShadowDirectionX" : 0,
+      "DashType" : "Solid",
+      "Opacity" : 100,
+      "ShadowBlur" : 2,
+      "ShadowDirectionY" : -3,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "ToolShape" : "Ellipse",
+      "BackgroundColor" : "#00000000",
+      "ShadowColor" : "#FF000000",
+      "DropShadowEnabled" : true,
+      "StrokeWidth" : 5
+    },
+    {
+      "ToolShape" : "Ellipse",
+      "StrokeWidth" : 5,
+      "Opacity" : 100,
+      "ForegroundColor" : "#FF4D9974",
+      "ShadowOpacity" : 60,
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "ToolMode" : "Shape",
+      "DropShadowEnabled" : true,
+      "BackgroundColor" : "#00000000",
+      "ShadowDirectionX" : 0,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "DashType" : "Solid",
+      "ShadowDirectionY" : -3
+    },
+    {
+      "Tolerance" : 15,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF1A92B3"
+        ]
+      },
+      "BackgroundColor" : "#FF1A92B3",
+      "ToolMode" : "Fill"
+    },
+    {
+      "BackgroundColor" : "#FF94B2C0",
+      "Tolerance" : 15,
+      "ToolMode" : "Fill",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF94B2C0"
+        ]
+      }
+    },
+    {
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF7F7F7F"
+        ]
+      },
+      "BackgroundColor" : "#FF7F7F7F",
+      "Tolerance" : 15,
+      "ToolMode" : "Fill"
+    },
+    {
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF4D9974"
+        ]
+      },
+      "ToolMode" : "Fill",
+      "BackgroundColor" : "#FF4D9974",
+      "Tolerance" : 15
+    },
+    {
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60,
+      "ShadowColor" : "#FF000000",
+      "StrokeWidth" : 7,
+      "ForegroundColor" : "#FF1A92B3",
+      "PenShape" : "Round",
+      "Opacity" : 100,
+      "ShadowDirectionY" : -3,
+      "ToolMode" : "Pen",
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2
+    },
+    {
+      "PenShape" : "Round",
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Pen",
+      "ForegroundColor" : "#FF94B2C0",
+      "DropShadowEnabled" : true,
+      "ShadowColor" : "#FF000000",
+      "Opacity" : 100,
+      "ShadowDirectionY" : -3,
+      "StrokeWidth" : 7
+    },
+    {
+      "ForegroundColor" : "#FF7F7F7F",
+      "ShadowDirectionX" : 0,
+      "PenShape" : "Round",
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionY" : -3,
+      "StrokeWidth" : 7,
+      "ToolMode" : "Pen",
+      "Opacity" : 100,
+      "ShadowBlur" : 2,
+      "ShadowOpacity" : 60,
+      "DropShadowEnabled" : true
+    },
+    {
+      "PenShape" : "Round",
+      "ShadowDirectionY" : -3,
+      "StrokeWidth" : 7,
+      "ShadowColor" : "#FF000000",
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Pen",
+      "ShadowBlur" : 2,
+      "ForegroundColor" : "#FF4D9974",
+      "ShadowDirectionX" : 0
+    },
+    {
+      "ToolMode" : "Highlight",
+      "BackgroundColor" : "#FF1A92B3"
+    },
+    {
+      "ToolMode" : "Highlight",
+      "BackgroundColor" : "#FF94B2C0"
+    },
+    {
+      "ToolMode" : "Highlight",
+      "BackgroundColor" : "#FF7F7F7F"
+    },
+    {
+      "BackgroundColor" : "#FF4D9974",
+      "ToolMode" : "Highlight"
+    },
+    {
+      "ShadowDirectionX" : 0,
+      "ShadowDirectionY" : -3,
+      "ToolMode" : "Step",
+      "StepSequenceType" : "Number",
+      "Opacity" : 100,
+      "StepStyle" : "Circle",
+      "ShadowColor" : "#FF000000",
+      "BackgroundColor" : "#FF1A92B3",
+      "ForegroundColor" : "#FFFFFFFF",
+      "ShadowOpacity" : 60,
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2
+    },
+    {
+      "Opacity" : 100,
+      "ShadowDirectionY" : -3,
+      "ShadowColor" : "#FF000000",
+      "ShadowOpacity" : 60,
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "ToolMode" : "Step",
+      "StepSequenceType" : "Number",
+      "ForegroundColor" : "#FF000000",
+      "StepStyle" : "Circle",
+      "BackgroundColor" : "#FF94B2C0",
+      "DropShadowEnabled" : true
+    },
+    {
+      "StepSequenceType" : "Number",
+      "ToolMode" : "Step",
+      "Opacity" : 100,
+      "StepStyle" : "Circle",
+      "BackgroundColor" : "#FF7F7F7F",
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "ShadowDirectionY" : -3,
+      "ForegroundColor" : "#FFFFFFFF",
+      "ShadowOpacity" : 60,
+      "ShadowColor" : "#FF000000"
+    },
+    {
+      "ShadowDirectionY" : -3,
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2,
+      "ShadowDirectionX" : 0,
+      "StepStyle" : "Circle",
+      "ShadowColor" : "#FF000000",
+      "StepSequenceType" : "Number",
+      "ForegroundColor" : "#FFFFFFFF",
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Step",
+      "Opacity" : 100,
+      "BackgroundColor" : "#FF4D9974"
+    },
+    {
+      "StepSequenceType" : "Number",
+      "Opacity" : 100,
+      "ForegroundColor" : "#FFFFFFFF",
+      "ShadowOpacity" : 60,
+      "ShadowDirectionX" : 0,
+      "ShadowColor" : "#FF000000",
+      "BackgroundColor" : "#FF1A92B3",
+      "StepStyle" : "CirclePointed",
+      "DropShadowEnabled" : true,
+      "ToolMode" : "Step",
+      "ShadowBlur" : 2,
+      "ShadowDirectionY" : -3
+    },
+    {
+      "Opacity" : 100,
+      "ShadowColor" : "#FF000000",
+      "StepStyle" : "CirclePointed",
+      "ShadowDirectionX" : 0,
+      "ShadowBlur" : 2,
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Step",
+      "ShadowDirectionY" : -3,
+      "BackgroundColor" : "#FF94B2C0",
+      "StepSequenceType" : "Number",
+      "ForegroundColor" : "#FF000000",
+      "DropShadowEnabled" : true
+    },
+    {
+      "ToolMode" : "Step",
+      "ShadowOpacity" : 60,
+      "BackgroundColor" : "#FF7F7F7F",
+      "Opacity" : 100,
+      "ShadowBlur" : 2,
+      "DropShadowEnabled" : true,
+      "StepSequenceType" : "Number",
+      "ShadowDirectionX" : 0,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionY" : -3,
+      "StepStyle" : "CirclePointed",
+      "ForegroundColor" : "#FFFFFFFF"
+    },
+    {
+      "ShadowDirectionX" : 0,
+      "ForegroundColor" : "#FFFFFFFF",
+      "ToolMode" : "Step",
+      "ShadowBlur" : 2,
+      "StepStyle" : "CirclePointed",
+      "BackgroundColor" : "#FF4D9974",
+      "Opacity" : 100,
+      "DropShadowEnabled" : true,
+      "ShadowDirectionY" : -3,
+      "ShadowOpacity" : 60,
+      "StepSequenceType" : "Number",
+      "ShadowColor" : "#FF000000"
+    },
+    {
+      "ForegroundColor" : "#FF1A92B3",
+      "ToolMode" : "Magnify",
+      "StrokeWidth" : 6,
+      "MagnifyScale" : 200
+    },
+    {
+      "StrokeWidth" : 6,
+      "MagnifyScale" : 200,
+      "ToolMode" : "Magnify",
+      "ForegroundColor" : "#FF94B2C0"
+    },
+    {
+      "ForegroundColor" : "#FF7F7F7F",
+      "ToolMode" : "Magnify",
+      "StrokeWidth" : 6,
+      "MagnifyScale" : 200
+    },
+    {
+      "ToolMode" : "Magnify",
+      "MagnifyScale" : 200,
+      "ForegroundColor" : "#FF4D9974",
+      "StrokeWidth" : 6
+    },
+    {
+      "ShadowDirectionY" : -3,
+      "TextOutlineColor" : "#FFFFFFFF",
+      "FontSize" : 24,
+      "TextSelectionUnderline" : false,
+      "FontFamily" : "Arial",
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "TextSelectionBold" : true,
+      "ShadowOpacity" : 60,
+      "TextSelectionColor" : "#FF1A92B3",
+      "ToolHorizontalAlign" : "Center",
+      "TextSelectionItalic" : false,
+      "ToolVerticalAlign" : "Top",
+      "TextOutlineWidth" : 4,
+      "ToolMode" : "Text",
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0,
+      "DropShadowEnabled" : true
+    },
+    {
+      "ToolMode" : "Text",
+      "TextOutlineColor" : "#FF000000",
+      "TextSelectionBold" : true,
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0,
+      "ToolVerticalAlign" : "Top",
+      "TextSelectionUnderline" : false,
+      "FontFamily" : "Arial",
+      "TextOutlineWidth" : 4,
+      "FontSize" : 24,
+      "TextSelectionColor" : "#FF94B2C0",
+      "TextSelectionItalic" : false,
+      "ShadowOpacity" : 60,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionY" : -3,
+      "ShadowBlur" : 2,
+      "DropShadowEnabled" : true,
+      "ToolHorizontalAlign" : "Center"
+    },
+    {
+      "TextSelectionBold" : true,
+      "FontSize" : 24,
+      "ToolMode" : "Text",
+      "TextOutlineColor" : "#FFFFFFFF",
+      "ShadowDirectionY" : -3,
+      "ToolHorizontalAlign" : "Center",
+      "TextSelectionItalic" : false,
+      "ToolVerticalAlign" : "Top",
+      "ShadowDirectionX" : 0,
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "TextSelectionColor" : "#FF7F7F7F",
+      "FontFamily" : "Arial",
+      "TextOutlineWidth" : 4,
+      "ShadowColor" : "#FF000000",
+      "ShadowOpacity" : 60,
+      "TextSelectionUnderline" : false,
+      "ShadowBlur" : 2
+    },
+    {
+      "ShadowColor" : "#FF000000",
+      "ShadowBlur" : 2,
+      "ToolVerticalAlign" : "Top",
+      "FontSize" : 24,
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Text",
+      "ShadowDirectionY" : -3,
+      "TextSelectionColor" : "#FF4D9974",
+      "TextSelectionItalic" : false,
+      "FontFamily" : "Arial",
+      "TextSelectionUnderline" : false,
+      "TextOutlineWidth" : 4,
+      "TextOutlineColor" : "#FFFFFFFF",
+      "ToolHorizontalAlign" : "Center",
+      "Opacity" : 100,
+      "DropShadowEnabled" : true,
+      "TextSelectionBold" : true
+    },
+    {
+      "Opacity" : 100,
+      "TextSelectionUnderline" : false,
+      "DropShadowEnabled" : true,
+      "TextSelectionColor" : "#FF1A92B3",
+      "ShadowColor" : "#FF000000",
+      "ToolHorizontalAlign" : "Center",
+      "ShadowDirectionY" : -3,
+      "TextSelectionItalic" : false,
+      "TextSelectionBold" : true,
+      "TextOutlineColor" : "#FFFFFFFF",
+      "ShadowDirectionX" : 0,
+      "ToolVerticalAlign" : "Top",
+      "FontSize" : 72,
+      "ShadowOpacity" : 60,
+      "ShadowBlur" : 2,
+      "FontFamily" : "Arial",
+      "ToolMode" : "Text",
+      "TextOutlineWidth" : 8
+    },
+    {
+      "ToolMode" : "Text",
+      "TextOutlineWidth" : 8,
+      "FontFamily" : "Arial",
+      "TextSelectionUnderline" : false,
+      "ToolVerticalAlign" : "Top",
+      "ShadowDirectionX" : 0,
+      "TextSelectionItalic" : false,
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "ShadowOpacity" : 60,
+      "ShadowDirectionY" : -3,
+      "ToolHorizontalAlign" : "Center",
+      "TextSelectionBold" : true,
+      "TextOutlineColor" : "#FF000000",
+      "DropShadowEnabled" : true,
+      "TextSelectionColor" : "#FF94B2C0",
+      "FontSize" : 72,
+      "Opacity" : 100
+    },
+    {
+      "TextSelectionUnderline" : false,
+      "Opacity" : 100,
+      "ToolHorizontalAlign" : "Center",
+      "ShadowOpacity" : 60,
+      "TextOutlineColor" : "#FFFFFFFF",
+      "ToolVerticalAlign" : "Top",
+      "ToolMode" : "Text",
+      "ShadowDirectionY" : -3,
+      "ShadowDirectionX" : 0,
+      "TextSelectionColor" : "#FF7F7F7F",
+      "TextSelectionBold" : true,
+      "TextSelectionItalic" : false,
+      "ShadowColor" : "#FF000000",
+      "TextOutlineWidth" : 8,
+      "DropShadowEnabled" : true,
+      "FontFamily" : "Arial",
+      "ShadowBlur" : 2,
+      "FontSize" : 72
+    },
+    {
+      "ToolMode" : "Text",
+      "TextOutlineWidth" : 8,
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "Opacity" : 100,
+      "FontSize" : 72,
+      "ShadowDirectionX" : 0,
+      "TextSelectionUnderline" : false,
+      "ToolVerticalAlign" : "Top",
+      "DropShadowEnabled" : true,
+      "TextOutlineColor" : "#FFFFFFFF",
+      "FontFamily" : "Arial",
+      "TextSelectionColor" : "#FF4D9974",
+      "ToolHorizontalAlign" : "Center",
+      "ShadowOpacity" : 60,
+      "ShadowDirectionY" : -3,
+      "TextSelectionItalic" : false,
+      "TextSelectionBold" : true
+    },
+    {
+      "ShadowDirectionY" : 0,
+      "FontSize" : 24,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF1A92B3"
+        ]
+      },
+      "CalloutShape" : "CTBasicSpeechBubble2",
+      "ForegroundColor" : "#00000000",
+      "TextSelectionBold" : false,
+      "ShadowColor" : "#FF000000",
+      "BackgroundColor" : "#FF1A92B3",
+      "ShadowOpacity" : 60,
+      "Opacity" : 100,
+      "TextSelectionUnderline" : false,
+      "DropShadowEnabled" : false,
+      "FontFamily" : "Helvetica",
+      "DashType" : "Solid",
+      "ShadowDirectionX" : 0,
+      "ToolMode" : "Callout",
+      "ToolPadding" : 0,
+      "TextSelectionColor" : "#FFFFFFFF",
+      "ToolHorizontalAlign" : "Center",
+      "ToolVerticalAlign" : "Center",
+      "TextSelectionItalic" : false,
+      "StrokeWidth" : 0,
+      "ShadowBlur" : 0
+    },
+    {
+      "CalloutShape" : "CTBasicSpeechBubble2",
+      "Opacity" : 100,
+      "FontSize" : 24,
+      "ToolVerticalAlign" : "Center",
+      "TextSelectionBold" : false,
+      "FontFamily" : "Helvetica",
+      "ToolHorizontalAlign" : "Center",
+      "TextSelectionColor" : "#FF000000",
+      "ShadowDirectionY" : 0,
+      "ToolPadding" : 0,
+      "ShadowDirectionX" : 0,
+      "ShadowBlur" : 0,
+      "DashType" : "Solid",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF94B2C0"
+        ]
+      },
+      "ForegroundColor" : "#00000000",
+      "StrokeWidth" : 0,
+      "ShadowOpacity" : 60,
+      "TextSelectionItalic" : false,
+      "DropShadowEnabled" : false,
+      "TextSelectionUnderline" : false,
+      "BackgroundColor" : "#FF94B2C0",
+      "ToolMode" : "Callout",
+      "ShadowColor" : "#FF000000"
+    },
+    {
+      "ToolHorizontalAlign" : "Center",
+      "ToolMode" : "Callout",
+      "Opacity" : 100,
+      "CalloutShape" : "CTBasicSpeechBubble2",
+      "ForegroundColor" : "#00000000",
+      "ShadowDirectionY" : 0,
+      "ShadowOpacity" : 60,
+      "TextSelectionColor" : "#FFFFFFFF",
+      "BackgroundColor" : "#FF7F7F7F",
+      "FontSize" : 24,
+      "ToolPadding" : 0,
+      "FontFamily" : "Helvetica",
+      "ToolVerticalAlign" : "Center",
+      "DropShadowEnabled" : false,
+      "TextSelectionUnderline" : false,
+      "ShadowDirectionX" : 0,
+      "ShadowBlur" : 0,
+      "ShadowColor" : "#FF000000",
+      "TextSelectionBold" : false,
+      "DashType" : "Solid",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF7F7F7F"
+        ]
+      },
+      "TextSelectionItalic" : false,
+      "StrokeWidth" : 0
+    },
+    {
+      "ShadowOpacity" : 60,
+      "Opacity" : 100,
+      "BackgroundColor" : "#FF4D9974",
+      "ToolHorizontalAlign" : "Center",
+      "ToolVerticalAlign" : "Center",
+      "ShadowDirectionY" : 0,
+      "FontSize" : 24,
+      "ShadowColor" : "#FF000000",
+      "StrokeWidth" : 0,
+      "ShadowBlur" : 0,
+      "DashType" : "Solid",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF4D9974"
+        ]
+      },
+      "TextSelectionColor" : "#FFFFFFFF",
+      "ToolPadding" : 0,
+      "ToolMode" : "Callout",
+      "TextSelectionBold" : false,
+      "ForegroundColor" : "#00000000",
+      "TextSelectionItalic" : false,
+      "CalloutShape" : "CTBasicSpeechBubble2",
+      "ShadowDirectionX" : 0,
+      "DropShadowEnabled" : false,
+      "TextSelectionUnderline" : false,
+      "FontFamily" : "Helvetica"
+    },
+    {
+      "ShadowBlur" : 0,
+      "ShadowDirectionY" : 0,
+      "ForegroundColor" : "#00000000",
+      "ToolHorizontalAlign" : "Center",
+      "TextSelectionUnderline" : false,
+      "CalloutShape" : "CTBasicArrowText2",
+      "BackgroundColor" : "#FF1A92B3",
+      "ShadowColor" : "#FF000000",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF1A92B3"
+        ]
+      },
+      "TextSelectionItalic" : false,
+      "ToolPadding" : 0,
+      "Opacity" : 100,
+      "ToolVerticalAlign" : "Center",
+      "ToolMode" : "Callout",
+      "DropShadowEnabled" : false,
+      "FontSize" : 24,
+      "FontFamily" : "Helvetica",
+      "ShadowOpacity" : 60,
+      "StrokeWidth" : 0,
+      "ShadowDirectionX" : 0,
+      "TextSelectionColor" : "#FFFFFFFF",
+      "DashType" : "Solid",
+      "TextSelectionBold" : false
+    },
+    {
+      "ShadowDirectionY" : 0,
+      "DashType" : "Solid",
+      "ForegroundColor" : "#00000000",
+      "ShadowColor" : "#FF000000",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF94B2C0"
+        ]
+      },
+      "ShadowOpacity" : 60,
+      "ToolHorizontalAlign" : "Center",
+      "ShadowDirectionX" : 0,
+      "TextSelectionUnderline" : false,
+      "TextSelectionBold" : false,
+      "TextSelectionItalic" : false,
+      "Opacity" : 100,
+      "FontSize" : 24,
+      "ToolMode" : "Callout",
+      "FontFamily" : "Helvetica",
+      "CalloutShape" : "CTBasicArrowText2",
+      "DropShadowEnabled" : false,
+      "TextSelectionColor" : "#FF000000",
+      "BackgroundColor" : "#FF94B2C0",
+      "ToolPadding" : 0,
+      "ToolVerticalAlign" : "Center",
+      "StrokeWidth" : 0,
+      "ShadowBlur" : 0
+    },
+    {
+      "FontSize" : 24,
+      "ForegroundColor" : "#00000000",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF7F7F7F"
+        ]
+      },
+      "ToolMode" : "Callout",
+      "ShadowDirectionX" : 0,
+      "TextSelectionUnderline" : false,
+      "ToolHorizontalAlign" : "Center",
+      "TextSelectionColor" : "#FFFFFFFF",
+      "FontFamily" : "Helvetica",
+      "DropShadowEnabled" : false,
+      "ShadowOpacity" : 60,
+      "StrokeWidth" : 0,
+      "CalloutShape" : "CTBasicArrowText2",
+      "ToolVerticalAlign" : "Center",
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionY" : 0,
+      "DashType" : "Solid",
+      "TextSelectionItalic" : false,
+      "ShadowBlur" : 0,
+      "Opacity" : 100,
+      "TextSelectionBold" : false,
+      "ToolPadding" : 0,
+      "BackgroundColor" : "#FF7F7F7F"
+    },
+    {
+      "ShadowDirectionX" : 0,
+      "TextSelectionColor" : "#FFFFFFFF",
+      "ToolHorizontalAlign" : "Center",
+      "StrokeWidth" : 0,
+      "TextSelectionBold" : false,
+      "ToolVerticalAlign" : "Center",
+      "TextSelectionItalic" : false,
+      "CalloutShape" : "CTBasicArrowText2",
+      "ShadowColor" : "#FF000000",
+      "FontSize" : 24,
+      "Opacity" : 100,
+      "TextSelectionUnderline" : false,
+      "BackgroundColor" : "#FF4D9974",
+      "FontFamily" : "Helvetica",
+      "ShadowOpacity" : 60,
+      "DropShadowEnabled" : false,
+      "ShadowBlur" : 0,
+      "ToolPadding" : 0,
+      "ForegroundColor" : "#00000000",
+      "ShadowDirectionY" : 0,
+      "ToolMode" : "Callout",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF4D9974"
+        ]
+      },
+      "DashType" : "Solid"
+    },
+    {
+      "FontFamily" : "Helvetica",
+      "ShadowBlur" : 0,
+      "BackgroundColor" : "#FFFFFFFF",
+      "ShadowDirectionY" : 0,
+      "ToolMode" : "Callout",
+      "DropShadowEnabled" : false,
+      "FontSize" : 24,
+      "TextSelectionItalic" : false,
+      "ShadowDirectionX" : 0,
+      "TextSelectionUnderline" : false,
+      "StrokeWidth" : 5,
+      "ShadowOpacity" : 60,
+      "ForegroundColor" : "#FF1A92B3",
+      "ToolVerticalAlign" : "Center",
+      "DashType" : "Solid",
+      "TextSelectionColor" : "#FF000000",
+      "ShadowColor" : "#FF000000",
+      "Opacity" : 100,
+      "ToolPadding" : 0,
+      "ToolHorizontalAlign" : "Center",
+      "CalloutShape" : "CTBalloon6",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FFFFFFFF"
+        ]
+      },
+      "TextSelectionBold" : false
+    },
+    {
+      "FontSize" : 24,
+      "ShadowBlur" : 0,
+      "TextSelectionItalic" : false,
+      "TextSelectionColor" : "#FF000000",
+      "ShadowDirectionX" : 0,
+      "FontFamily" : "Helvetica",
+      "ForegroundColor" : "#FF94B2C0",
+      "ToolPadding" : 0,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FFFFFFFF"
+        ]
+      },
+      "ShadowOpacity" : 60,
+      "DropShadowEnabled" : false,
+      "ToolMode" : "Callout",
+      "Opacity" : 100,
+      "TextSelectionUnderline" : false,
+      "BackgroundColor" : "#FFFFFFFF",
+      "CalloutShape" : "CTBalloon6",
+      "StrokeWidth" : 5,
+      "ToolHorizontalAlign" : "Center",
+      "ShadowDirectionY" : 0,
+      "ToolVerticalAlign" : "Center",
+      "DashType" : "Solid",
+      "TextSelectionBold" : false,
+      "ShadowColor" : "#FF000000"
+    },
+    {
+      "ToolPadding" : 0,
+      "TextSelectionItalic" : false,
+      "ShadowColor" : "#FF000000",
+      "TextSelectionUnderline" : false,
+      "Opacity" : 100,
+      "TextSelectionColor" : "#FF000000",
+      "FontFamily" : "Helvetica",
+      "ToolMode" : "Callout",
+      "TextSelectionBold" : false,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FFFFFFFF"
+        ]
+      },
+      "ShadowBlur" : 0,
+      "DropShadowEnabled" : false,
+      "DashType" : "Solid",
+      "BackgroundColor" : "#FFFFFFFF",
+      "ShadowDirectionY" : 0,
+      "FontSize" : 24,
+      "ToolVerticalAlign" : "Center",
+      "ForegroundColor" : "#FF7F7F7F",
+      "ToolHorizontalAlign" : "Center",
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60,
+      "StrokeWidth" : 5,
+      "CalloutShape" : "CTBalloon6"
+    },
+    {
+      "CalloutShape" : "CTBalloon6",
+      "FontSize" : 24,
+      "ShadowColor" : "#FF000000",
+      "TextSelectionItalic" : false,
+      "FontFamily" : "Helvetica",
+      "DropShadowEnabled" : false,
+      "ToolHorizontalAlign" : "Center",
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60,
+      "ShadowDirectionY" : 0,
+      "Opacity" : 100,
+      "ToolPadding" : 0,
+      "ToolMode" : "Callout",
+      "TextSelectionColor" : "#FF000000",
+      "ForegroundColor" : "#FF4D9974",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FFFFFFFF"
+        ]
+      },
+      "StrokeWidth" : 5,
+      "BackgroundColor" : "#FFFFFFFF",
+      "TextSelectionUnderline" : false,
+      "DashType" : "Solid",
+      "TextSelectionBold" : false,
+      "ShadowBlur" : 0,
+      "ToolVerticalAlign" : "Center"
+    },
+    {
+      "ToolVerticalAlign" : "Center",
+      "TextSelectionItalic" : false,
+      "StrokeWidth" : 0,
+      "ShadowDirectionX" : 0,
+      "CalloutShape" : "CTBasicSpeechBubble1",
+      "ForegroundColor" : "#00000000",
+      "ToolMode" : "Callout",
+      "BackgroundColor" : "#FF1A92B3",
+      "ToolHorizontalAlign" : "Center",
+      "DropShadowEnabled" : false,
+      "DashType" : "Solid",
+      "Opacity" : 100,
+      "ShadowDirectionY" : 0,
+      "ToolPadding" : 0,
+      "TextSelectionBold" : false,
+      "TextSelectionColor" : "#FFFFFFFF",
+      "ShadowOpacity" : 60,
+      "TextSelectionUnderline" : false,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF1A92B3"
+        ]
+      },
+      "ShadowBlur" : 0,
+      "ShadowColor" : "#FF000000",
+      "FontSize" : 24,
+      "FontFamily" : "Helvetica"
+    },
+    {
+      "DashType" : "Solid",
+      "ForegroundColor" : "#00000000",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF94B2C0"
+        ]
+      },
+      "DropShadowEnabled" : false,
+      "ToolHorizontalAlign" : "Center",
+      "ShadowBlur" : 0,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionY" : 0,
+      "TextSelectionColor" : "#FF000000",
+      "ShadowDirectionX" : 0,
+      "BackgroundColor" : "#FF94B2C0",
+      "ToolVerticalAlign" : "Center",
+      "CalloutShape" : "CTBasicSpeechBubble1",
+      "FontSize" : 24,
+      "TextSelectionItalic" : false,
+      "ToolMode" : "Callout",
+      "ToolPadding" : 0,
+      "TextSelectionBold" : false,
+      "ShadowOpacity" : 60,
+      "TextSelectionUnderline" : false,
+      "StrokeWidth" : 0,
+      "Opacity" : 100,
+      "FontFamily" : "Helvetica"
+    },
+    {
+      "TextSelectionItalic" : false,
+      "TextSelectionColor" : "#FFFFFFFF",
+      "ShadowDirectionY" : 0,
+      "FontSize" : 24,
+      "FontFamily" : "Helvetica",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF7F7F7F"
+        ]
+      },
+      "StrokeWidth" : 0,
+      "BackgroundColor" : "#FF7F7F7F",
+      "TextSelectionUnderline" : false,
+      "ToolHorizontalAlign" : "Center",
+      "ShadowDirectionX" : 0,
+      "TextSelectionBold" : false,
+      "ForegroundColor" : "#00000000",
+      "ShadowOpacity" : 60,
+      "ToolVerticalAlign" : "Center",
+      "Opacity" : 100,
+      "ShadowColor" : "#FF000000",
+      "ToolMode" : "Callout",
+      "CalloutShape" : "CTBasicSpeechBubble1",
+      "ShadowBlur" : 0,
+      "ToolPadding" : 0,
+      "DropShadowEnabled" : false,
+      "DashType" : "Solid"
+    },
+    {
+      "FontSize" : 24,
+      "ShadowDirectionY" : 0,
+      "ShadowOpacity" : 60,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#FF4D9974"
+        ]
+      },
+      "ToolHorizontalAlign" : "Center",
+      "CalloutShape" : "CTBasicSpeechBubble1",
+      "TextSelectionItalic" : false,
+      "Opacity" : 100,
+      "BackgroundColor" : "#FF4D9974",
+      "TextSelectionBold" : false,
+      "ShadowBlur" : 0,
+      "FontFamily" : "Helvetica",
+      "ToolPadding" : 0,
+      "StrokeWidth" : 0,
+      "DashType" : "Solid",
+      "ForegroundColor" : "#00000000",
+      "DropShadowEnabled" : false,
+      "ToolMode" : "Callout",
+      "ShadowColor" : "#FF000000",
+      "ToolVerticalAlign" : "Center",
+      "ShadowDirectionX" : 0,
+      "TextSelectionColor" : "#FFFFFFFF",
+      "TextSelectionUnderline" : false
+    },
+    {
+      "DashType" : "Solid",
+      "ShadowColor" : "#FF000000",
+      "Opacity" : 100,
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Shape",
+      "StrokeWidth" : 5,
+      "BackgroundColor" : "#00000000",
+      "ToolShape" : "Polygon",
+      "ShadowDirectionY" : -3,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "ShadowDirectionX" : 0,
+      "ForegroundColor" : "#FF1A92B3",
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2
+    },
+    {
+      "DropShadowEnabled" : true,
+      "StrokeWidth" : 5,
+      "Opacity" : 100,
+      "BackgroundColor" : "#00000000",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "ForegroundColor" : "#FF94B2C0",
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Shape",
+      "ToolShape" : "Polygon",
+      "DashType" : "Solid",
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionX" : 0,
+      "ShadowDirectionY" : -3
+    },
+    {
+      "StrokeWidth" : 5,
+      "ShadowBlur" : 2,
+      "ToolMode" : "Shape",
+      "DashType" : "Solid",
+      "ForegroundColor" : "#FF7F7F7F",
+      "BackgroundColor" : "#00000000",
+      "DropShadowEnabled" : true,
+      "ToolShape" : "Polygon",
+      "ShadowDirectionY" : -3,
+      "ShadowColor" : "#FF000000",
+      "Opacity" : 100,
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60
+    },
+    {
+      "ShadowBlur" : 2,
+      "ShadowColor" : "#FF000000",
+      "DropShadowEnabled" : true,
+      "ShadowOpacity" : 60,
+      "ForegroundColor" : "#FF4D9974",
+      "StrokeWidth" : 5,
+      "ToolShape" : "Polygon",
+      "BackgroundColor" : "#00000000",
+      "DashType" : "Solid",
+      "ShadowDirectionY" : -3,
+      "ToolMode" : "Shape",
+      "GradientBackgroundColor" : {
+        "GradientAngle" : -90,
+        "GradientStyle" : "GradientStyleSolid",
+        "GradientColors" : [
+          "#00000000"
+        ]
+      },
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0
+    },
+    {
+      "DashType" : "Solid",
+      "ShadowDirectionY" : -3,
+      "ArrowStart" : "TArrow",
+      "ShadowColor" : "#FF000000",
+      "ToolMode" : "Arrow",
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0,
+      "ShadowBlur" : 2,
+      "ArrowEnd" : "TArrow",
+      "ArrowEndWidth" : 5,
+      "StrokeWidth" : 10,
+      "ForegroundColor" : "#FF1A92B3",
+      "ArrowStartWidth" : 5,
+      "ShadowOpacity" : 60,
+      "DropShadowEnabled" : true
+    },
+    {
+      "ArrowEnd" : "TArrow",
+      "DashType" : "Solid",
+      "ShadowBlur" : 2,
+      "ShadowOpacity" : 60,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionX" : 0,
+      "ShadowDirectionY" : -3,
+      "ToolMode" : "Arrow",
+      "ArrowEndWidth" : 5,
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "ArrowStartWidth" : 5,
+      "ArrowStart" : "TArrow",
+      "StrokeWidth" : 10,
+      "ForegroundColor" : "#FF94B2C0"
+    },
+    {
+      "ShadowOpacity" : 60,
+      "ShadowBlur" : 2,
+      "DashType" : "Solid",
+      "ArrowStart" : "TArrow",
+      "ShadowDirectionY" : -3,
+      "StrokeWidth" : 10,
+      "ToolMode" : "Arrow",
+      "ArrowEndWidth" : 5,
+      "Opacity" : 100,
+      "ArrowEnd" : "TArrow",
+      "ForegroundColor" : "#FF7F7F7F",
+      "DropShadowEnabled" : true,
+      "ShadowDirectionX" : 0,
+      "ShadowColor" : "#FF000000",
+      "ArrowStartWidth" : 5
+    },
+    {
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2,
+      "DashType" : "Solid",
+      "ForegroundColor" : "#FF4D9974",
+      "ArrowEnd" : "TArrow",
+      "ArrowEndWidth" : 5,
+      "ToolMode" : "Arrow",
+      "ArrowStartWidth" : 5,
+      "ShadowOpacity" : 60,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionY" : -3,
+      "ArrowStart" : "TArrow",
+      "StrokeWidth" : 10,
+      "Opacity" : 100,
+      "ShadowDirectionX" : 0
+    },
+    {
+      "ShadowBlur" : 2,
+      "ArrowEnd" : "RoundedArrow",
+      "DashType" : "Dash",
+      "ArrowStartWidth" : 5,
+      "ShadowOpacity" : 60,
+      "ForegroundColor" : "#FF1A92B3",
+      "StrokeWidth" : 10,
+      "ToolMode" : "Arrow",
+      "ShadowDirectionY" : -3,
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "ArrowStart" : "RoundedArrow",
+      "ShadowColor" : "#FF000000",
+      "ArrowEndWidth" : 5,
+      "ShadowDirectionX" : 0
+    },
+    {
+      "ForegroundColor" : "#FF94B2C0",
+      "ShadowBlur" : 2,
+      "ArrowStartWidth" : 5,
+      "StrokeWidth" : 10,
+      "ShadowColor" : "#FF000000",
+      "ShadowDirectionX" : 0,
+      "ShadowOpacity" : 60,
+      "ToolMode" : "Arrow",
+      "DashType" : "Dash",
+      "ArrowEnd" : "RoundedArrow",
+      "Opacity" : 100,
+      "ArrowStart" : "RoundedArrow",
+      "ShadowDirectionY" : -3,
+      "ArrowEndWidth" : 5,
+      "DropShadowEnabled" : true
+    },
+    {
+      "StrokeWidth" : 10,
+      "ForegroundColor" : "#FF7F7F7F",
+      "ToolMode" : "Arrow",
+      "ArrowStart" : "RoundedArrow",
+      "ShadowOpacity" : 60,
+      "ArrowEndWidth" : 5,
+      "ShadowColor" : "#FF000000",
+      "ArrowEnd" : "RoundedArrow",
+      "ShadowDirectionY" : -3,
+      "DropShadowEnabled" : true,
+      "Opacity" : 100,
+      "DashType" : "Dash",
+      "ArrowStartWidth" : 5,
+      "ShadowDirectionX" : 0,
+      "ShadowBlur" : 2
+    },
+    {
+      "DashType" : "Dash",
+      "ShadowColor" : "#FF000000",
+      "StrokeWidth" : 10,
+      "Opacity" : 100,
+      "ShadowOpacity" : 60,
+      "ArrowEndWidth" : 5,
+      "ArrowEnd" : "RoundedArrow",
+      "ShadowDirectionX" : 0,
+      "ToolMode" : "Arrow",
+      "ArrowStartWidth" : 5,
+      "DropShadowEnabled" : true,
+      "ShadowBlur" : 2,
+      "ArrowStart" : "RoundedArrow",
+      "ForegroundColor" : "#FF4D9974",
+      "ShadowDirectionY" : -3
+    },
+    {
+      "StrokeWidth" : 6,
+      "ToolMode" : "Magnify",
+      "ForegroundColor" : "#FF1A92B3",
+      "MagnifyScale" : 200
+    },
+    {
+      "ForegroundColor" : "#FF94B2C0",
+      "MagnifyScale" : 200,
+      "StrokeWidth" : 6,
+      "ToolMode" : "Magnify"
+    },
+    {
+      "ToolMode" : "Magnify",
+      "StrokeWidth" : 6,
+      "ForegroundColor" : "#FF7F7F7F",
+      "MagnifyScale" : 200
+    },
+    {
+      "MagnifyScale" : 200,
+      "ForegroundColor" : "#FF4D9974",
+      "ToolMode" : "Magnify",
+      "StrokeWidth" : 6
+    },
+    {
+      "ToolMode" : "Magnify",
+      "MagnifyScale" : 200,
+      "ForegroundColor" : "#FF1A92B3",
+      "StrokeWidth" : 6
+    },
+    {
+      "MagnifyScale" : 200,
+      "ToolMode" : "Magnify",
+      "StrokeWidth" : 6,
+      "ForegroundColor" : "#FF94B2C0"
+    },
+    {
+      "MagnifyScale" : 200,
+      "ToolMode" : "Magnify",
+      "StrokeWidth" : 6,
+      "ForegroundColor" : "#FF7F7F7F"
+    },
+    {
+      "StrokeWidth" : 6,
+      "ForegroundColor" : "#FF4D9974",
+      "MagnifyScale" : 200,
+      "ToolMode" : "Magnify"
+    }
+  ],
+  "Name" : "Saud-ls-github",
+  "ThemeColors" : [
+    "#FF1A92B3",
+    "#FF94B2C0",
+    "#FF7F7F7F",
+    "#FF4D9974"
+  ],
+  "Version" : "1.0"
+}
