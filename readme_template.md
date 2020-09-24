@@ -1,10 +1,15 @@
+Emoji Dictionary:
+- :warning: - Be careful of X
+- :exclamation: - Danger! Be really careful of X
+- :skull::skull::skull: Super Danger!! This could break something super important if done wrong
+- :mag: - More details/other info 
+
 # {PROJECT NAME}
 
 ## Summary 
 
 **{PROJECT NAME}** is a Jupyter Notebook and Python application that *does something*
 
-> **Warning** this process makes changes to ... this is not reversible. 
 ## Input
 - describe what is needed 
 
@@ -14,10 +19,9 @@
 
 - notes about info
 
-> NOTE: this table contains sensitive information and should **NOT** be distributed or uploaded anywhere
+> :warning: NOTE: this table contains sensitive information and should **NOT** be distributed or uploaded anywhere
 
 ## Important Caveats
-
 - what would make this NOT WORK? 
 
 ## Getting Started
