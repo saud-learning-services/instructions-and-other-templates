@@ -4,6 +4,7 @@
 
 **{PROJECT NAME}** is a Jupyter Notebook and Python application that *does something*
 
+> **Warning** this process makes changes to ... this is not reversible. 
 ## Input
 - describe what is needed 
 
