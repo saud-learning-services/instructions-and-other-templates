@@ -13,12 +13,6 @@
 
 - notes about info
 
-> NOTE: 
-
-### `file` detailing
-
-- notes
-
 > NOTE: this table contains sensitive information and should **NOT** be distributed or uploaded anywhere
 
 ## Important Caveats
