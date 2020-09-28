@@ -1,10 +1,34 @@
-<h1 style="width=100%;text-align: center;">Terminal Basics</h1>
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <div>
+    <img src="imgs/terminal-icon.png" alt="Logo" width="80" height="80">
+  </div>
 
-<div id="container" style="height:100px;display:flex;justify-content:center;">
-  <img src="./imgs/terminal-icon.png" alt="Terminal Image"/>
-</div>
+  <h3 align="center">Terminal Basics</h3>
 
-## What is terminal?
+  <p align="center">
+    A short explanation of what terminal is and some important commands
+    <br />
+  </p>
+</p>
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [What is Terminal?](#what-is-terminal)
+* [Getting Terminal Set Up](#getting-terminal-set-up)
+* [Example Task Scenario](#example-task-scenario)
+    * [Accomplishing the Task (without Terminal)](#accomplishing-the-task-(without-terminal))
+    * [Accomplishing the Task (with Terminal)](#accomplishing-the-task-(with-terminal))
+* [(Basic) Essential Commands](#(basic)-essential-commands)
+    * [`ls`](#ls)
+    * [`cd`](#cd)
+    * [`mkdir`](#mkdir)
+    * [`touch`](#touch)
+
+## What is Terminal?
 
 Terminals, also known as command lines or consoles, allow us to accomplish and automate tasks on a computer without the use of a graphical user interface (*source: [IT Connect](https://itconnect.uw.edu/learn/workshops/online-tutorials/web-publishing/what-is-a-terminal/)*)
 
@@ -17,9 +41,9 @@ If you are on Mac or Linux computers, you should have terminal already installed
 > Note this will involve installing [Visual Studio Code](https://code.visualstudio.com/download) as well as [Git/Git Bash](https://git-scm.com/downloads) (which you may already have installed if you use Git or GitHub)
 
 
-In order to illustrate how terminal works, let's walk through an example use-case
+In order to illustrate how terminal works, let's walk through an example usecase
 
-### The task
+## Example Task Scenario
 
 1. Make a folder on the Desktop titled `My  Folder`
 2. Make a folder inside `My Folder` called `Contents`
@@ -28,7 +52,7 @@ In order to illustrate how terminal works, let's walk through an example use-cas
 5. Go back to `My Folder` and download in one of our projects from our [GitHub](https://github.com/saud-learning-services)
 6. Check that `My Folder` contains two subfolders: `Contents` and the project we just cloned
 
-### Accomplishing the task without terminal
+### Accomplishing the Task (without Terminal)
 > Note I am going to describe the process using Mac OS, however it will look almost identical on Windows or Linux machines.
 
 1. Open Finder application and navigate to `Desktop`
@@ -41,7 +65,7 @@ In order to illustrate how terminal works, let's walk through an example use-cas
 
 The steps above involve 3 separate applications, lots of navigating between applications and a lot of extra steps
 
-### Accomplishing the task with terminal
+### Accomplishing the Task (with Terminal)
 
 1. Open terminal application
 1. run `$ cd Desktop`
@@ -58,7 +82,7 @@ That may seem like *more* steps, but consider what would take more time, doing a
 
 > For more info on the `git` command and using terminal for Git/GitHub, see [here](./github-project-management.md)
 
-**Below are some common commands for getting started with Terminal**
+## (Basic) Essential Commands
 
 *Note that there are endless possibilies when it comes to terminal, this is merely meant to get someone started with the basics*
 
