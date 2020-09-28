@@ -84,19 +84,19 @@ That may seem like *more* steps, but consider what would take more time, doing a
 
 ## (Basic) Essential Commands
 
-An important thing to realize about terminal is that you are always in *somewhere* -- ie. some folder on a computer. When you first launch, this will be the HOME folder. As you navigate through, this will change.
+An important thing to realize about terminal is that you are always *somewhere* -- ie. in some folder on a computer. When you first launch, this will be the HOME folder. As you navigate through, this will change.
 
 ### `ls`
 
-Running `ls` will list the contents of the current folder (subfolders and files).
+Running `ls` will list the contents of the current folder (subfolders and files)
 
 ### `cd`
 
-`cd` stands for change directory. 
-You can use it to enter a immediate subdirectory from the current directory:
+`cd` stands for change directory
+You can use it to enter a immediate subdirectory from the current directory
 * `$ cd my-subfolder`
 
-Or you can provide a whole filepath to go to any directory:
+Or you can provide a whole filepath to go to any directory
 * `$ cd "Desktop/My Folder/Contents"`
 
 You can also `cd` **out** of a given directory to a parent directory
@@ -105,7 +105,7 @@ You can also `cd` **out** of a given directory to a parent directory
 
 ### `mkdir`
 
-`mkdir` will create a folder
+`mkdir` will create a folder:
 * `$ mkdir my-new-folder-name`
 
 ### `touch`
