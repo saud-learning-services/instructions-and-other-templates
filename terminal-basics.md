@@ -19,7 +19,7 @@
 
 * [What is Terminal?](#what-is-terminal)
 * [Getting Terminal Set Up](#getting-terminal-set-up)
-* [Example Task Scenario](#example-task-scenario)
+* [Example Task Scenario](#example-scenario-(tasks))
     * [Accomplishing the Task (without Terminal)](#accomplishing-the-task-(without-terminal))
     * [Accomplishing the Task (with Terminal)](#accomplishing-the-task-(with-terminal))
 * [(Basic) Essential Commands](#(basic)-essential-commands)
@@ -41,9 +41,9 @@ If you are on Mac or Linux computers, you should have terminal already installed
 > Note this will involve installing [Visual Studio Code](https://code.visualstudio.com/download) as well as [Git/Git Bash](https://git-scm.com/downloads) (which you may already have installed if you use Git or GitHub)
 
 
-In order to illustrate how terminal works, let's walk through an example usecase
+In order to illustrate how terminal works, let's walk through a *very simple* example scenario
 
-## Example Task Scenario
+## Example Scenario (tasks)
 
 1. Make a folder on the Desktop titled `My  Folder`
 2. Make a folder inside `My Folder` called `Contents`
@@ -84,19 +84,21 @@ That may seem like *more* steps, but consider what would take more time, doing a
 
 ## (Basic) Essential Commands
 
-*Note that there are endless possibilies when it comes to terminal, this is merely meant to get someone started with the basics*
+An important thing to realize about terminal is that you are always in *somewhere* -- ie. some folder on a computer. When you first launch, this will be the HOME folder. As you navigate through, this will change.
 
 ### `ls`
 
-Running `ls` will list the contents of the current folder (subfolders and files). When you open terminal, it will start in your HOME folder. 
+Running `ls` will list the contents of the current folder (subfolders and files).
 
 ### `cd`
 
 `cd` stands for change directory. 
 You can use it to enter a immediate subdirectory from the current directory:
 * `$ cd my-subfolder`
+
 Or you can provide a whole filepath to go to any directory:
 * `$ cd "Desktop/My Folder/Contents"`
+
 You can also `cd` **out** of a given directory to a parent directory
 * `$ cd ..` (see how this was used in the example above)
 
