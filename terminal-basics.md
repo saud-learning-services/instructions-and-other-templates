@@ -1,8 +1,21 @@
-# Terminal Basics
+<h1 style="width=100%;text-align: center;">Terminal Basics</h1>
+
+<div id="container" style="height:100px;display:flex;justify-content:center;">
+  <img src="./imgs/terminal-icon.png" alt="Terminal Image"/>
+</div>
 
 ## What is terminal?
 
 Terminals, also known as command lines or consoles, allow us to accomplish and automate tasks on a computer without the use of a graphical user interface (*source: [IT Connect](https://itconnect.uw.edu/learn/workshops/online-tutorials/web-publishing/what-is-a-terminal/)*)
+
+## Getting Terminal Set Up
+
+If you are on Mac or Linux computers, you should have terminal already installed. On windows computers, the command line uses slightly different syntax so getting set up will require a few extra steps.
+
+[This article](https://medium.com/danielpadua/git-bash-with-vscode-593d5998f6be) explains how to get terminal set up on windows
+
+> Note this will involve installing [Visual Studio Code](https://code.visualstudio.com/download) as well as [Git/Git Bash](https://git-scm.com/downloads) (which you may already have installed if you use Git or GitHub)
+
 
 In order to illustrate how terminal works, let's walk through an example use-case
 
@@ -21,10 +34,10 @@ In order to illustrate how terminal works, let's walk through an example use-cas
 1. Open Finder application and navigate to `Desktop`
 2. Right click and select **New Folder**, title it **my-folder**
 3. Go to **my-folder**, right click and select **New Folder**, title it **Contents**
-4. Open textEdit application and make new empty file called `foo.txt` in **Contents**, Save
-5. In textEdit application, make another new file called `bar.txt` in **Contents**, Save
-6. Open GitHub Desktop and go through the several steps described [here](./github-project-management.md#how-to-get-projects-using-github-desktop)
-7. Reopen Finder and double check the contents of **my-folder**
+4. Open textEdit application and make new file called `foo.txt`, write nothing and save to **Contents**
+5. In textEdit application, make another new file called `bar.txt`, write nothing and save to **Contents**
+6. Open GitHub Desktop and go through the steps described [here](./github-project-management.md#how-to-get-projects-using-github-desktop)
+7. Reopen Finder and double check the contents of **my-folder** for `Contents` and the project we just cloned
 
 The steps above involve 3 separate applications, lots of navigating between applications and a lot of extra steps
 
