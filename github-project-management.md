@@ -128,7 +128,7 @@ Before reading on, you'll want to have read [terminal basics](./terminal-basics.
 
 You'll also want to make sure that you have **Git** installed and an account on **GitHub** (the two often get confused, however they're different things)
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* [Create GitHub Account]() !!TODO: Add link to Alison's docs!!
+* [Create GitHub Account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account) and let us know you need to join the saud-learning-services organization
 
 ### Downloading a Project (Terminal)
 
