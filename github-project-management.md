@@ -71,7 +71,7 @@ GitHub solves this by allowing us all to connect to a single "folder in the clou
 
 > Recommended for most people on the Operations team
 
-First, you'll need a GitHub account (Don't have one? See [here]()) !!TODO: Link Alison's Docs for this!!
+First, you'll need a GitHub account (Don't have one? See [GitHub's instructions to create a free account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account)). For Learning Services - get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
 
 GitHub Desktop is a application that lets us download and contribute to with projects hosted on GitHub. To download, go [here](https://desktop.github.com/)
 
