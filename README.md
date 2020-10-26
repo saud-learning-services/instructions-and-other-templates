@@ -19,7 +19,7 @@ master_environment.yml - sauder_canvas_api environment so only need one environm
 - reference sauder_canvas_api as the environment
 - use generic reference to "Project Name", (project-name, PROJECT_NAME etc etc) where possible
 -- for screenshots using examples, clearly indicate as example
-- assume that Ops uses GitHub Desktop setup to locate files in Documents/GitHub/Sauder_Learning_Services
+- assume that Ops uses GitHub Desktop setup to locate files in Documents/GitHub/Sauder-Learning-Services
 - use Snagit and the theme found in _assets
 
 ## Other
