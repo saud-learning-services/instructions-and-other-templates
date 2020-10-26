@@ -18,7 +18,7 @@
 
    > Note if you are using a older Windows computer you may need to select the 32-Bit Graphical Installer. See [here](https://www.computerhope.com/issues/ch001121.htm) to find out.
 
-   ![conda-install-win-mac](./_assets/conda-install-win-mac.png)
+   ![conda-install-win-mac](./imgs/sauder-ops-guide/conda-install-win-mac.png)
 
 3. Open Anaconda Navigator:
 
@@ -26,7 +26,7 @@
    2. Click on **Environments** (left panel)
    3. Click on **Import** (bottom)
 
-   ![anaconda-env-import](./_assets/anaconda-env-import.png)
+   ![anaconda-env-import](./imgs/sauder-ops-guide/anaconda-env-import.png)
 
 4. Import Environment:
 
@@ -35,7 +35,7 @@
    > This will automatically name the environment to be the same name as the project folder (i.e. the-project)
    3. Select import and wait for installation to complete
 
-   ![anaconda-import-box](./_assets/anaconda-import-box.png)
+   ![anaconda-import-box](./imgs/sauder-ops-guide/anaconda-import-box.png)
 
    **Now you're all set up! Time to [run it](#-ran-it-before-start-here)**
 
@@ -43,12 +43,12 @@
 
 1. Open **Anaconda Navigator**, select the ▶️ button next to "the-project" (in the example below it is a project called quiz_reports_env, all of our environments should match the project folder) env and select **Open with Jupyter Notebook** (this should start your browser)
 
-   ![anaconda-run](./_assets/anaconda-run.png)
+   ![anaconda-run](./imgs/sauder-ops-guide/anaconda-run.png)
 
 2. In the browser, navigate to the **the-project** project folder and select **The Project.ipynb** (Note this will be located wherever you saved it in Step 1)
 
-   ![browser-select-notebook](./_assets/browser-select-notebook.png)
+   ![browser-select-notebook](./imgs/sauder-ops-guide/browser-select-notebook.png)
 
 3. In the notebook, select **Kernal** > **Restart & Run All**
 
-   ![notebook-start](./_assets/notebook-start.png)
+   ![notebook-start](./imgs/sauder-ops-guide/notebook-start.png)
