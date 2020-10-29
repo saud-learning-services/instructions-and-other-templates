@@ -35,6 +35,8 @@
    > This will automatically name the environment to be the same name as the project folder (i.e. the-project)
    3. Select import and wait for installation to complete
 
+> Note - this can take some time (upwards of 20 minutes)
+
    ![anaconda-import-box](./imgs/sauder-ops-guide/anaconda-import-box.png)
 
    **Now you're all set up! Time to [run it](#-ran-it-before-start-here)**
