@@ -48,7 +48,7 @@ In order to illustrate how terminal works, let's walk through a _very simple_ ex
 2. Make a folder inside `My Folder` called `Contents`
 3. Make a file in `My Folder/Contents` called `foo.txt`
 4. Make another file in `My Folder/Contents` called `bar.txt`
-5. Go back to `My Folder` and download in one of our projects from our [GitHub](https://github.com/saud-learning-services)
+5. Go back to `My Folder` and clone in one of our projects from our [GitHub](https://github.com/saud-learning-services)
 6. Check that `My Folder` contains two subfolders: `Contents` and the project we just cloned
 
 ### Accomplishing the Task (without Terminal)
@@ -56,8 +56,8 @@ In order to illustrate how terminal works, let's walk through a _very simple_ ex
 > Note I am going to describe the process using Mac OS, however it will look almost identical on Windows or Linux machines.
 
 1. Open Finder application and navigate to `Desktop`
-2. Right click and select **New Folder**, title it **my-folder**
-3. Go to **my-folder**, right click and select **New Folder**, title it **Contents**
+2. Right click and select **New Folder**, title it **My Folder**
+3. Go to **My Folder**, right click and select **New Folder**, title it **Contents**
 4. Open textEdit application and make new file called `foo.txt`, write nothing and save to **Contents**
 5. In textEdit application, make another new file called `bar.txt`, write nothing and save to **Contents**
 6. Open GitHub Desktop and go through the steps described [here](./github-project-management.md#how-to-get-projects-using-github-desktop)
