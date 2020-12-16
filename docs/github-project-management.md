@@ -45,13 +45,13 @@ _Here's a scenario we're trying to avoid..._
 Imagine you download one of our tools to a folder on your computer like so:
 
 <div align="center">
-    <img src="imgs/github_desktop/folder-single.png" alt="Logo" width="300">
+    <img src="../imgs/github_desktop/folder-single.png" alt="Logo" width="300">
 </div>
 
 Now imagine that over time, we make improvements to the tool, and let you know we've posted a second version (Version 2). You download it and name it with "V2" at the end because you don't want to just throw away version one, after all it works. And shortly after this another version comes out and your folder looks something like:
 
 <div align="center">
-    <img src="imgs/github_desktop/folder-messy.png" alt="Logo" width="300">
+    <img src="../imgs/github_desktop/folder-messy.png" alt="Logo" width="300">
 </div>
 
 This has a lot of downsides:
@@ -63,7 +63,7 @@ This has a lot of downsides:
 GitHub solves this by allowing us all to connect to a single "folder in the cloud" so-to-speak, so that everyone can be sure they're on the latest version of the code.
 
 <div align="center">
-    <img src="imgs/github_desktop/github_diagram.png" alt="Logo" width="500">
+    <img src="../imgs/github_desktop/github_diagram.png" alt="Logo" width="500">
     <p>sending out updates through GitHub</p>
 </div>
 
@@ -78,7 +78,7 @@ GitHub Desktop is a application that lets us download and contribute to with pro
 Once downloaded, open the application. It should look something like this:
 
 <div align="center">
-    <img src="imgs/github_desktop/github-desktop-first-opened.png" alt="Logo" width="500">
+    <img src="../imgs/github_desktop/github-desktop-first-opened.png" alt="Logo" width="500">
 </div>
 
 ### Downloading a Project (GitHub Desktop)
@@ -88,13 +88,13 @@ Select **Clone a Repository from the Internet...** You will be prompted to sign 
 Once finished, under **Clone a Repository**, select the **URL** tab
 
 <div align="center">
-    <img src="imgs/github_desktop/clone-a-repo.png" alt="Logo" width="500">
+    <img src="../imgs/github_desktop/clone-a-repo.png" alt="Logo" width="500">
 </div>
 
 In the top input (marked in green), enter the GitHub URL of the project you are trying to get. To find this, visit a project page on GitHub and copy the link as seen below (click "Code" then clipboard icon):
 
 <div align="center">
-    <img src="imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
+    <img src="../imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
 </div>
 
 In the bottom input (marked in grey), enter the folder where you'd like to store and run the project from. We recommend creating a single folder somewhere accessible where you store all the Sauder LS GitHub Projects.
@@ -108,7 +108,7 @@ When we update a project, we send those updates to GitHub where you can grab or 
 To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **master** and click **Fetch Origin**
 
 <div align="center">
-    <img src="imgs/github_desktop/fetch-origin-github-desktop.png" alt="Logo" width="800">
+    <img src="../imgs/github_desktop/fetch-origin-github-desktop.png" alt="Logo" width="800">
 </div>
 
 Your project will then have the most recent version! Same location as before and if you had any data in the old project folder, it will persist.
@@ -141,7 +141,7 @@ Once you've navigated to the folder, you'll want to **clone** the project into i
 `$ git clone <URL>` (where `<URL>` is HTTPS link copied from the GitHub repo)
 
 <div align="center">
-    <img src="imgs/github_desktop/copy-github-link.png" alt="github-link" width="800">
+    <img src="../imgs/github_desktop/copy-github-link.png" alt="github-link" width="800">
     <p>HTTPS links to projects can be found on the project's GitHub page</p>
 </div>
 
