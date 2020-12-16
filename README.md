@@ -1,27 +1,27 @@
-# instructions-and-other-templates
-To maintain a single version of instructions or other templates.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <div align="center">
+    <img src="imgs/sauder-logo.png" alt="Logo" height="50">
+  </div>
 
-## Contains
-master_environment.yml - sauder_canvas_api environment so only need one environment
-- will need to be (annoyingly) manually maintained
-- **TODO** need to add workflow to make sure all projects work in master_environment
+  <h3 align="center">Sauder LS Scripts Guide</h3>
 
-## Each Project Should Have
-- README.md (use readme_template as template)
-> - should be simple instructions associated with project
+  <p align="center">
+  A home for all documentation regarding the sharing and use of Sauder Learning Services GitHub Projects
+    <br />
+  </p>
+</p>
 
-## All Projects Will
-- be able to run in the master_environment - sauder_canvas_api
-- have a single set of instructions for Sauder Ops team to follow (only difference will by which jupyter notebook is run) 
-- be able to run using GitHub Desktop and Anaconda OR Command line
+<!-- LINKS TO ALL DOCS -->
 
-## Sauder Ops Instructions should
-- reference sauder_canvas_api as the environment
-- use generic reference to "Project Name", (project-name, PROJECT_NAME etc etc) where possible
--- for screenshots using examples, clearly indicate as example
-- assume that Ops uses GitHub Desktop setup to locate files in Documents/GitHub/Sauder-Learning-Services
-- use Snagit and the theme found in _assets
+## Index
 
-## Other
-- keep a copy of unedited images for other uses
-- use Snagit for editing images, try to keep consistent
+- [Setting up your Computer](docs/computer-setup.md)
+- [Getting & Managing Projects](docs/github-project-management.md)
+- [Running Instructions](docs/running-instructions.md)
+- [Updating your environment](docs/updating-environments-anaconda.md)
+
+## Additional Resources _(optional)_
+
+- [Terminal Basics](docs/terminal-basics.md)
