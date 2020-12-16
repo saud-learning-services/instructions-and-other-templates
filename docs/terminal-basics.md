@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <div align="center">
-    <img src="imgs/terminal-icon.png" alt="Logo" width="80" height="80">
+    <img src="../imgs/terminal-icon.png" alt="Logo" width="80" height="80">
   </div>
 
   <h3 align="center">Terminal Basics</h3>

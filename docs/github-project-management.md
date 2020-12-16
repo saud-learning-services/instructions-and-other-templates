@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <div align="center">
-    <img src="imgs/github-logo.png" alt="Logo" width="80" height="80">
+    <img src="../imgs/github-logo.png" alt="Logo" width="80" height="80">
   </div>
 
   <h3 align="center">Managing Projects with Github</h3>
@@ -14,28 +14,27 @@
   </p>
 </p>
 
-
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
-* [What is Github?](#what-is-github)
-* [Why Use It?](#why-use-it)
-* [Managing Projects Using GitHub Desktop](#managing-projects-using-gitHub-desktop) (recommended for Ops)
-    * [Downloading a Project (GitHub Desktop)](#downloading-a-project-(github-desktop))
-    * [Updating a Project (GitHub Desktop)](#updating-a-project-(github-desktop))
-* [Managing GitHub Projects Using Terminal](#managing-github-projects-using-terminal)
-    * [Downloading a Project (Terminal)](#downloading-a-project-(terminal))
-    * [Updating a Project (Terminal)](#updating-a-project-(terminal))
-
-
+- [What is Github?](#what-is-github)
+- [Why Use It?](#why-use-it)
+- [Managing Projects Using GitHub Desktop](#managing-projects-using-gitHub-desktop) (recommended for Ops)
+  - [Downloading a Project (GitHub Desktop)](<#downloading-a-project-(github-desktop)>)
+  - [Updating a Project (GitHub Desktop)](<#updating-a-project-(github-desktop)>)
+- [Managing GitHub Projects Using Terminal](#managing-github-projects-using-terminal)
+  - [Downloading a Project (Terminal)](<#downloading-a-project-(terminal)>)
+  - [Updating a Project (Terminal)](<#updating-a-project-(terminal)>)
 
 All Learning Services analytics and programming projects are hosted on our [GitHub Page](https://github.com/saud-learning-services).
 
 ## What is GitHub?
 
-GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called [Git](https://git-scm.com/). For the purposes of *using* our tool's, it's enough to know that GitHub will be:
-* Where you go to download the project
-* How you will recieve updates
+GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called [Git](https://git-scm.com/). For the purposes of _using_ our tool's, it's enough to know that GitHub will be:
+
+- Where you go to download the project
+- How you will recieve updates
 
 ## Why Use It?
 
@@ -56,9 +55,10 @@ Now imagine that over time, we make improvements to the tool, and let you know w
 </div>
 
 This has a lot of downsides:
-* it makes it hard to keep track of which version is the "right" version
-* data can get lost or forgotten in folders of previous versions
-* users can miss crucial updates
+
+- it makes it hard to keep track of which version is the "right" version
+- data can get lost or forgotten in folders of previous versions
+- users can miss crucial updates
 
 GitHub solves this by allowing us all to connect to a single "folder in the cloud" so-to-speak, so that everyone can be sure they're on the latest version of the code.
 
@@ -118,6 +118,7 @@ Your project will then have the most recent version! Same location as before and
 ## Managing GitHub Projects Using Terminal
 
 Terminal is a good way of managing GitHub projects if you are:
+
 1. Someone who is interested in programming or computers
 1. Someone who may want to contribute to one of our projects
 1. Someone who is interested in the fastest possible way to manage projects
@@ -127,8 +128,9 @@ Terminal is a good way of managing GitHub projects if you are:
 Before reading on, you'll want to have read [terminal basics](./terminal-basics.md)
 
 You'll also want to make sure that you have **Git** installed and an account on **GitHub** (the two often get confused, however they're different things)
-* [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-* [Create GitHub Account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account) and let us know you need to join the saud-learning-services organization
+
+- [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Create GitHub Account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account) and let us know you need to join the saud-learning-services organization
 
 ### Downloading a Project (Terminal)
 
@@ -155,4 +157,4 @@ If not on **master**, switch to it
 `$ git checkout master`
 
 While on the master branch, grab the latest changes
-`$ git pull` 
+`$ git pull`
