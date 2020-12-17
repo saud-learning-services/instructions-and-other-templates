@@ -40,19 +40,22 @@
    3. Click on **Import** (bottom)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-env-import.png" alt="Logo" width="600" style="border: 2px solid grey">
+      <img src="../imgs/sauder-ops-guide/anaconda-env-import.png" alt="Logo" width="600">
    </div>
 
 1. Import Environment
 
    1. A small window will open, navigate to the **the-project** folder on your computer and select: `environment.yml`
+
       > ⚠️ Do not manually enter the project name. This will automatically be filled in when you select the `environment.yml` and will be the same name as the project foler (i.e. the-project)
+
       > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field after importing the yml file
+
    1. Select **Import** and wait for installation to complete
       > 💡 This may take some time (upwards of 20 minutes)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-import-box.png" alt="Logo" width="600" style="border: 2px solid grey">
+      <img src="../imgs/sauder-ops-guide/anaconda-import-box.png" alt="Logo" width="600">
    </div>
 
 Now that you have your environment setup (or are using the universal environment) go to the [next section](#running-the-script) to run the script.
@@ -64,7 +67,7 @@ Now that you have your environment setup (or are using the universal environment
    > ⚠️ If you're runing via the universal environment, click the ▶ button next to that instead (but make sure the project supports it)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600" style="border: 2px solid grey">
+      <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600">
    </div>
 
 2. In the browser, navigate to the **the-project** project folder and select **the-project.ipynb**
@@ -72,13 +75,13 @@ Now that you have your environment setup (or are using the universal environment
    > 💡 This will be located wherever you cloned it on your local computer - if you used our suggested location, all projects will be in a single folder so everything is easy to find
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/browser-select-notebook.png" alt="Logo" width="600" style="border: 2px solid grey">
+      <img src="../imgs/sauder-ops-guide/browser-select-notebook.png" alt="Logo" width="600">
    </div>
 
 3. Read the information notebook! Once, you've done that select **Kernal** > **Restart & Run All** to run it
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/notebook-start.png" alt="Logo" width="600" style="border: 2px solid grey">
+      <img src="../imgs/sauder-ops-guide/notebook-start.png" alt="Logo" width="600" >
    </div>
 
 4. If everything was done correctly, the script should now run. Most of our projects involve some user inputs so the Jupyter Notebook will prompt and guide you from here
