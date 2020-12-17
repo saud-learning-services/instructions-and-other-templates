@@ -1,13 +1,13 @@
 <br />
 <p align="center">
   <div align="center">
-    <img src="../imgs/rocket.png" alt="Logo" height="50">
+    <img src="../imgs/rocket.png" alt="Logo" height="80">
   </div>
 
   <h3 align="center">Running Scripts</h3>
 
   <p align="center">
-  A step-by-step guide for running Sauder LS, Canvas API scripts
+  A step-by-step guide for running Sauder LS, Canvas API projects
     <br />
   </p>
 </p>

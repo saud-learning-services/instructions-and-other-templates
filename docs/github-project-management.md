@@ -20,7 +20,7 @@
 
 - [What is Github?](#what-is-github)
 - [Why Use It?](#why-use-it)
-- [Managing Projects Using GitHub Desktop](#managing-projects-using-gitHub-desktop) (recommended for Ops)
+- [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop) (recommended for Ops)
   - [Downloading a Project (GitHub Desktop)](<#downloading-a-project-(github-desktop)>)
   - [Updating a Project (GitHub Desktop)](<#updating-a-project-(github-desktop)>)
 - [Managing GitHub Projects Using Terminal](#managing-github-projects-using-terminal)
@@ -33,7 +33,7 @@ All Learning Services analytics and programming projects are hosted on our [GitH
 
 GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called [Git](https://git-scm.com/). For the purposes of _using_ our tool's, it's enough to know that GitHub will be:
 
-- Where you go to download the project
+- Where you'll be downloading projects from
 - How you will recieve updates
 
 ## Why Use It?
@@ -42,13 +42,13 @@ GitHub helps us with version control. Crucially, it'll help us ensure that every
 
 _Here's a scenario we're trying to avoid..._
 
-Imagine you download one of our tools to a folder on your computer like so:
+Say you _manually_ download one of our tools to a folder on your computer like so:
 
 <div align="center">
     <img src="../imgs/github_desktop/folder-single.png" alt="Logo" width="300">
 </div>
 
-Now imagine that over time, we make improvements to the tool, and let you know we've posted a second version (Version 2). You download it and name it with "V2" at the end because you don't want to just throw away version one, after all it works. And shortly after this another version comes out and your folder looks something like:
+Now over time, we make improvements to the tool, and let you know we've posted version 2, followed by version 3. Over time your project folder starts to look like:
 
 <div align="center">
     <img src="../imgs/github_desktop/folder-messy.png" alt="Logo" width="300">
@@ -60,7 +60,7 @@ This has a lot of downsides:
 - data can get lost or forgotten in folders of previous versions
 - users can miss crucial updates
 
-GitHub solves this by allowing us all to connect to a single "folder in the cloud" so-to-speak, so that everyone can be sure they're on the latest version of the code.
+GitHub solves this by allowing us all to connect to a single "project in the cloud" so-to-speak. This way everyone can be sure they're on the latest version of the code.
 
 <div align="center">
     <img src="../imgs/github_desktop/github_diagram.png" alt="Logo" width="500">
@@ -69,7 +69,7 @@ GitHub solves this by allowing us all to connect to a single "folder in the clou
 
 ## Managing Projects Using GitHub Desktop
 
-> Recommended for most people on the Operations team
+> ⚠️ Recommended for Operations team
 
 First, you'll need a GitHub account (Don't have one? See [GitHub's instructions to create a free account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account)). For Learning Services - get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
 
