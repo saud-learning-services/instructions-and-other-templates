@@ -19,7 +19,7 @@
 ## Where to start
 
 - [I HAVE NOT run this script on this computer before](#configuring-the-run-environment)
-- [I HAVE successfully run it on this computer before](#-ran-it-before-start-here)
+- [I HAVE successfully run it on this computer before](#running-the-script)
 
 ## Configuring the Run Environment
 
@@ -40,7 +40,7 @@
    3. Click on **Import** (bottom)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-env-import.png" alt="Logo" width="600" border="2px solid grey">
+      <img src="../imgs/sauder-ops-guide/anaconda-env-import.png" alt="Logo" width="600" style="border: 2px solid grey">
    </div>
 
 1. Import Environment
@@ -52,7 +52,7 @@
       > 💡 This may take some time (upwards of 20 minutes)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-import-box.png" alt="Logo" width="600" border="2px solid grey">
+      <img src="../imgs/sauder-ops-guide/anaconda-import-box.png" alt="Logo" width="600" style="border: 2px solid grey">
    </div>
 
 Now that you have your environment setup (or are using the universal environment) go to the [next section](#running-the-script) to run the script.
@@ -64,7 +64,7 @@ Now that you have your environment setup (or are using the universal environment
    > ⚠️ If you're runing via the universal environment, click the ▶ button next to that instead (but make sure the project supports it)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600" border="2px solid grey">
+      <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600" style="border: 2px solid grey">
    </div>
 
 2. In the browser, navigate to the **the-project** project folder and select **the-project.ipynb**
@@ -72,13 +72,13 @@ Now that you have your environment setup (or are using the universal environment
    > 💡 This will be located wherever you cloned it on your local computer - if you used our suggested location, all projects will be in a single folder so everything is easy to find
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/browser-select-notebook.png" alt="Logo" width="600" border="2px solid grey">
+      <img src="../imgs/sauder-ops-guide/browser-select-notebook.png" alt="Logo" width="600" style="border: 2px solid grey">
    </div>
 
 3. Read the information notebook! Once, you've done that select **Kernal** > **Restart & Run All** to run it
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/notebook-start.png" alt="Logo" width="600" border="2px solid grey">
+      <img src="../imgs/sauder-ops-guide/notebook-start.png" alt="Logo" width="600" style="border: 2px solid grey">
    </div>
 
 4. If everything was done correctly, the script should now run. Most of our projects involve some user inputs so the Jupyter Notebook will prompt and guide you from here
