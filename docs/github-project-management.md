@@ -20,14 +20,14 @@
 
 - [What is Github?](#what-is-github)
 - [Why Use It?](#why-use-it)
-- [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop) (recommended for Ops)
+- [Managing Projects Using GitHub Desktop](#managing-projects-using-gitub-desktop) (recommended for Ops)
   - [Downloading a Project (GitHub Desktop)](<#downloading-a-project-(github-desktop)>)
   - [Updating a Project (GitHub Desktop)](<#updating-a-project-(github-desktop)>)
 - [Managing GitHub Projects Using Terminal](#managing-github-projects-using-terminal)
   - [Downloading a Project (Terminal)](<#downloading-a-project-(terminal)>)
   - [Updating a Project (Terminal)](<#updating-a-project-(terminal)>)
 
-All Learning Services analytics and programming projects are hosted on our [GitHub Page](https://github.com/saud-learning-services).
+💡 All Sauder LS, Canvas API are hosted on our [GitHub](https://github.com/saud-learning-services).
 
 ## What is GitHub?
 
@@ -71,9 +71,11 @@ GitHub solves this by allowing us all to connect to a single "project in the clo
 
 > ⚠️ Recommended for Operations team
 
-First, you'll need a GitHub account (Don't have one? See [GitHub's instructions to create a free account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account)). For Learning Services - get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
+First, you'll need a GitHub account (Don't have one? [Create one](https://github.com/join)).
 
-GitHub Desktop is a application that lets us download and contribute to with projects hosted on GitHub. To download, go [here](https://desktop.github.com/)
+> 💡 For Learning Services - get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
+
+GitHub Desktop is a application that lets us download and contribute to with projects hosted on GitHub. If not already downloaded, go [here](https://desktop.github.com/)
 
 Once downloaded, open the application. It should look something like this:
 
@@ -93,19 +95,25 @@ Once finished, under **Clone a Repository**, select the **URL** tab
 
 In the top input (marked in green), enter the GitHub URL of the project you are trying to get. To find this, visit a project page on GitHub and copy the link as seen below (click "Code" then clipboard icon):
 
+> 🧪 If using the setup-test you'll want to make sure you get the URL from that project - [Link to test project](https://github.com/saud-learning-services/setup-test)
+
 <div align="center">
     <img src="../imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
 </div>
 
 In the bottom input (marked in grey), enter the folder where you'd like to store and run the project from. We recommend creating a single folder somewhere accessible where you store all the Sauder LS GitHub Projects.
 
+> 💡 Something like `.../Documents/GitHub/Sauder-Learning-Services`
+
 After selecting clone, you should be able to see the new project has appeared in the folder that you specified. This is your local copy of the project
+
+> 🧪 If using the setup-test, a folder titled **setup-test** should've appeared in the location
 
 ### Updating a Project (GitHub Desktop)
 
 When we update a project, we send those updates to GitHub where you can grab or "fetch" them for your local copy.
 
-To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **master** and click **Fetch Origin**
+To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **master** (or **main**) and click **Fetch Origin**
 
 <div align="center">
     <img src="../imgs/github_desktop/fetch-origin-github-desktop.png" alt="Logo" width="800">
@@ -113,7 +121,7 @@ To do this in GitHub Desktop, select the project under **Current Repository**, m
 
 Your project will then have the most recent version! Same location as before and if you had any data in the old project folder, it will persist.
 
-**⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds. ⚠️**
+> **⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds. ⚠️**
 
 ## Managing GitHub Projects Using Terminal
 
@@ -134,7 +142,9 @@ You'll also want to make sure that you have **Git** installed and an account on 
 
 ### Downloading a Project (Terminal)
 
-Using the `cd` command, navigate to a folder where you'd like to store and run the project (We recommend keeping all Sauder LS projects in a single folder for ease of management)
+Using the `cd` command, navigate to a folder where you'd like to store and run the project. We recommend keeping all Sauder LS projects in a single folder for ease of management
+
+> 💡 Something like `.../Documents/GitHub/Sauder-Learning-Services`
 
 Once you've navigated to the folder, you'll want to **clone** the project into it. This can be done using with:
 
@@ -153,8 +163,9 @@ Using the `cd` command, navigate to the folder where your copy of the project is
 Check to see what branch you are on
 `$ git branch` (the starred branch is your current branch; type **q** to exit)
 
-If not on **master**, switch to it
+If not on **master** (or **main**), switch to it
 `$ git checkout master`
+`$ git checkout main` (if it's not master, it's main - it's never both)
 
 While on the master branch, grab the latest changes
 `$ git pull`

@@ -18,9 +18,10 @@
 > 1.  A tool for getting/updating projects
 > 2.  An environment to run it in
 
-[GitHub](https://github.com) is our tool for distributing projects and managing updates. We discuss GitHub in more detail in the next section ([managing projects with GitHub](#github-project-management.md)). For now you'll need to:
+[GitHub](https://github.com) is our tool for distributing projects and managing updates. We discuss GitHub in more detail in the next section ([managing projects with GitHub](github-project-management.md)). For now you'll need to:
 
 - [Create a free GitHub Account](https://github.com/join)
+- _For LS-Ops_ Contact someone on the Canvas API team to be added to the organization on GitHub (you'll need this to access certain projects)
 - [Download GitHub Desktop](https://desktop.github.com)
 
 > 💡 GitHub Desktop isn't necessary if you'd prefer to work in [Terminal](terminal-basics.md) (but make sure you have [Git](https://git-scm.com/downloads) installed)
@@ -32,7 +33,7 @@ For managing project environments, we use [Anaconda](https://www.anaconda.com). 
 
 Once you have done all the above, you're ready to start downloading and running projects.
 
-We've provided a 🧪 [Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly.
+We've provided a 🧪 [Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly. We'll provide you with a step-by-step on how to get this project running on your machine, and you can apply this same process to just about all our projects.
 
 By the end you should see an output that looks something like (but printing your first name intead - as it appears on Canvas):
 

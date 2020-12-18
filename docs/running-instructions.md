@@ -31,7 +31,7 @@
 
 1. Clone the project you need (i.e. make a local copy) from our GitHub. See [here](github-project-management.md) or detailed instructions on getting and managing projects.
 
-   > 💡 we recommend cloning all of our projects into a single location like `.../Documents/GitHub/Sauder-Learning-Services/`
+   > 💡 we recommend cloning all of our projects into a single location like `.../Documents/GitHub/Sauder-Learning-Services`
 
 1. Open Anaconda Navigator:
 
