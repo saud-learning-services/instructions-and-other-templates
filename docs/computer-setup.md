@@ -32,9 +32,9 @@ For managing project environments, we use [Anaconda](https://www.anaconda.com). 
 
 Once you have done all the above, you're ready to start downloading and running projects.
 
-We've provided a [🧪 Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly.
+We've provided a 🧪 [Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly.
 
-By the end you should see an output that looks something like (but with your name instead):
+By the end you should see an output that looks something like (but printing your first name intead - as it appears on Canvas):
 
 <div align="center">
     <img src="../imgs/test-output.png" alt="Logo" width="350">
