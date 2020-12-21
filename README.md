@@ -17,12 +17,12 @@
 
 ## Index
 
-- [Computer Setup](docs/computer-setup.md) _(if you're new to our projects start here)_
-- [Getting & Managing Projects](docs/github-project-management.md)
-- [Running Scripts](docs/running-instructions.md)
-- [Updating the Environment](docs/updating-environments-anaconda.md)
+1. [Computer Setup](docs/computer-setup.md) _(if you're new to our projects start here)_
+2. [Getting & Managing Projects](docs/github-project-management.md)
+3. [Running Scripts](docs/running-instructions.md)
+4. [Universal Environment Setup](docs/universal-env-setup.md) _(recommended for Ops)_
 
 ## Additional Resources
 
 - [Terminal Basics](docs/terminal-basics.md)
-- [Universal Environment Setup](docs/universal-env-setup.md) _(recommended for Ops)_
+- [Updating the Environment](docs/updating-environments.md)

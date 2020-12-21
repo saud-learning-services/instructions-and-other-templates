@@ -158,14 +158,20 @@ Once you've navigated to the folder, you'll want to **clone** the project into i
 ### Updating a Project (Terminal)
 
 Using the `cd` command, navigate to the folder where your copy of the project is stored
-`$ cd path/to/my-project`
+
+- `$ cd path/to/my-project`
 
 Check to see what branch you are on
-`$ git branch` (the starred branch is your current branch; type **q** to exit)
+
+- `$ git branch` (the starred branch is your current branch; type **q** to exit)
 
 If not on **master** (or **main**), switch to it
-`$ git checkout master`
-`$ git checkout main` (if it's not master, it's main - it's never both)
+
+- `$ git checkout master`
+- `$ git checkout main` (if it's not master, it's main - it's never both)
 
 While on the master branch, grab the latest changes
-`$ git pull`
+
+- `$ git pull`
+
+[➡️ Next: Running Scripts](running-instructions.md)

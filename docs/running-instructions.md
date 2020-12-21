@@ -51,6 +51,8 @@
 
       > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field after importing the yml file
 
+      > 🧪 If using the setup-test you'll want to navigate to the **setup-test** folder you cloned earlier
+
    1. Select **Import** and wait for installation to complete
       > 💡 This may take some time (upwards of 20 minutes)
 
@@ -61,6 +63,19 @@
 Now that you have your environment setup (or are using the universal environment) go to the [next section](#running-the-script) to run the script.
 
 ## Running the Script
+
+> ⚠️ Any of our tools that interact with the Canvas LMS will require you to generate a API access token. If the project you've chosen does not work with Canvas you can likely skip step 0. You can always refer to individual setup instructions on a project's GitHub page.
+
+0. Get Canvas Token and Save it in the `.env`
+
+   - Login to Canvas and select **Account** > **Settings** from the menu on the left
+   - Under **Approved Integrations** select **New Access Token**
+   - Name it something like `sauder-api` and set the expiration to the next day
+     > ⚠️ For security reasons we don't encourage setting late expiration days (keep it to a day or two)
+   - Copy the token it provides you, navigate to **the-project** folder on your computer and locate the `.env` file
+     > ⚠️ `.env` files are hidden by most operating systems by default. If you don't see a file called `.env` in **the-project** folder you likely need to _reveal hidden files_ (Instructions for [Windows](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5) / [Mac](https://setapp.com/how-to/show-hidden-files-on-mac))
+   - Open the `.env` file with any application that can edit text _(like TextEdit or Notepad)_ Paste the token you copied from Canvas into the `.env`file (There will be an indicator in the file as to exactly where you should paste it)
+   - Save the `.env` file after you've pasted in your token
 
 1. Open **Anaconda Navigator**, select the ▶ button next to **the-project** to run your environment. Then select **Open with Jupyter Notebook**, and that will launch the browser.
 
@@ -85,3 +100,7 @@ Now that you have your environment setup (or are using the universal environment
    </div>
 
 4. If everything was done correctly, the script should now run. Most of our projects involve some user inputs so the Jupyter Notebook will prompt and guide you from here
+
+> 🧪 If using the setup-test you'll hopefully now see a printout like "Hi {your-name}". If you aren't seeing this, you'll hopefully see a printout giving you an indication of what is wrong and you can try and revisit that step in the docs. If your problem persists, contact someone on the Sauder LS, Canvas API team for support.
+
+[➡️ Next: Universal Environment Setup](universal-env-setup.md)
