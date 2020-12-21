@@ -1,17 +1,16 @@
-name: sauder_canvas_api
+name: sauder-canvas-api
 channels:
   - conda-forge
   - anaconda
   - defaults
 dependencies:
   - python-dotenv
-  - reportlab #only used in quiz-reports
+  - reportlab # only used in quiz-reports
   - termcolor
   - requests
   - jupyter
   - pandas
-  - datetime
-  - getpass
   - pip
   - pip:
       - canvasapi
+      - art # only used in setup-test

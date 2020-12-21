@@ -79,7 +79,7 @@ Now that you have your environment setup (or are using the universal environment
 
 1. Open **Anaconda Navigator**, select the ▶ button next to **the-project** to run your environment. Then select **Open with Jupyter Notebook**, and that will launch the browser.
 
-   > ⚠️ If you're runing via the universal environment, click the ▶ button next to that instead (but make sure the project supports it)
+   > ⚠️ If you're runing via the universal environment, click the ▶ button next to **sauder-canvas-api** instead (but make sure the project supports it)
 
    <div align="center">
       <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600">
