@@ -26,7 +26,7 @@ If you setup your universal environment correctly, you can use and update only t
 
 1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates/tree/marko) project to your computer (Not sure how? Revisit [Managing Projects with Github](managing-projects-with-github.md))
 2. In Anaconda Navigator, import the `universal-environment.yml` file in the `instructions-and-other-templates` folder (cloned from GitHub in Step 1)
-3. You should now see a new environment called **sauder-canvas-api** in your environments list. Select **Play** button, then **run with jupyter notebook option**. Your browser should open automatically.
+3. You should now see a new environment called **sauder-canvas-api** in your environments list. Select the ▶ button, then **Open with Jupyter Notebook**. Your browser should open automatically.
 4. In the browser, navigate to a project that supports the universal environment and select the jupyter notebook (.ipynb file)
    > 🧪 We recommend using the [setup-test](https://github.com/saud-learning-services/setup-test) project to check your universal environment is set up correctly
 5. Select **Kernal** > **Restart & Run All**. The notebook should run without errors if everything was done correctly
