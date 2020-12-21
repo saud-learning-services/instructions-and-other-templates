@@ -36,3 +36,5 @@ You will occasionally have to update your environment, either due to updates in 
 
 1. `$ conda remove {environment-name}`
 2. `$ conda env create -f {path/to/environment.yml}`
+
+[➡️ Next: Updating Environments](updating-environments.md)

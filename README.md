@@ -17,12 +17,12 @@
 
 ## Index
 
-1. [Computer Setup](docs/computer-setup.md) _(if you're new to our projects start here)_
+1. [Computer Setup](docs/computer-setup.md) _(start here if you are new to our projects)_
 2. [Getting & Managing Projects](docs/github-project-management.md)
 3. [Running Scripts](docs/running-instructions.md)
 4. [Universal Environment Setup](docs/universal-env-setup.md) _(recommended for Ops)_
+5. [Updating the Environment](docs/updating-environments.md)
 
 ## Additional Resources
 
 - [Terminal Basics](docs/terminal-basics.md)
-- [Updating the Environment](docs/updating-environments.md)
