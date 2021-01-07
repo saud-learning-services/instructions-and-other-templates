@@ -15,7 +15,7 @@
 
 <!-- LINKS TO ALL DOCS -->
 
-## Index
+## Documentation
 
 1. [Computer Setup](docs/computer-setup.md) _(start here if you are new to our projects)_
 2. [Getting & Managing Projects](docs/github-project-management.md)
@@ -26,3 +26,14 @@
 ## Additional Resources
 
 - [Terminal Basics](docs/terminal-basics.md)
+
+## Projects
+
+> All projects listed below support the universal environment 🌎
+
+- [Canvas Batch Change Dates](https://github.com/saud-learning-services/canvas-batch-change-dates): Batch change the start and end dates for courses listed in a CSV.
+- [Course Settings](https://github.com/saud-learning-services/course-settings): TODO
+- [Subaccount Movement](https://github.com/saud-learning-services/subaccount-movement): Moves any Sauder course into a specific Canvas sub-account. Upon providing the necessary input, the script will locate the appropriate sub-account, migrate the course to it, and produce a CSV file detailing the courses and the sub-accounts.
+- [Quiz Response PDFs](https://github.com/saud-learning-services/quiz-response-pdfs): Pulls quiz data from Canvas to create PDF documents containing student answers to essay questions.
+- [Canvas Peer Reviews](https://github.com/saud-learning-services/canvas-peer-reviews): Create CSV tables containing peer review data; summarizing all students who've been assigned as assessors, who they are assessing and the results of any completed assessments
+- [Syllabus Scraper](https://github.com/saud-learning-services/syllabus-scraper): TODO
