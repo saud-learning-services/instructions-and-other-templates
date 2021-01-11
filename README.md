@@ -36,6 +36,6 @@
 - [Subaccount Movement](https://github.com/saud-learning-services/subaccount-movement): Moves any Sauder course into a specific Canvas sub-account. Upon providing the necessary input, the script will locate the appropriate sub-account, migrate the course to it, and produce a CSV file detailing the courses and the sub-accounts.
 - [Quiz Response PDFs](https://github.com/saud-learning-services/quiz-response-pdfs): Pulls quiz data from Canvas to create PDF documents containing student answers to essay questions.
 - [Canvas Peer Reviews](https://github.com/saud-learning-services/canvas-peer-reviews): Create CSV tables containing peer review data; summarizing all students who've been assigned as assessors, who they are assessing and the results of any completed assessments
-- [Syllabus Scraper](https://github.com/saud-learning-services/syllabus-scraper): TODO
+- [Syllabus Scraper](https://github.com/saud-learning-services/syllabus-scraper): Takes an account id as input and downloads any syllabi (files and Canvas syllabus body) for courses in that account.
 - [Quiz Extensions](https://github.com/saud-learning-services/quiz-extensions): Takes input in the form of two CSVs and adds extra time or attempts for students on a list of quizzes
 - [Group CSV](https://github.com/saud-learning-services/group-csv): Used to extract a csv file of group names and associated student user IDs in any Canvas course
