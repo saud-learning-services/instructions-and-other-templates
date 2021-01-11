@@ -2,6 +2,7 @@ name: sauder-canvas-api
 channels:
   - conda-forge
   - anaconda
+  - anaconda-fusion
   - defaults
 dependencies:
   - python>=3.7.0
@@ -13,6 +14,7 @@ dependencies:
   - pandas
   - pip
   - pip:
-      - canvasapi
+      - canvasapi>=2.0.0
+      - beautifulsoup4 # only used in syllabus-scraper
       - pick
       - art # only used in setup-test
