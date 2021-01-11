@@ -21,7 +21,7 @@
 [GitHub](https://github.com) is our tool for distributing projects and managing updates. We discuss GitHub in more detail in the next section ([managing projects with GitHub](github-project-management.md)). For now you'll need to:
 
 - [Create a free GitHub Account](https://github.com/join)
-- _For LS-Ops:_ Contact someone on the Canvas API team to be added to the organization on GitHub (you'll need this to access certain projects)
+- _For LS-Ops:_ Contact someone on the Canvas API team to be added to the saud-learning-services/ls-ops team on GitHub (you'll need this to access certain projects)
 - [Download GitHub Desktop](https://desktop.github.com)
 
 > 💡 GitHub Desktop isn't necessary if you'd prefer to work in [Terminal](terminal-basics.md) (but make sure you have [Git](https://git-scm.com/downloads) installed)
