@@ -27,7 +27,7 @@
   - [Downloading a Project (Terminal)](<#downloading-a-project-(terminal)>)
   - [Updating a Project (Terminal)](<#updating-a-project-(terminal)>)
 
-💡 All Sauder LS, Canvas API are hosted on our [GitHub](https://github.com/saud-learning-services).
+💡 All Sauder LS, Canvas API tools are hosted on our [GitHub](https://github.com/saud-learning-services).
 
 ## What is GitHub?
 
@@ -60,7 +60,7 @@ This has a lot of downsides:
 - data can get lost or forgotten in folders of previous versions
 - users can miss crucial updates
 
-GitHub solves this by allowing us all to connect to a single "project in the cloud" so-to-speak. This way everyone can be sure they're on the latest version of the code.
+GitHub solves this by allowing us all to host all our tools online and have everybody connect to the same "folder in the cloud" so to speak. This way everyone can be sure they're on the latest version of the code and any changes to the code can reach everybody.
 
 <div align="center">
     <img src="../imgs/github_desktop/github_diagram.png" alt="Logo" width="500">
@@ -73,7 +73,7 @@ GitHub solves this by allowing us all to connect to a single "project in the clo
 
 First, you'll need a GitHub account (Don't have one? [Create one](https://github.com/join)).
 
-> 💡 For Learning Services - get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
+> 💡 For any Learning Services staff, get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
 
 GitHub Desktop is a application that lets us download and contribute to with projects hosted on GitHub. If not already downloaded, go [here](https://desktop.github.com/)
 
@@ -95,35 +95,41 @@ Once finished, under **Clone a Repository**, select the **URL** tab
 
 In the top input (marked in green), enter the GitHub URL of the project you are trying to get. To find this, visit a project page on GitHub and copy the link as seen below (click "Code" then clipboard icon):
 
-> 🧪 If using the setup-test you'll want to make sure you get the URL from that project - [Link to test project](https://github.com/saud-learning-services/setup-test)
+> 👷 Working through the setup test? Visit that project and grab the URL like described above - [Link to test project](https://github.com/saud-learning-services/setup-test)
 
 <div align="center">
     <img src="../imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
 </div>
 
-In the bottom input (marked in grey), enter the folder where you'd like to store and run the project from. We recommend creating a single folder somewhere accessible where you store all the Sauder LS GitHub Projects.
+In the bottom input (marked in grey), choose a folder to "clone" the project to. What this does is create a copy of the tool locally on your computer. We recommend creating a single folder, somewhere accessible, where you clone all Sauder LS GitHub Projects you need.
 
-> 💡 Something like `.../Documents/GitHub/Sauder-Learning-Services`
+> 💡 We recommend creating a folder like `.../Documents/GitHub/Sauder-Learning-Services` to store projects
 
-After selecting clone, you should be able to see the new project has appeared in the folder that you specified. This is your local copy of the project
+After selecting clone, you should be able to see the new project has appeared in the folder you've specified.
 
-> 🧪 If using the setup-test, a folder titled **setup-test** should've appeared in the location
+> 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
 
 ### Updating a Project (GitHub Desktop)
 
-When we update a project, we send those updates to GitHub where you can grab or "fetch" them for your local copy.
+When we update a tool, we send those updates to GitHub where you can download or "fetch" them for your local copy.
 
-To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **master** (or **main**) and click **Fetch Origin**
+To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **main** and click **Fetch Origin**
 
 <div align="center">
     <img src="../imgs/github_desktop/fetch-origin-github-desktop.png" alt="Logo" width="800">
 </div>
 
-Your project will then have the most recent version! Same location as before and if you had any data in the old project folder, it will persist.
+Your project will update to the the most recent version! Same location as before and if you had any data outputs in the project folders prior to fetching, that data will persist.
 
-> **⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds. ⚠️**
+> ⚠️ Please **DO NOT select Commit to main** unless you are contributing code
 
-## Managing GitHub Projects Using Terminal
+> **⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds.**
+
+The following section on terminal is optional. If you'd like to continue to manage tools with GitHub Desktop, head to the next section on environment setup.
+
+[➡️ Next: Environment Setup](environment-setup.md)
+
+## (Optional) Managing GitHub Projects Using Terminal
 
 Terminal is a good way of managing GitHub projects if you are:
 
@@ -163,15 +169,14 @@ Using the `cd` command, navigate to the folder where your copy of the project is
 
 Check to see what branch you are on
 
-- `$ git branch` (the starred branch is your current branch; type **q** to exit)
+- `$ git branch` (the starred branch is your curråent branch; type **q** to exit)
 
-If not on **master** (or **main**), switch to it
+If not on **main**, switch toå it
 
-- `$ git checkout master`
-- `$ git checkout main` (if it's not master, it's main - it's never both)
+- `$ git checkout main`
 
-While on the master branch, grab the latest changes
+While on the main branch, grab the latest changes
 
 - `$ git pull`
 
-[➡️ Next: Running Scripts](running-instructions.md)
+[➡️ Next: Environment Setup](environment-setup.md)

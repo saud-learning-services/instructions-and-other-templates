@@ -13,10 +13,10 @@
   </p>
 </p>
 
-> 💡 The foundation for working with any of our projects is:
+> 💡 The basic setup for working with any Sauder LS Canvas API tools is:
 >
-> 1.  A tool for getting/updating projects
-> 2.  An environment to run it in
+> - A tool for getting/updating projects
+> - An environment to run it in
 
 [GitHub](https://github.com) is our tool for distributing projects and managing updates. We discuss GitHub in more detail in the next section ([managing projects with GitHub](github-project-management.md)). For now you'll need to:
 
@@ -33,14 +33,14 @@ For managing project environments, we use [Anaconda](https://www.anaconda.com). 
 
 Once you have done all the above, you're ready to start downloading and running projects.
 
-We've provided a 🧪 [Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly. We'll provide you with a step-by-step on how to get this project running on your machine, and you can apply this same process to just about all our projects.
+We've provided a 👷 [Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly. We'll provide you with a step-by-step on how to get this project running on your machine, and you can apply this same process to all tools.
 
-By the end you should see an output that looks something like (but printing your first name intead - as it appears on Canvas):
+Once everything is configured correctly, you should see an output of "Hey {your-name-on-canvas}":
 
 <div align="center">
     <img src="../imgs/test-output.png" alt="Logo" width="350">
 </div>
 
-> 💡 Every reference to the test project in the remainder of the docs will be labeled using the 🧪 icon
+> 💡 Every reference to the test project in the remainder of the docs will be labeled using the 👷 icon
 
 [➡️ Next: Managing Projects with GitHub](github-project-management.md)
