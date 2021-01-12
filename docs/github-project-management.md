@@ -95,7 +95,7 @@ Once finished, under **Clone a Repository**, select the **URL** tab
 
 In the top input (marked in green), enter the GitHub URL of the project you are trying to get. To find this, visit a project page on GitHub and copy the link as seen below (click "Code" then clipboard icon):
 
-> 🟢 Working through the setup test? Visit that project and grab the URL like described above - [Link to test project](https://github.com/saud-learning-services/setup-test)
+> 👷 Working through the setup test? Visit that project and grab the URL like described above - [Link to test project](https://github.com/saud-learning-services/setup-test)
 
 <div align="center">
     <img src="../imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
@@ -107,7 +107,7 @@ In the bottom input (marked in grey), choose a folder to "clone" the project to.
 
 After selecting clone, you should be able to see the new project has appeared in the folder you've specified.
 
-> 🟢 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
+> 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
 
 ### Updating a Project (GitHub Desktop)
 

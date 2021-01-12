@@ -22,7 +22,7 @@
 
 There are two ways of inputting Canvas API tokens into our tools. Most of our tools will prompt you to copy and paste your token directly into Jupyter Notebook. However, some tools will have you paste your Canvas API token into a `.env` file. **Assume you will be pasting it into Jupyter Notebook, unless the GitHub page for the tool you're working with explicitely mentions a `.env`**
 
-> 🟢 Working on the setup-test project? We're gonna have you try **both** methods of inputting your token (first via `.env` then Jupyter Notebook)
+> 👷 Working on the setup-test project? We're gonna have you try **both** methods of inputting your token (first via `.env` then Jupyter Notebook)
 
 0. Generate a Canvas Token
 
@@ -36,7 +36,7 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
    - A long string of numbers and letters will appear, keep this somewhere on hand but **be careful to keep it private**, as it grants access to your Canvas account and should be treated as sensitive information.
    - You won't be able to access this token again once you close the dialogue box so be sure you've written it down somewhere safe.
 
-> ⚠️ If the tool you're using makes no mention of a `.env` on its GitHub page, skip this next step (Step 1.1). Note that most of our projects do not use `.env` files. If you are working on the 🟢 setup-test project however comes with a `.env` to familiarize you with this process.
+> ⚠️ If the tool you're using makes no mention of a `.env` on its GitHub page, skip this next step (Step 1.1). Note that most of our projects do not use `.env` files. However, the 👷 setup-test project comes with a `.env` to allow you to try both methods. Continue to 1.1 if you are using setup-test.
 
 1.1 Assign your token to the `.env` file
 
@@ -71,8 +71,8 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 > 💡 Projects without a `.env` will prompt for a token at this stage. Have your Canvas API token handy to paste in as input.
 
-> 🟢 Working on the setup-test? At this point you should see a printout like "Hi {your-name}" in text art. If you aren't seeing this, the notebook will print an error giving you an indication of what is wrong. If your problem persists, contact someone on the Sauder LS, Canvas API team for support.
+> 👷 Working on the setup-test? At this point you should see a printout like "Hi {your-name}" in text art. If you aren't seeing this, the notebook will print an error giving you an indication of what is wrong. If your problem persists, contact someone on the Sauder LS, Canvas API team for support.
 
-> 🟢 Setup-test worked correctly? Let's try the other method of inputting tokens. Stop your environment, delete the `.env` file and restart the whole thing again. After selecting **Kernal** > **Restart & Run All** the Jupyter Notebook will ask you to provide your token as input (This is the more common way you'll see it done but it's good to be familiar with both methods!)
+> 👷 Setup-test worked correctly? Let's try the other method of inputting tokens. Stop your environment, delete the `.env` file and restart the whole thing again. After selecting **Kernal** > **Restart & Run All** the Jupyter Notebook will ask you to provide your token as input (This is the more common way you'll see it done but it's good to be familiar with both methods!)
 
 [➡️ Next: Updating Environments](updating-environments.md)

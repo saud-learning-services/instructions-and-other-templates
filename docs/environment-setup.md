@@ -46,7 +46,7 @@ In this section we'll discuss setting up environments. Each project comes with t
 
       > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field matches your tool name after importing the yml file
 
-      > 🟢 Working through the setup test? Import the `environment.yml` contained in your local **setup-test** folder.
+      > 👷 Working through the setup test? Import the `environment.yml` contained in your local **setup-test** folder.
 
    1. Select **Import** and wait for installation to complete
       > 💡 This may take some time (upwards of 20 minutes). Note that this process can be sped up by working in Terminal instead of Anaconda-Navigator, if comfortable.
@@ -74,7 +74,7 @@ If you setup your universal environment correctly, you can use and update only t
 ### Testing
 
 1. Select the ▶ button next to **canvas-universal-env**, then **Open with Jupyter Notebook**. Your browser should open automatically.
-2. Navigate to a project that supports the universal environment (🟢 like setup-test for example) and select the jupyter notebook (.ipynb file)
+2. Navigate to a project that supports the universal environment (👷 like setup-test for example) and select the jupyter notebook (.ipynb file)
 3. Read the instructions in the notebook to see if any additional steps are needed (and if so complete those steps)
 4. Select **Kernal** > **Restart & Run All**. The Jupyter Notebook may prompt you for some inputs but should otherwise run without errors.
 

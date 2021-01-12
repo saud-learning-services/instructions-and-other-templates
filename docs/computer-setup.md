@@ -33,7 +33,7 @@ For managing project environments, we use [Anaconda](https://www.anaconda.com). 
 
 Once you have done all the above, you're ready to start downloading and running projects.
 
-We've provided a 🟢 [Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly. We'll provide you with a step-by-step on how to get this project running on your machine, and you can apply this same process to all tools.
+We've provided a 👷 [Setup Test Project](https://github.com/saud-learning-services/setup-test) on our GitHub that you can use throughout the remainder of the documentation to ensure you have everything up and running correctly. We'll provide you with a step-by-step on how to get this project running on your machine, and you can apply this same process to all tools.
 
 Once everything is configured correctly, you should see an output of "Hey {your-name-on-canvas}":
 
@@ -41,6 +41,6 @@ Once everything is configured correctly, you should see an output of "Hey {your-
     <img src="../imgs/test-output.png" alt="Logo" width="350">
 </div>
 
-> 💡 Every reference to the test project in the remainder of the docs will be labeled using the 🟢 icon
+> 💡 Every reference to the test project in the remainder of the docs will be labeled using the 👷 icon
 
 [➡️ Next: Managing Projects with GitHub](github-project-management.md)
