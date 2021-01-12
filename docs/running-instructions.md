@@ -28,7 +28,7 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
    - Login to Canvas and select **Account** > **Settings** from the menu on the left
    - Under **Approved Integrations** select **New Access Token**
-   - Name it something of your choosing and set the expiration to the next day and select **Generate Token**
+   - Name it something of your choosing, set the expiration to the next day and select **Generate Token**
 
    > ⚠️ For security reasons we don't encourage setting late expiration days for tokens (keep it to a day or two)
 
@@ -36,7 +36,7 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
    - A long string of numbers and letters will appear, keep this somewhere on hand but **be careful to keep it private**, as it grants access to your Canvas account and should be treated as sensitive information.
    - You won't be able to access this token again once you close the dialogue box so be sure you've written it down somewhere safe.
 
-> ⚠️ If the tool you're using makes no mention of a `.env` on its GitHub page, skip this next step (Note that most of our projects do not use `.env` files). If you are working on the 🟢 setup-test project however comes with a `.env` to familiarize you with this process.
+> ⚠️ If the tool you're using makes no mention of a `.env` on its GitHub page, skip this next step (Step 1.1). Note that most of our projects do not use `.env` files. If you are working on the 🟢 setup-test project however comes with a `.env` to familiarize you with this process.
 
 1.1 Assign your token to the `.env` file
 
