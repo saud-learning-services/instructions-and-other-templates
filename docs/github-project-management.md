@@ -113,7 +113,7 @@ After selecting clone, you should be able to see the new project has appeared in
 
 When we update a tool, we send those updates to GitHub where you can download or "fetch" them for your local copy.
 
-To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **main** (or **master**) and click **Fetch Origin**
+To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **main** and click **Fetch Origin**
 
 <div align="center">
     <img src="../imgs/github_desktop/fetch-origin-github-desktop.png" alt="Logo" width="800">
@@ -169,10 +169,9 @@ Check to see what branch you are on
 
 - `$ git branch` (the starred branch is your current branch; type **q** to exit)
 
-If not on **main** (or **master**), switch to it
+If not on **main**, switch to it
 
 - `$ git checkout main`
-- `$ git checkout master` (if it's not main, it's master - it's never both)
 
 While on the main branch, grab the latest changes
 
