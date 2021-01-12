@@ -64,14 +64,20 @@ Now that you have your environment setup (or are using the universal environment
 
 ## Running the Script
 
-> ⚠️ Any of our tools that interact with the Canvas LMS will require you to generate a API access token. If the project you've chosen does not work with Canvas you can likely skip step 0. You can always refer to individual setup instructions on a project's GitHub page.
+> ⚠️ Any of our tools that interact with the Canvas LMS will require you to generate a API access token. If the project you've chosen does not work with Canvas you can likely skip to step 2. You can always refer to individual setup instructions on a project's GitHub page.
 
-0. Get Canvas Token and Save it in the `.env`
+0. Generate a Canvas Token
 
    - Login to Canvas and select **Account** > **Settings** from the menu on the left
    - Under **Approved Integrations** select **New Access Token**
-   - Name it something like `sauder-api` and set the expiration to the next day
+   - Name it something of your choosing and set the expiration to the next day
      > ⚠️ For security reasons we don't encourage setting late expiration days (keep it to a day or two)
+
+1. Determine if your script uses a `.env`
+
+   > 💡 Most of our tools will prompt you to input a token via Jupyter Notebook (meaning you can skip this step). If the project documentation makes mention of a `.env` file, you'll want to follow these next few steps
+   > 🧪 If using the setup-test you'll want to follow along with the next steps
+
    - Copy the token it provides you, navigate to **the-project** folder on your computer and locate the `.env` file
      > ⚠️ `.env` files are hidden by most operating systems by default. If you don't see a file called `.env` in **the-project** folder you likely need to _reveal hidden files_ (Instructions for [Windows](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5) / [Mac](https://setapp.com/how-to/show-hidden-files-on-mac))
    - Open the `.env` file with any application that can edit text _(like TextEdit or Notepad)_ Paste the token you copied from Canvas into the `.env`file (There will be an indicator in the file as to exactly where you should paste it)
@@ -85,7 +91,7 @@ Now that you have your environment setup (or are using the universal environment
       <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600">
    </div>
 
-2. In the browser, navigate to the **the-project** project folder and select **the-project.ipynb**
+1. In the browser, navigate to the **the-project** project folder and select **the-project.ipynb**
 
    > 💡 This will be located wherever you cloned it on your local computer - if you used our suggested location, all projects will be in a single folder so everything is easy to find
 
@@ -93,14 +99,17 @@ Now that you have your environment setup (or are using the universal environment
       <img src="../imgs/sauder-ops-guide/browser-select-notebook.png" alt="Logo" width="600">
    </div>
 
-3. Read the information notebook! Once, you've done that select **Kernal** > **Restart & Run All** to run it
+1. Read the information in the notebook! Once, you've done that select **Kernal** > **Restart & Run All** to run it
 
    <div align="center">
       <img src="../imgs/sauder-ops-guide/notebook-start.png" alt="Logo" width="600" >
    </div>
 
-4. If everything was done correctly, the script should now run. Most of our projects involve some user inputs so the Jupyter Notebook will prompt and guide you from here
+1. If everything was done correctly, the script should now run. Most of our projects involve some user inputs so the Jupyter Notebook will prompt and guide you from here
+
+> 💡 Projects without a `.env` will prompt for a token at this stage. Have your Canvas API token handy to paste in as input.
 
 > 🧪 If using the setup-test you'll hopefully now see a printout like "Hi {your-name}". If you aren't seeing this, you'll hopefully see a printout giving you an indication of what is wrong and you can try and revisit that step in the docs. If your problem persists, contact someone on the Sauder LS, Canvas API team for support.
+> If the setup test has successfully worked, try deleting the `.env` and running again - upon doing so the Jupyter Notebook will ask for your token instead (This is the more common way you'll see it done but it's good to be familiar with both methods!)
 
 [➡️ Next: Universal Environment Setup](universal-env-setup.md)
