@@ -1,4 +1,4 @@
-name: sauder-canvas-api
+name: canvas-universal-env
 channels:
   - conda-forge
   - anaconda
