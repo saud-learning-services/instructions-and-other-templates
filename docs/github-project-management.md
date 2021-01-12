@@ -121,7 +121,9 @@ To do this in GitHub Desktop, select the project under **Current Repository**, m
 
 Your project will update to the the most recent version! Same location as before and if you had any data outputs in the project folders prior to fetching, that data will persist.
 
-> **⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds. ⚠️**
+> ⚠️ Please **DO NOT select Commit to main** unless you are contributing code
+
+> **⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds.**
 
 The following section on terminal is optional. If you'd like to continue to manage tools with GitHub Desktop, head to the next section on environment setup.
 
@@ -167,9 +169,9 @@ Using the `cd` command, navigate to the folder where your copy of the project is
 
 Check to see what branch you are on
 
-- `$ git branch` (the starred branch is your current branch; type **q** to exit)
+- `$ git branch` (the starred branch is your curråent branch; type **q** to exit)
 
-If not on **main**, switch to it
+If not on **main**, switch toå it
 
 - `$ git checkout main`
 

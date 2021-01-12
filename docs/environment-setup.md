@@ -49,7 +49,7 @@ In this section we'll discuss setting up environments. Each project comes with t
       > 🟢 Working through the setup test? Import the `environment.yml` contained in your local **setup-test** folder.
 
    1. Select **Import** and wait for installation to complete
-      > 💡 This may take some time (upwards of 20 minutes)
+      > 💡 This may take some time (upwards of 20 minutes). Note that this process can be sped up by working in Terminal instead of Anaconda-Navigator, if comfortable.
 
    <div align="center">
       <img src="../imgs/sauder-ops-guide/anaconda-import-box.png" alt="Logo" width="600">

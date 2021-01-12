@@ -35,7 +35,7 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 1. Assign your token to the `.env` file
 
-   > ⚠️ Skip this if the tool you're using makes no mention of this on its GitHub page
+   > ⚠️ Skip this step if the tool you're using makes no mention of this on its GitHub page
 
    - Copy the token it provides you, navigate to **the-project** folder on your computer and locate the `.env` file
      > 💡 `.env` files are hidden by most operating systems by default. If you don't see a file called `.env` in **the-project** folder you likely need to _reveal hidden files_ (Instructions for [Windows](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5) / [Mac](https://setapp.com/how-to/show-hidden-files-on-mac))
