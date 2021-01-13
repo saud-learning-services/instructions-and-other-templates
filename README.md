@@ -23,6 +23,22 @@
 4. [Running Scripts](docs/running-instructions.md)
 5. [Updating the Environment](docs/updating-environments.md)
 
+### Use the documentation to get started if you are brand new
+ 
+Throughout the documentation we have included 👷  as an indicator to follow along. Watch out for our cautions ⚠️  and our tips 💡 (we might even reveal some of the magic 🧙‍♀️). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). Basically, by going through our docs and following along, you will be: 
+1. Making sure you have the right accounts (if you see this... you have an account!)
+2. [Installing everything you need on your computer](docs/computer-setup.md)
+   - Anaconda Navigator
+   - GitHub Desktop
+   - (Git)
+3. [Cloning your first repo](docs/github-project-management.md) - setup-test👷
+4. Creating a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
+5. Creating the [universal environment 🌎](docs/environment-setup.md#universal-environment-setup)  
+6. [Running your first project](docs/running-instructions.md) 
+   - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
+   - now try running setup-test again, but use the universal environment in Anaconda
+
+By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks! 
 ## Additional Resources
 
 - [Terminal Basics](docs/terminal-basics.md)
