@@ -23,7 +23,7 @@
 - [Why Use It?](#why-use-it)
 - [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop)
   - [Downloading a Project (GitHub Desktop)](#downloading-a-project-github-desktop)
-    - [Starting from GitHub Desktop](#starting-from-github-desktop)
+    - [Start from GitHub Desktop](#start-from-github-desktop)
     - [Start from the GitHub Organization](#start-from-the-github-organization)
   - [Updating a Project (GitHub Desktop)](#updating-a-project-github-desktop)
 - [(Optional) Managing GitHub Projects Using Terminal](#optional-managing-github-projects-using-terminal)
@@ -88,7 +88,7 @@ Once downloaded, open the application. It should look something like this:
 
 ### Downloading a Project (GitHub Desktop)
 
-#### Starting from GitHub Desktop
+#### Start from GitHub Desktop
 Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
 
 Once finished, under **Clone a Repository**, select the **URL** tab
@@ -137,7 +137,7 @@ Your project will update to the the most recent version! Same location as before
 
 > ⚠️ Please **DO NOT select Commit to main** unless you are contributing code
 
-> **⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds.**
+> ⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" frequently (especially if you haven't used a tool in a while). This ensures it's up-to-date and only takes a few seconds.
 
 The following section on terminal is optional. If you'd like to continue to manage tools with GitHub Desktop, head to the next section on environment setup.
 

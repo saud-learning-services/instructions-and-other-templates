@@ -52,7 +52,7 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 2. Open **Anaconda Navigator**, select the ▶ button next to **the-project** to run your environment. Then select **Open with Jupyter Notebook**, and that will launch the browser.
 
-   > ⚠️ If you're runing via the universal environment, click the ▶ button next to **canvas-universal-env** instead (but make sure the project supports it)
+   > ⚠️ If you're running via the universal environment, click the ▶ button next to **canvas-universal-env** instead (but make sure the project supports it)
 
    <div align="center">
       <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600">
