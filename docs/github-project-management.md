@@ -23,8 +23,8 @@
 - [Why Use It?](#why-use-it)
 - [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop)
   - [Downloading a Project (GitHub Desktop)](#downloading-a-project-github-desktop)
-  - [Option A - Start from GitHub Repository](#option-a---start-from-github-repository)
-  - [Option B - Start from GitHub Desktop](#option-b---start-from-github-desktop)
+    - [Starting from GitHub Desktop](#starting-from-github-desktop)
+    - [Start from the GitHub Organization](#start-from-the-github-organization)
   - [Updating a Project (GitHub Desktop)](#updating-a-project-github-desktop)
 - [(Optional) Managing GitHub Projects Using Terminal](#optional-managing-github-projects-using-terminal)
   - [Downloading a Project (Terminal)](#downloading-a-project-terminal)
@@ -88,9 +88,7 @@ Once downloaded, open the application. It should look something like this:
 
 ### Downloading a Project (GitHub Desktop)
 
-### Option A - Start from GitHub Repository 
-Navigate to the repository you need to clone. You can start at github.com/saud-learning-services and select the repo (project) you need. Then, select **Clone -> Open with GitHub Desktop** 
-### Option B - Start from GitHub Desktop
+#### Starting from GitHub Desktop
 Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
 
 Once finished, under **Clone a Repository**, select the **URL** tab
@@ -114,6 +112,16 @@ In the bottom input (marked in grey), choose a folder to "clone" the project to.
 After selecting clone, you should be able to see the new project has appeared in the folder you've specified.
 
 > 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
+
+#### Start from the GitHub Organization
+
+If you want to start from our GitHub organization at github.com/saud-learning-services/, you can select the project that you need to clone. And then select Clone -> Open with GitHub Desktop. This will fill in the Repository URL, and the local path.
+
+> 💡 Double check the suggested Local Path! We suggest `.../Documents/GitHub/Sauder-Learning-Services` to store projects
+
+<div align="center">
+    <img src="../imgs/github_desktop/clone-from-github.png" alt="Logo" width="800">
+</div>
 
 ### Updating a Project (GitHub Desktop)
 
