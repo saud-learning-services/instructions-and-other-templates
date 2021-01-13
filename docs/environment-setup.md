@@ -63,11 +63,13 @@ While each of our projects comes with thier own `environment.yml` file for setti
 
 If you setup your universal environment correctly, you can use and update only that environment instead of managing one independently for each project.
 
-> ⚠️ Every project that supports the universal environment will say "**supports universal environment 🌎**" at the top of its GitHub page.
+> ⚠️ Every project that supports the universal environment will say **supports universal environment 🌎** at the top of its GitHub page.
 
 ### Installation
 
-1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates/tree/marko) project to your computer (Not sure how? Revisit [Managing Projects with Github](managing-projects-with-github.md))
+> 👷 Working through the setup test? Now is a good time to get the universal environment setup! 
+
+1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates) project to your computer (Not sure how? Revisit [Managing Projects with Github](managing-projects-with-github.md)).
 2. In Anaconda Navigator, import the `universal-environment.yml` file in the `instructions-and-other-templates` folder (cloned from GitHub in Step 1)
 3. You should now see a new environment called **canvas-universal-env** in your environments list.
 

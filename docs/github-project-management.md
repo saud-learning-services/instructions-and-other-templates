@@ -161,6 +161,7 @@ You'll also want to make sure that you have **Git** installed and an account on 
 - [Create GitHub Account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account) and let us know you need to join the saud-learning-services organization
 
 ### Downloading a Project (Terminal)
+> Optional for LS Ops
 
 Using the `cd` command, navigate to a folder where you'd like to store and run the project. We recommend keeping all Sauder LS projects in a single folder for ease of management
 
