@@ -18,20 +18,23 @@
 
 ## Table of Contents
 
-- [What is Github?](#what-is-github)
+- [Table of Contents](#table-of-contents)
+- [What is GitHub?](#what-is-github)
 - [Why Use It?](#why-use-it)
-- [Managing Projects Using GitHub Desktop](#managing-projects-using-gitub-desktop) (recommended for Ops)
-  - [Downloading a Project (GitHub Desktop)](<#downloading-a-project-(github-desktop)>)
-  - [Updating a Project (GitHub Desktop)](<#updating-a-project-(github-desktop)>)
-- [Managing GitHub Projects Using Terminal](#managing-github-projects-using-terminal)
-  - [Downloading a Project (Terminal)](<#downloading-a-project-(terminal)>)
-  - [Updating a Project (Terminal)](<#updating-a-project-(terminal)>)
+- [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop)
+  - [Downloading a Project (GitHub Desktop)](#downloading-a-project-github-desktop)
+  - [Option A - Start from GitHub Repository](#option-a---start-from-github-repository)
+  - [Option B - Start from GitHub Desktop](#option-b---start-from-github-desktop)
+  - [Updating a Project (GitHub Desktop)](#updating-a-project-github-desktop)
+- [(Optional) Managing GitHub Projects Using Terminal](#optional-managing-github-projects-using-terminal)
+  - [Downloading a Project (Terminal)](#downloading-a-project-terminal)
+  - [Updating a Project (Terminal)](#updating-a-project-terminal)
 
 💡 All Sauder LS, Canvas API tools are hosted on our [GitHub](https://github.com/saud-learning-services).
 
 ## What is GitHub?
 
-GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called [Git](https://git-scm.com/). For the purposes of _using_ our tool's, it's enough to know that GitHub will be:
+GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called [Git](https://git-scm.com/). For the purposes of _using_ our tools, it's enough to know that GitHub will be:
 
 - Where you'll be downloading projects from
 - How you will recieve updates
@@ -85,6 +88,9 @@ Once downloaded, open the application. It should look something like this:
 
 ### Downloading a Project (GitHub Desktop)
 
+### Option A - Start from GitHub Repository 
+Navigate to the repository you need to clone. You can start at github.com/saud-learning-services and select the repo (project) you need. Then, select **Clone -> Open with GitHub Desktop** 
+### Option B - Start from GitHub Desktop
 Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
 
 Once finished, under **Clone a Repository**, select the **URL** tab
