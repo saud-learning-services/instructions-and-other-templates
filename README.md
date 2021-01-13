@@ -25,7 +25,7 @@
 
 ### Use the documentation to get started if you are brand new
  
-Throughout the documentation we have included 👷  as an indicator to follow along. Watch out for our cautions ⚠️  and our tips 💡 (we might even reveal some of the magic 🧙‍♀️). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). Basically, by going through our docs and following along, you will be: 
+Throughout the documentation we have included 👷  as an indicator to follow along. Watch out for our cautions ⚠️  and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). Basically, by going through our docs and following along, you will be: 
 1. Making sure you have the right accounts (if you see this... you have an account!)
 2. [Installing everything you need on your computer](docs/computer-setup.md)
    - Anaconda Navigator

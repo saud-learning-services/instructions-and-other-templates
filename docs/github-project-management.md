@@ -151,7 +151,7 @@ Terminal is a good way of managing GitHub projects if you are:
 1. Someone who may want to contribute to one of our projects
 1. Someone who is interested in the fastest possible way to manage projects
 
-> It is also an excellent way to be the envy of all your friends as you'll look like some kind of computer genius, with capabilities nothing short of magic-like 🧙‍♀️
+> It is also an excellent way to be the envy of all your friends as you'll look like some kind of computer genius, with capabilities nothing short of magic-like [🧙‍♀️](https://tenor.com/view/clapping-harry-potter-applause-smile-happy-gif-5297465)
 
 Before reading on, you'll want to have read [terminal basics](./terminal-basics.md)
 
