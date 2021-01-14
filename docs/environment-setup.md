@@ -16,7 +16,7 @@
 
 > ⚠️ All references to **the-project** should be the name of the tool you are running.
 
-After downloading one of our for the first time, you'll want to start by getting your environment set up. Think of the files you download from GitHub as disassembled furniture, and environments as a way of putting the furniture together. Like assembling furniture, this is done _once_ and isn't repeated every time you want to use it.
+After downloading one of our projects for the first time, you'll want to start by getting your environment set up. Think of the files you download from GitHub as disassembled furniture, and environments as a way of putting the furniture together. Like assembling furniture, this is done _once_ and isn't repeated every time you want to use it.
 
 In this section we'll discuss setting up environments. Each project comes with their own `environment.yml` file (like instructions for how to assemble the furniture). You can create environments for each project, or you can utilize a **universal environment** that can be used to run any of our tools - we discuss how to get this setup [below](#universal-environment-setup).
 
@@ -63,11 +63,13 @@ While each of our projects comes with thier own `environment.yml` file for setti
 
 If you setup your universal environment correctly, you can use and update only that environment instead of managing one independently for each project.
 
-> ⚠️ Every project that supports the universal environment will say "**supports universal environment 🌎**" at the top of its GitHub page.
+> ⚠️ Every project that supports the universal environment will say **supports universal environment 🌎** at the top of its GitHub page.
 
 ### Installation
 
-1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates/tree/marko) project to your computer (Not sure how? Revisit [Managing Projects with Github](managing-projects-with-github.md))
+> 👷 Working through the setup test? Now is a good time to get the universal environment setup! 
+
+1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates) project to your computer (Not sure how? Revisit [Managing Projects with Github](managing-projects-with-github.md)).
 2. In Anaconda Navigator, import the `universal-environment.yml` file in the `instructions-and-other-templates` folder (cloned from GitHub in Step 1)
 3. You should now see a new environment called **canvas-universal-env** in your environments list.
 
