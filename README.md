@@ -55,4 +55,3 @@ By the end, you should be able to now clone any projects/repos that you need, an
 - [Canvas Quiz Response PDFs](https://github.com/saud-learning-services/quiz-response-pdfs): Pulls quiz data from Canvas to create PDF documents containing student answers to essay questions.
 - [Canvas Peer Reviews](https://github.com/saud-learning-services/canvas-peer-reviews): Create CSV tables containing peer review data; summarizing all students who've been assigned as assessors, who they are assessing and the results of any completed assessments
 - [Canvas Get Group CSV](https://github.com/saud-learning-services/group-csv): Used to extract a csv file of group names and associated student user IDs in any Canvas course
-- [Canvas (Sauder) Semester Prep](https://github.com/saud-learning-services/canvas-saud-semester-prep): Generates a CSV that summarizes all Canvas courses that fall under a provided term id and account id(s).
