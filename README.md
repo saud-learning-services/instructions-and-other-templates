@@ -44,6 +44,7 @@ By the end, you should be able to now clone any projects/repos that you need, an
 ## Additional Resources
 
 - [Terminal Basics](docs/terminal-basics.md)
+- [Running Scripts with Terminal & Visual Studio Code](docs/terminal-vscode-running-instructions.md)
 
 ## Projects
 
