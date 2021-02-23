@@ -80,6 +80,6 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 > 👷 Setup-test worked correctly? Let's try the other method of inputting tokens. Stop your environment, delete the `.env` file and restart the whole thing again. After selecting **Kernal** > **Restart & Run All** the Jupyter Notebook will ask you to provide your token as input (This is the more common way you'll see it done but it's good to be familiar with both methods!)
 
-6. Once you are done (if you are running in a Jupyter Notebook) a good practice is to restart the kernel and clear all output. Kernel -> Restart & Clear Output. Then you can exit the browser.
+6. Once you are done (if you are running in a Jupyter Notebook) a good practice is to **restart the kernel and clear all output**. Kernel -> Restart & Clear Output. Then you can exit the browser.
 
 [➡️ Next: Updating Environments](updating-environments.md)
