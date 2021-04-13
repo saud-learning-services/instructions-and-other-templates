@@ -46,6 +46,7 @@ By the end, you should be able to now clone any projects/repos that you need, an
 - [Terminal Basics](docs/terminal-basics.md)
 - [Running Scripts with Terminal & Visual Studio Code](docs/terminal-vscode-running-instructions.md)
 - [Working with file paths](docs/working-with-file-paths.md)
+- [Running scripts in the Windows CMD](docs/windows-command-line.md)
 
 ## Projects
 
