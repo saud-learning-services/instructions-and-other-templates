@@ -46,7 +46,6 @@ echo running script...
 python C:\Users\MyUser\Documents\saud-learning-services\project-name\my_script.py      # path to entrypoint
 echo end
 pause
-
 ```
 
 In order to easily keep track of I'd save this file in the project root folder
