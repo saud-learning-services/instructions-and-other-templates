@@ -9,6 +9,7 @@ dependencies:
   - python-dotenv
   - reportlab # only used in quiz-reports
   - termcolor
+  - colorama
   - requests
   - jupyter
   - pandas
