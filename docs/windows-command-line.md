@@ -54,7 +54,7 @@ In order to easily keep track of I'd save this file in the project root folder
 Open task scheduler, **right-click** on a folder (or create a new one) on the left panel time to store your task. Select **Create Basic Task...**
 
 <div align="center">
-    <img src="../imgs/task-scheduler/1.png" alt="1" width="600">
+    <img src="../imgs/task-scheduler/1.png" alt="one" width="600">
 </div>
 
 Give your task a name and description, select next
@@ -62,31 +62,31 @@ Give your task a name and description, select next
 Select the frequency you'd like the automation to run, select next
 
 <div align="center">
-    <img src="../imgs/task-scheduler/2.png" alt="2" width="400">
+    <img src="../imgs/task-scheduler/2.png" alt="two" width="400">
 </div>
 
 Adjust when the run is triggered
 
 <div align="center">
-    <img src="../imgs/task-scheduler/3.png" alt="3" width="400">
+    <img src="../imgs/task-scheduler/3.png" alt="three" width="400">
 </div>
 
 Select **Start a program**
 
 <div align="center">
-    <img src="../imgs/task-scheduler/4.png" alt="4" width="400">
+    <img src="../imgs/task-scheduler/4.png" alt="four" width="400">
 </div>
 
 Select **Browse..** and locate your `.bat` file
 
 <div align="center">
-    <img src="../imgs/task-scheduler/5.png" alt="5" width="400">
+    <img src="../imgs/task-scheduler/5.png" alt="five" width="400">
 </div>
 
 Review and select **Finish**
 
 <div align="center">
-    <img src="../imgs/task-scheduler/6.png" alt="6" width="400">
+    <img src="../imgs/task-scheduler/6.png" alt="six" width="400">
 </div>
 
 > ⚠️ Be mindful of storing credentials like tokens. For automation like this to work tokens will need to be active for long stretches of time, making it all the more important to store these somewhere secure.
