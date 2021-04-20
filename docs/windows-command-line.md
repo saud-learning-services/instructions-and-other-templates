@@ -18,7 +18,7 @@ Commands concerning conda environments or running python scripts work in the sam
 
 ```
 C:\Users\MyUser>conda env create -f environment.yml    # create environment from environment.yml file in current working directory
-C:\Users\MyUser>conda activate my-envirionment         # activate environment named my-environment
+C:\Users\MyUser>conda activate my-environment         # activate environment named my-environment
 C:\Users\MyUser>python my_script.py                    # run my_script.py
 ```
 
