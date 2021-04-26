@@ -88,7 +88,9 @@ Once downloaded, open the application. It should look something like this:
 
 ### Downloading a Project (GitHub Desktop)
 
-#### Start from GitHub Desktop
+There are several options for getting projects from https://github.com/saud-learning-services to your local machine. Below are two options based on where you want to start: You can either 1. Start from GitHub Desktop or 2. Start from GitHub Organization (i.e. https://github.com/saud-learning-services)
+
+#### 1. Start from GitHub Desktop
 Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
 
 Once finished, under **Clone a Repository**, select the **URL** tab
@@ -113,7 +115,7 @@ After selecting clone, you should be able to see the new project has appeared in
 
 > 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
 
-#### Start from the GitHub Organization
+#### 2. Start from the GitHub Organization
 
 If you want to start from our GitHub organization at github.com/saud-learning-services/, you can select the project that you need to clone. And then select Clone -> Open with GitHub Desktop. This will fill in the Repository URL, and the local path.
 
