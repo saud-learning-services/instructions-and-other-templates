@@ -64,6 +64,7 @@ While each of our projects comes with thier own `environment.yml` file for setti
 If you setup your universal environment correctly, you can use and update only that environment instead of managing one independently for each project.
 
 > ⚠️ Every project that supports the universal environment will say **supports universal environment 🌎** at the top of its GitHub page.
+> ⚠️ Recommended for Operations team
 
 ### Installation
 
