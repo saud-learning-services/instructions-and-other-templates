@@ -39,20 +39,19 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
    > ⚠️ For security reasons we don't encourage saving this token anywhere, but you can copy and paste into a text file and delete once complete
 
-   - 1.1 Assign your token to the `.env` file (skip if the project does not mention .env)
-
-     - **If the tool you're using makes no mention of a `.env` on its GitHub page, skip this next step (move on to Step 2).**
-     - Note that most of our projects do not use `.env` files.
-     - 👷 setup-test project comes with a `.env` to allow you to try both methods. You will need to follow 1.1 if you are using setup-test.
-
-- Copy the token it provides you, navigate to **the-project** folder on your computer and locate the `.env` file
-  > 💡 `.env` files are hidden by most operating systems by default. If you don't see a file called `.env` in **the-project** folder you likely need to _reveal hidden files_ (Instructions for [Windows](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5) / [Mac](https://setapp.com/how-to/show-hidden-files-on-mac))
-- Open the `.env` file with any application that can edit text _(like TextEdit or Notepad)_ Paste the token you copied from Canvas into the `.env`file (There will be an indicator in the file as to exactly where you should paste it)
-- Save the `.env` file after you've pasted in your token
+1.1 Assign your token to the `.env` file (skip if the project does not mention .env)
+   - **If the tool you're using makes no mention of a `.env` on its GitHub page, skip this next step (move on to Step 2).**
+   - Note that most of our projects do not use `.env` files.
+   - 👷 setup-test project comes with a `.env` to allow you to try both methods. You will need to follow 1.1 if you are using setup-test.
+   - Copy the token it provides you, navigate to **the-project** folder on your computer and locate the `.env` file
+   > 💡 `.env` files are hidden by most operating systems by default. If you don't see a file called `.env` in **the-project** folder you likely need to _reveal hidden files_ (Instructions for [Windows](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5) / [Mac](https://setapp.com/how-to/show-hidden-files-on-mac))
+   - Open the `.env` file with any application that can edit text _(like TextEdit or Notepad)_ Paste the token you copied from Canvas into the `.env`file (There will be an indicator in the file as to exactly where you should paste it)
+   - Save the `.env` file after you've pasted in your token
 
 2. Open **Anaconda Navigator**, select the ▶ button next to **the-project** to run your environment. Then select **Open with Jupyter Notebook**, and that will launch the browser.
 
-   > ⚠️ If you're runing via the universal environment, click the ▶ button next to **canvas-universal-env** instead (but make sure the project supports it)
+   > - ⚠️ If you're running via the universal environment, click the ▶ button next to **canvas-universal-env** instead (but make sure the project supports it)
+   > - ⚠️ Don't see the environment you are looking for? Double check that you have imported that environment in the [Configuring Environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) step.
 
    <div align="center">
       <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600">
@@ -80,6 +79,6 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 > 👷 Setup-test worked correctly? Let's try the other method of inputting tokens. Stop your environment, delete the `.env` file and restart the whole thing again. After selecting **Kernal** > **Restart & Run All** the Jupyter Notebook will ask you to provide your token as input (This is the more common way you'll see it done but it's good to be familiar with both methods!)
 
-6. Once you are done (if you are running in a Jupyter Notebook) a good practice is to restart the kernel and clear all output. Kernel -> Restart & Clear Output. Then you can exit the browser.
+6. Once you are done (if you are running in a Jupyter Notebook) a good practice is to **restart the kernel and clear all output**. Kernel -> Restart & Clear Output. Then you can exit the browser.
 
 [➡️ Next: Updating Environments](updating-environments.md)

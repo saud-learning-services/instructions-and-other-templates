@@ -18,20 +18,23 @@
 
 ## Table of Contents
 
-- [What is Github?](#what-is-github)
+- [Table of Contents](#table-of-contents)
+- [What is GitHub?](#what-is-github)
 - [Why Use It?](#why-use-it)
-- [Managing Projects Using GitHub Desktop](#managing-projects-using-gitub-desktop) (recommended for Ops)
-  - [Downloading a Project (GitHub Desktop)](<#downloading-a-project-(github-desktop)>)
-  - [Updating a Project (GitHub Desktop)](<#updating-a-project-(github-desktop)>)
-- [Managing GitHub Projects Using Terminal](#managing-github-projects-using-terminal)
-  - [Downloading a Project (Terminal)](<#downloading-a-project-(terminal)>)
-  - [Updating a Project (Terminal)](<#updating-a-project-(terminal)>)
+- [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop)
+  - [Downloading a Project (GitHub Desktop)](#downloading-a-project-github-desktop)
+    - [Start from GitHub Desktop](#start-from-github-desktop)
+    - [Start from the GitHub Organization](#start-from-the-github-organization)
+  - [Updating a Project (GitHub Desktop)](#updating-a-project-github-desktop)
+- [(Optional) Managing GitHub Projects Using Terminal](#optional-managing-github-projects-using-terminal)
+  - [Downloading a Project (Terminal)](#downloading-a-project-terminal)
+  - [Updating a Project (Terminal)](#updating-a-project-terminal)
 
 💡 All Sauder LS, Canvas API tools are hosted on our [GitHub](https://github.com/saud-learning-services).
 
 ## What is GitHub?
 
-GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called [Git](https://git-scm.com/). For the purposes of _using_ our tool's, it's enough to know that GitHub will be:
+GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called [Git](https://git-scm.com/). For the purposes of _using_ our tools, it's enough to know that GitHub will be:
 
 - Where you'll be downloading projects from
 - How you will recieve updates
@@ -85,6 +88,9 @@ Once downloaded, open the application. It should look something like this:
 
 ### Downloading a Project (GitHub Desktop)
 
+There are several options for getting projects from https://github.com/saud-learning-services to your local machine. Below are two options based on where you want to start: You can either 1. Start from GitHub Desktop or 2. Start from GitHub Organization (i.e. https://github.com/saud-learning-services)
+
+#### 1. Start from GitHub Desktop
 Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
 
 Once finished, under **Clone a Repository**, select the **URL** tab
@@ -109,6 +115,16 @@ After selecting clone, you should be able to see the new project has appeared in
 
 > 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
 
+#### 2. Start from the GitHub Organization
+
+If you want to start from our GitHub organization at github.com/saud-learning-services/, you can select the project that you need to clone. And then select Clone -> Open with GitHub Desktop. This will fill in the Repository URL, and the local path.
+
+> 💡 Double check the suggested Local Path! We suggest `.../Documents/GitHub/Sauder-Learning-Services` to store projects
+
+<div align="center">
+    <img src="../imgs/github_desktop/clone-from-github.png" alt="Logo" width="800">
+</div>
+
 ### Updating a Project (GitHub Desktop)
 
 When we update a tool, we send those updates to GitHub where you can download or "fetch" them for your local copy.
@@ -123,7 +139,7 @@ Your project will update to the the most recent version! Same location as before
 
 > ⚠️ Please **DO NOT select Commit to main** unless you are contributing code
 
-> **⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" every time you work with a script. This ensures it's up-to-date and only takes a few seconds.**
+> ⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" frequently (especially if you haven't used a tool in a while). This ensures it's up-to-date and only takes a few seconds.
 
 The following section on terminal is optional. If you'd like to continue to manage tools with GitHub Desktop, head to the next section on environment setup.
 
@@ -137,7 +153,7 @@ Terminal is a good way of managing GitHub projects if you are:
 1. Someone who may want to contribute to one of our projects
 1. Someone who is interested in the fastest possible way to manage projects
 
-> It is also an excellent way to be the envy of all your friends as you'll look like some kind of computer genius, with capabilities nothing short of magic-like 🧙‍♀️
+> It is also an excellent way to be the envy of all your friends as you'll look like some kind of computer genius, with capabilities nothing short of magic-like [🧙‍♀️](https://tenor.com/view/clapping-harry-potter-applause-smile-happy-gif-5297465)
 
 Before reading on, you'll want to have read [terminal basics](./terminal-basics.md)
 
@@ -147,6 +163,7 @@ You'll also want to make sure that you have **Git** installed and an account on 
 - [Create GitHub Account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account) and let us know you need to join the saud-learning-services organization
 
 ### Downloading a Project (Terminal)
+> Optional for LS Ops
 
 Using the `cd` command, navigate to a folder where you'd like to store and run the project. We recommend keeping all Sauder LS projects in a single folder for ease of management
 
