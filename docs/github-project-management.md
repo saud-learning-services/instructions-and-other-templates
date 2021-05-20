@@ -86,6 +86,9 @@ Once downloaded, open the application. It should look something like this:
     <img src="../imgs/github_desktop/github-desktop-first-opened.png" alt="Logo" width="500">
 </div>
 
+### Create a local project folder
+💡 We recommend using `Documents/GitHub/Sauder-Learning-Services` to store all projects. If you haven't already, create a GitHub folder in Documents, and a Sauder-Learning-Services folder within. 
+
 ### Downloading a Project (GitHub Desktop)
 
 There are several options for getting projects from https://github.com/saud-learning-services to your local machine. Below are two options based on where you want to start: You can either 1. Start from GitHub Desktop or 2. Start from GitHub Organization (i.e. https://github.com/saud-learning-services)
@@ -109,7 +112,7 @@ In the top input (marked in green), enter the GitHub URL of the project you are 
 
 In the bottom input (marked in grey), choose a folder to "clone" the project to. What this does is create a copy of the tool locally on your computer. We recommend creating a single folder, somewhere accessible, where you clone all Sauder LS GitHub Projects you need.
 
-> 💡 We recommend creating a folder like `.../Documents/GitHub/Sauder-Learning-Services` to store projects
+> 💡 We recommend using `.../Documents/GitHub/Sauder-Learning-Services` to store projects
 
 After selecting clone, you should be able to see the new project has appeared in the folder you've specified.
 
