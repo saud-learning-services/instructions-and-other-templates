@@ -50,7 +50,8 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 2. Open **Anaconda Navigator**, select the ▶ button next to **the-project** to run your environment. Then select **Open with Jupyter Notebook**, and that will launch the browser.
 
-   > - ⚠️ If you're running via the universal environment, click the ▶ button next to **canvas-universal-env** instead (but make sure the project supports it)
+   > - 💡 If you're running via the universal environment, click the ▶ button next to **canvas-universal-env** instead (but make sure the project supports it)
+   >    - remember, all of our "saud-ls-ops" repositories should work with the universal environment! 
    > - ⚠️ Don't see the environment you are looking for? Double check that you have imported that environment in the [Configuring Environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) step.
 
    <div align="center">
