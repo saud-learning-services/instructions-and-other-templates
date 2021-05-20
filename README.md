@@ -27,7 +27,7 @@
 
 Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). For your first time, use this as a checklist to get started:
 
-#### Computer Setup
+#### [Computer Setup](docs/computer-setup.md)
 1. [Create a free GitHub Account](https://github.com/join)
 2. Send a request to join the Saud-Learning-Services organization - email Alison or Marko who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team
 3. [Installing everything you need on your computer](docs/computer-setup.md)
@@ -36,12 +36,16 @@ Throughout the documentation we have included 👷 as an indicator to follow alo
    - [Download GitHub Desktop](https://desktop.github.com)
    - [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
 
-#### Managing Projects
+#### [Getting & Managing Projects](docs/github-project-management.md)
 4. Create a place for the projects to live: `Documents/GitHub/Sauder-Learning-Services/`
 5. [Clone your first repo](docs/github-project-management.md) - setup-test👷
 6. Read about Updating a Project (GitHub Desktop) -> note, because you are downloading the most recent version, there is nothing to do yet - but be aware that you should "Fetch origin" whenever you are using a script in the future (in case there are changes made).  
-7. Create a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
-8. [Run your first project](docs/running-instructions.md)
+
+#### [Environment Setup](docs/environment-setup.md)
+8. Create a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
+
+#### [Running Scripts](docs/running-instructions.md)
+10. [Run your first project](docs/running-instructions.md)
    - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
 
 By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
