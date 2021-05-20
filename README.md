@@ -25,7 +25,7 @@
 
 ### Use the documentation to get started if you are brand new
 
-Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). Basically, by going through our docs and following along, you will be:
+Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). For your first time, use this as a checklist to get started:
 
 1. Sign up for a [GitHub Account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/signing-up-for-a-new-github-account)
 2. Send a request to join the Saud-Learning-Services organization - email Alison or Marko who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team
