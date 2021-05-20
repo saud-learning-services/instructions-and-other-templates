@@ -27,16 +27,21 @@
 
 Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). For your first time, use this as a checklist to get started:
 
-1. Sign up for a [GitHub Account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/signing-up-for-a-new-github-account)
+#### Computer Setup
+1. [Create a free GitHub Account](https://github.com/join)
 2. Send a request to join the Saud-Learning-Services organization - email Alison or Marko who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team
 3. [Installing everything you need on your computer](docs/computer-setup.md)
-   - Anaconda Navigator
-   - GitHub Desktop
-   - (Git)
+   - a)[Download Anaconda Navigator](https://www.anaconda.com/products/individual#Downloads) _(recommended for most)_
+      - select the **64-Bit Graphical Installer** for your operating system. Note that some older Windows computer may need to install the **32-Bit Graphical Installer** (you can check [here](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d))
+   - [Download GitHub Desktop](https://desktop.github.com)
+   - [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
+
+#### Managing Projects
 4. Create a place for the projects to live: `Documents/GitHub/Sauder-Learning-Services/`
-5. [Cloning your first repo](docs/github-project-management.md) - setup-test👷
-6. Creating a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
-7. [Running your first project](docs/running-instructions.md)
+5. [Clone your first repo](docs/github-project-management.md) - setup-test👷
+6. Read about Updating a Project (GitHub Desktop) -> note, because you are downloading the most recent version, there is nothing to do yet - but be aware that you should "Fetch origin" whenever you are using a script in the future (in case there are changes made).  
+7. Create a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
+8. [Run your first project](docs/running-instructions.md)
    - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
 
 By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
@@ -49,7 +54,9 @@ Once you have walked through the instructions above, and ran your first project 
     - from https://github.com/saud-learning-services you can use the search for the tag "saud-ls-ops" or see Projects list below
     - clone each of the projects into your folder `Documents/GitHub/Sauder-Learning-Services/`
       - reminder [Cloning your first repo](docs/github-project-management.md)
+      - reminder - make sure you have been added to the Saud-Learning-Services organization (step #2 above) or you may not see all of the projects.
 3. Set up the [universal environment 🌎](docs/environment-setup.md#universal-environment-setup) which you can use to run any of the "saud-ls-ops" projects 
+4. Try out the universal environment with the [👷 setup-test project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#testing)
 
 ## Additional Resources
 
