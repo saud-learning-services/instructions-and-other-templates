@@ -23,18 +23,21 @@
 4. [Running Scripts](docs/running-instructions.md)
 5. [Updating the Environment](docs/updating-environments.md)
 
-### Use the documentation to get started if you are brand new
+### Ops Setup Part 1
+> Use the documentation to get started if you are brand new
 
-Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). For your first time, use this as a checklist to get started:
+Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). 
+
+For your first time, we recommend using the following as a checklist as you read and walk through the docs. 
 
 #### [Computer Setup](docs/computer-setup.md)
 1. [Create a free GitHub Account](https://github.com/join)
 2. Send a request to join the Saud-Learning-Services organization - email Alison or Marko who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team
 3. [Installing everything you need on your computer](docs/computer-setup.md)
-   - a)[Download Anaconda Navigator](https://www.anaconda.com/products/individual#Downloads) _(recommended for most)_
+   - a) [Download Anaconda Navigator](https://www.anaconda.com/products/individual#Downloads) _(recommended for most)_
       - select the **64-Bit Graphical Installer** for your operating system. Note that some older Windows computer may need to install the **32-Bit Graphical Installer** (you can check [here](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d))
-   - [Download GitHub Desktop](https://desktop.github.com)
-   - [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
+   - b) [Download GitHub Desktop](https://desktop.github.com)
+   - c) [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
 
 #### [Getting & Managing Projects](docs/github-project-management.md)
 4. Create a place for the projects to live: `Documents/GitHub/Sauder-Learning-Services/`
@@ -49,7 +52,7 @@ Throughout the documentation we have included 👷 as an indicator to follow alo
       - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
 By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
 
-### Ops Setup
+### Ops Setup Part 2
 Once you have walked through the instructions above, and ran your first project (setup-test), you can get your computer ready for running ls-ops scripts.
 
 1. Review steps 1-4 above - have you installed everything, joined everything, and created your place for projects to live?
