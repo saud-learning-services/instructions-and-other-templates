@@ -59,8 +59,8 @@ Once you have walked through the instructions above, and ran your first project 
 2. Clone the saud-ls-ops projects into your new directory `Documents/GitHub/Sauder-Learning-Services/`
     - from https://github.com/saud-learning-services you can use the search for the tag "saud-ls-ops" or see Projects list below
     - clone each of the projects into your folder `Documents/GitHub/Sauder-Learning-Services/`
-      - reminder [Cloning your first repo](docs/github-project-management.md)
-      - reminder - make sure you have been added to the Saud-Learning-Services organization (step #2 above) or you may not see all of the projects.
+      - ⚠️ [Cloning your first repo](docs/github-project-management.md)
+      - ⚠️ make sure you have been added to the Saud-Learning-Services organization (step #2 above) or you may not see all of the projects.
 3. Set up the [universal environment 🌎](docs/environment-setup.md#universal-environment-setup) which you can use to run any of the "saud-ls-ops" projects 
 4. Try out the universal environment with the [👷 setup-test project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#testing)
 
