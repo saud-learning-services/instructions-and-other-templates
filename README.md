@@ -46,8 +46,7 @@ Throughout the documentation we have included 👷 as an indicator to follow alo
 
 #### [Running Scripts](docs/running-instructions.md)
 10. [Run your first project](docs/running-instructions.md)
-   - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
-
+      - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
 By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
 
 ### Ops Setup
