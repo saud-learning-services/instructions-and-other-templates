@@ -60,6 +60,8 @@ In this section we'll discuss setting up environments. Each project comes with t
 
 Once this completes, you will have successfully set up your environment! Now you are ready to run the tool. The following section goes through how to setup a single environment for all projects. We recommend this method over creating individual environments for each tool, as it requires the least amount of maintanace.
 
+[➡️ Next: Running Instructions](running-instructions.md)
+
 ## Universal Environment Setup
 
 While each of our projects comes with thier own `environment.yml` file for setting a project-specific environment, we also offer a universal environment, called **canvas-universal-env**, that can be used to run _any_ of our projects that work with Canvas.
@@ -84,5 +86,3 @@ If you setup your universal environment correctly, you can use and update only t
 4. Select **Kernal** > **Restart & Run All**. The Jupyter Notebook may prompt you for some inputs but should otherwise run without errors.
 
 > ⚠️ Getting errors? Confused? Don't forget to contact the Canvas API team for support.
-
-[➡️ Next: Running Instructions](running-instructions.md)
