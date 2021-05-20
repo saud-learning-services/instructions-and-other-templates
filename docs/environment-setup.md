@@ -21,15 +21,18 @@ After downloading one of our projects for the first time, you'll want to start b
 In this section we'll discuss setting up environments. Each project comes with their own `environment.yml` file (like instructions for how to assemble the furniture). You can create environments for each project, or you can utilize a **universal environment** that can be used to run any of our tools - we discuss how to get this setup [below](#universal-environment-setup).
 
 ## Configuring Environments
+:white_check_mark: Follow all of the steps below in "Configuring Environments" you will come back to "Universal Environment Setup" a bit later if you are following the checklist. 
 
 1. Make sure your computer is [setup](computer-setup.md) to run our projects
+  > If you have been following along, this should be done!
 
 1. Clone the project you need (i.e. make a local copy) from our GitHub. See [here](github-project-management.md) for detailed instructions on getting and managing projects.
 
-   > 💡 We recommend cloning all of our projects into a single location like `.../Documents/GitHub/Sauder-Learning-Services`. It is important to recall where you are cloning to, as this is where you will find the `environment.yml` file (discussed below).
+   > 💡 We recommend cloning all of our projects into a single location like `.../Documents/GitHub/Sauder-Learning-Services`. It is important to recall where you are cloning to, as this is where you will find the `environment.yml` file (discussed below)
+   > If you are working through setup-test👷 and our docs, then this should be done! 
 
 1. Open Anaconda Navigator:
-
+ 
    1. Open **Anaconda Navigator** application
    2. Click on **Environments** (left panel)
    3. Click on **Import** (bottom)
