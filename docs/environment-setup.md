@@ -20,9 +20,8 @@ After downloading one of our projects for the first time, you'll want to start b
 
 In this section we'll discuss setting up environments. Each project comes with their own `environment.yml` file (like instructions for how to assemble the furniture). You can create environments for each project, or you can utilize a **universal environment** that can be used to run any of our tools - we discuss how to get this setup [below](#universal-environment-setup).
 
-:white_check_mark: Follow all of the steps below in "Configuring Environments" and then move on to Running Instructions (linked at the end). You will come back to "Universal Environment Setup" a bit later if you are following the checklist. 
-
 ## Configuring Environments
+:white_check_mark: Follow all of the steps below in "Configuring Environments" and then move on to Running Instructions (linked at the end). You will come back to "Universal Environment Setup" a bit later if you are following the checklist. 
 
 1. Make sure your computer is [setup](computer-setup.md) to run our projects
     > If you have been following along, this should be done!
