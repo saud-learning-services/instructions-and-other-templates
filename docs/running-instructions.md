@@ -17,7 +17,8 @@
 > ⚠️ All references to **the-project** should be the name of the script or project you are running.
 
 ## Running the Script
-
+:white_check_mark: Follow all of these steps if you are following the checklist!
+ 
 > ⚠️ Any of our tools that interact with the Canvas LMS will require you to generate a API access token. If the tool you're running does not work with Canvas, you can likely skip to Step 2. You can always refer to individual setup instructions on a project's GitHub page.
 
 There are two ways of inputting Canvas API tokens into our tools. Most of our tools will prompt you to copy and paste your token directly into Jupyter Notebook. However, some tools will have you paste your Canvas API token into a `.env` file. **Assume you will be pasting it into Jupyter Notebook, unless the GitHub page for the tool you're working with explicitely mentions a `.env`**
