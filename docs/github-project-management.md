@@ -87,13 +87,13 @@ Once downloaded, open the application. It should look something like this:
 </div>
 
 ### Create a local project folder
-💡 We recommend using `Documents/GitHub/Sauder-Learning-Services` to store all projects. If you haven't already, create a GitHub folder in Documents, and a Sauder-Learning-Services folder within. 
+:white_check_mark: We recommend using `Documents/GitHub/Sauder-Learning-Services` to store all projects. If you haven't already, create a GitHub folder in Documents, and a Sauder-Learning-Services folder within. 
 
 ### Downloading a Project (GitHub Desktop)
 
 There are several options for getting projects from https://github.com/saud-learning-services to your local machine. Below are two options based on where you want to start: You can either 1. Start from GitHub Desktop or 2. Start from GitHub Organization (i.e. https://github.com/saud-learning-services)
 
-#### 1. Start from GitHub Desktop
+#### :white_check_mark: 1. Start from GitHub Desktop
 Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
 
 Once finished, under **Clone a Repository**, select the **URL** tab
@@ -129,6 +129,8 @@ If you want to start from our GitHub organization at github.com/saud-learning-se
 </div>
 
 ### Updating a Project (GitHub Desktop)
+
+:white_check_mark: _Read this - but note it won't apply your first time downloading a project because everything will be up to date!_
 
 When we update a tool, we send those updates to GitHub where you can download or "fetch" them for your local copy.
 
