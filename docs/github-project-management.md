@@ -119,7 +119,7 @@ After selecting clone, you should be able to see the new project has appeared in
 > 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
 
 #### 2. Start from the GitHub Organization
-
+:white_check_mark: Read about the alternative (give it a try if you want). 
 If you want to start from our GitHub organization at github.com/saud-learning-services/, you can select the project that you need to clone. And then select Clone -> Open with GitHub Desktop. This will fill in the Repository URL, and the local path.
 
 > 💡 Double check the suggested Local Path! We suggest `.../Documents/GitHub/Sauder-Learning-Services` to store projects
