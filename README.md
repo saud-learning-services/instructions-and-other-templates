@@ -26,9 +26,9 @@
 ### Ops Setup Part 1
 > Use the documentation to get started if you are brand new
 
-Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). 
+Throughout the documentation we have included 👷 as an indicator to follow along with setup-test. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). 
 
-For your first time, we recommend using the following as a checklist as you read and walk through the docs. 
+For your first time, we recommend using the following as a checklist as you read and walk through the docs. You will notice :white_check_mark: in each of the docs that correspond to the steps listed below in Part 1. 
 
 #### [Computer Setup](docs/computer-setup.md)
 1. [Create a free GitHub Account](https://github.com/join)
