@@ -27,19 +27,29 @@
 
 Throughout the documentation we have included 👷 as an indicator to follow along. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). Basically, by going through our docs and following along, you will be:
 
-1. Making sure you have the right accounts (if you see this... you have an account!)
-2. [Installing everything you need on your computer](docs/computer-setup.md)
+1. Sign up for a [GitHub Account](https://docs.github.com/en/github/getting-started-with-github/signing-up-for-github/signing-up-for-a-new-github-account)
+2. Send a request to join the Saud-Learning-Services organization - email Alison or Marko who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team
+3. [Installing everything you need on your computer](docs/computer-setup.md)
    - Anaconda Navigator
    - GitHub Desktop
    - (Git)
-3. [Cloning your first repo](docs/github-project-management.md) - setup-test👷
-4. Creating a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
-5. Creating the [universal environment 🌎](docs/environment-setup.md#universal-environment-setup)
-6. [Running your first project](docs/running-instructions.md)
+4. Create a place for the projects to live: `Documents/GitHub/Sauder-Learning-Services/`
+5. [Cloning your first repo](docs/github-project-management.md) - setup-test👷
+6. Creating a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
+7. [Running your first project](docs/running-instructions.md)
    - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
-   - now try running setup-test again, but use the universal environment in Anaconda
 
 By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
+
+### Ops Setup
+Once you have walked through the instructions above, and ran your first project (setup-test), you can get your computer ready for running ls-ops scripts.
+
+1. Review steps 1-4 above - have you installed everything, joined everything, and created your place for projects to live?
+2. Clone the saud-ls-ops projects into your new directory `Documents/GitHub/Sauder-Learning-Services/`
+    - from https://github.com/saud-learning-services you can use the search for the tag "saud-ls-ops" or see Projects list below
+    - clone each of the projects into your folder `Documents/GitHub/Sauder-Learning-Services/`
+      - reminder [Cloning your first repo](docs/github-project-management.md)
+3. Set up the [universal environment 🌎](docs/environment-setup.md#universal-environment-setup) which you can use to run any of the "saud-ls-ops" projects 
 
 ## Additional Resources
 
@@ -55,4 +65,3 @@ By the end, you should be able to now clone any projects/repos that you need, an
 - [Canvas Subaccount Movement](https://github.com/saud-learning-services/subaccount-movement): Moves any Sauder course into a specific Canvas sub-account. Upon providing the necessary input, the script will locate the appropriate sub-account, migrate the course to it, and produce a CSV file detailing the courses and the sub-accounts.
 - [Canvas Quiz Response PDFs](https://github.com/saud-learning-services/quiz-response-pdfs): Pulls quiz data from Canvas to create PDF documents containing student answers to essay questions.
 - [Canvas Peer Reviews](https://github.com/saud-learning-services/canvas-peer-reviews): Create CSV tables containing peer review data; summarizing all students who've been assigned as assessors, who they are assessing and the results of any completed assessments
-- [Canvas Get Group CSV](https://github.com/saud-learning-services/group-csv): Used to extract a csv file of group names and associated student user IDs in any Canvas course
