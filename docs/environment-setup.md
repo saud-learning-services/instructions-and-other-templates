@@ -69,8 +69,9 @@ If you setup your universal environment correctly, you can use and update only t
 ### Installation
 
 1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates) project to your computer (Not sure how? Revisit [Managing Projects with Github](managing-projects-with-github.md)).
-2. In Anaconda Navigator, import the `universal-environment.yml` file in the `instructions-and-other-templates` folder (cloned from GitHub in Step 1)
-3. You should now see a new environment called **canvas-universal-env** in your environments list.
+> - clone it to the same place you're keeping all of the projects: 💡 `Documents/GitHub/Sauder-Learning-Services/`
+3. In Anaconda Navigator, import the `universal-environment.yml` file in the `instructions-and-other-templates` folder (cloned from GitHub in Step 1)
+4. You should now see a new environment called **canvas-universal-env** in your environments list.
 
 ### Testing
 
