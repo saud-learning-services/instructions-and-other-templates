@@ -40,15 +40,15 @@ For your first time, we recommend using the following as a checklist as you read
    - c) [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
 
 #### [Getting & Managing Projects](docs/github-project-management.md)
-4. Create a place for the projects to live: `Documents/GitHub/Sauder-Learning-Services/`
-5. [Clone your first repo](docs/github-project-management.md) - setup-test👷
-6. Read about Updating a Project (GitHub Desktop) -> note, because you are downloading the most recent version, there is nothing to do yet - but be aware that you should "Fetch origin" whenever you are using a script in the future (in case there are changes made).  
+4. [Create a place for the projects to live](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#create-a-local-project-folder): `Documents/GitHub/Sauder-Learning-Services/`
+5. [Clone your first repo](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#white_check_mark-1-start-from-github-desktop) - setup-test👷
+6. [Read about Updating a Project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#updating-a-project-github-desktop) (GitHub Desktop) -> note, because you are downloading the most recent version, there is nothing to do yet - but be aware that you should "Fetch origin" whenever you are using a script in the future (in case there are changes made).  
 
 #### [Environment Setup](docs/environment-setup.md)
-8. Create a [project-specific environment](environment-setup.md#configuring-environments) for setup-test
+7. Create a [project-specific environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) for setup-test
 
 #### [Running Scripts](docs/running-instructions.md)
-10. [Run your first project](docs/running-instructions.md)
+8. [Run your first project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/running-instructions.md#running-the-script)
       - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
 By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
 
@@ -56,10 +56,10 @@ By the end, you should be able to now clone any projects/repos that you need, an
 Once you have walked through the instructions above, and ran your first project (setup-test), you can get your computer ready for running ls-ops scripts.
 
 1. Review steps 1-4 above - have you installed everything, joined everything, and created your place for projects to live?
-2. Clone the saud-ls-ops projects into your new directory `Documents/GitHub/Sauder-Learning-Services/`
-    - from https://github.com/saud-learning-services you can use the search for the tag "saud-ls-ops" or see Projects list below
-    - clone each of the projects into your folder `Documents/GitHub/Sauder-Learning-Services/`
-      - ⚠️ [Cloning your first repo](docs/github-project-management.md)
+2. Clone all of the saud-ls-ops projects into your new directory `Documents/GitHub/Sauder-Learning-Services/`
+    - a) from https://github.com/saud-learning-services you can use the search for the tag "saud-ls-ops" or see Projects list below
+    - b) clone each of the projects into your folder `Documents/GitHub/Sauder-Learning-Services/`
+      - ⚠️ Reminder how to clone: [Cloning your first repo](docs/github-project-management.md)
       - ⚠️ make sure you have been added to the Saud-Learning-Services organization (step #2 above) or you may not see all of the projects.
 3. Set up the [universal environment 🌎](docs/environment-setup.md#universal-environment-setup) which you can use to run any of the "saud-ls-ops" projects 
 4. Try out the universal environment with the [👷 setup-test project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#testing)
