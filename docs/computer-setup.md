@@ -26,6 +26,7 @@
 
 > 💡 GitHub Desktop isn't necessary if you'd prefer to work in [Terminal](terminal-basics.md) (but make sure you have [Git](https://git-scm.com/downloads) installed)
 
+TEST COMMIT
 For managing project environments, we use [Anaconda](https://www.anaconda.com). We recommend the [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) app for anyone not comfortable working in Terminal.
 
 -  :white_check_mark: [Download Anaconda Navigator](https://www.anaconda.com/products/individual#Downloads) _(recommended for most)_
