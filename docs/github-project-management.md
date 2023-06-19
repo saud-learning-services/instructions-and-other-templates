@@ -194,7 +194,7 @@ Check to see what branch you are on
 
 - `$ git branch` (the starred branch is your curråent branch; type **q** to exit)
 
-If not on **main**, switch toå it
+If not on **main**, switch to it
 
 - `$ git checkout main`
 

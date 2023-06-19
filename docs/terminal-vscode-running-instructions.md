@@ -14,9 +14,9 @@
 
 > ⚠️ This method is for more advanced users who are willing to endure a text-based environment for running scripts (done through text commands like `$ python run_script.py`). We strongly recommend getting comfortable with the [standard way of running scripts](running-instructions.md) before trying out this method.
 
-> Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command
+> Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command.
 
-Before reading on, please make sure you've [setup your computer](computer-setup.md) and have reviewed the [terminal basics](terminal-basics). You'll also want to download an application called Visual Studio Code (VS Code):
+Before reading on, please make sure you've [setup your computer](computer-setup.md) and have reviewed the [terminal basics](terminal-basics.md). You'll also want to download an application called Visual Studio Code (VS Code):
 
 - [Download VS Code](https://code.visualstudio.com/download)
 

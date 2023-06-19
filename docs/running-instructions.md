@@ -12,7 +12,7 @@
   </p>
 </p>
 
-> Before you read on, ensure you've covered [Computer Setup](computer-setup.md), [Github Project Management](github-project-management.md) and [Environment Setup](environment-setup.md)
+> 💡 Before you read on, ensure you've covered [Computer Setup](computer-setup.md), [Github Project Management](github-project-management.md) and [Environment Setup](environment-setup.md)
 
 > ⚠️ All references to **the-project** should be the name of the script or project you are running.
 
@@ -49,14 +49,13 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
    - Open the `.env` file with any application that can edit text _(like TextEdit or Notepad)_ Paste the token you copied from Canvas into the `.env`file (There will be an indicator in the file as to exactly where you should paste it)
    - Save the `.env` file after you've pasted in your token
 
-2. Open **Anaconda Navigator**, select the ▶ button next to **the-project** to run your environment. Then select **Open with Jupyter Notebook**, and that will launch the browser.
+2. Open **VS Code**, and then open the folder where your project is located. The folder should contain an environment created using the environment.yml file in the same directory. Then select **Terminal > New Terminal** on the top menu, which opens the terminal. Then run the command `jupyter notebook` or `jupyter-notebook` in terminal, and that will launch the browser.
 
-   > - 💡 If you're running via the universal environment, click the ▶ button next to **canvas-universal-env** instead (but make sure the project supports it)
-   >    - remember, all of our "saud-ls-ops" repositories should work with the universal environment! 
-   > - ⚠️ Don't see the environment you are looking for? Double check that you have imported that environment in the [Configuring Environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) step.
+   > - 💡 It would be smart to run via the universal environment given that all of our "saud-ls-ops" repositories should work with the universal environment!
+   > - ⚠️ Not working? Double check that you have imported the desired environment in the [Configuring Environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) step.
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-run.png" alt="Logo" width="600">
+      <img src="../imgs/setup-test-command-ex.png" alt="Logo" width="600">
    </div>
 
 3. In the browser, navigate to the **the-project** project folder and select **the-project.ipynb**
