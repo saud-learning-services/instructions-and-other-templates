@@ -13,26 +13,20 @@ You will occasionally have to update your environment, either due to updates in 
 
 > ⚠️ If you're working with a project-level environment. Make sure you have the most up-to-date version of that project on your machine (i.e. you've "Fetched Origin" on GitHub Desktop)
 
-## Anaconda Navigator
+> Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command.
 
-### Removing the OLD environment
+## Instructions for Updating in VS Code Terminal
 
-1. In **Anaconda** -> **Environments**
-2. Select the environment to remove (same as project-name)
-3. Select **Remove**
-4. Confirm
+1. Open **VS Code**
+2. Since you should have the most up-to-date version of your project/repo on your machine, open the project/repo folder. You can open it from the top menu via **File > Open Folder**
+3. Launch a new bash terminal from the top menu via **Terminal > New Terminal**
+4. Run the command `$ conda remove {environment-name}` which removes the old environment
+> 👷 eg. for setup-test, you would run `$ conda remove setup-test`
+5. Run the command `$ conda env create -f environment.yml`
+> 👷 eg. for setup-test, you would run `$ conda env create -f environment.yml`
+6. Run the command `$ conda activate <environment-name>` to activate the new environment.
+> 👷 eg. for setup-test, you would run `$ conda activate setup-test`
 
-![](../imgs/anaconda/markup_anaconda_remove_env.png)
+If you couldn't already tell, the steps basically consist of removing the old environment and then importing a new environment, not exaclty updating the same environment in place. If you need help importing the new environment (steps 5 & 6), then refer to [Environment Setup](environment-setup.md).
 
-### Importing the NEW environment
-
-1. Open **Anaconda Navigator** application
-2. Click on **Environments** (left panel)
-3. Click on **Import** (bottom)
-4. A small window will open, navigate to and select the `environment.yml` you need
-   - ⚠️ If you are setting up the universal environment, it will be located where you cloned the `instructions-and-other-templates` project and will be called `universal-environment.yml`
-
-## Terminal
-
-1. `$ conda remove {environment-name}`
-2. `$ conda env create -f {path/to/environment.yml}`
+> ⚠️ Getting errors? Confused? Don't forget to contact the Canvas API team for support.

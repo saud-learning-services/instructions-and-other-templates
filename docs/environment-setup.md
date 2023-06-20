@@ -16,6 +16,8 @@
 
 > ⚠️ All references to **the-project** should be the name of the tool you are running.
 
+> Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command.
+
 After downloading one of our projects for the first time, you'll want to start by getting your environment set up. Think of the files you download from GitHub as disassembled furniture, and environments as a way of putting the furniture together. Like assembling furniture, this is done _once_ and isn't repeated every time you want to use it.
 
 In this section we'll discuss setting up environments. Each project comes with their own `environment.yml` file (like instructions for how to assemble the furniture). You can create environments for each project, or you can utilize a **universal environment** that can be used to run any of our tools - we discuss how to get this setup [below](#universal-environment-setup).
@@ -31,32 +33,35 @@ In this section we'll discuss setting up environments. Each project comes with t
    > 💡 We recommend cloning all of our projects into a single location like `.../Documents/GitHub/Sauder-Learning-Services`. It is important to recall where you are cloning to, as this is where you will find the `environment.yml` file (discussed below)
    > If you are working through setup-test👷 and our docs, then this should be done! 
 
-3. Open Anaconda Navigator:
+3. Open a new Bash terminal in Visual Studio Code:
  
-   1. Open **Anaconda Navigator** application
-   2. Click on **Environments** (left panel)
-   3. Click on **Import** (bottom)
+   1. Open **VS Code** application
+   2. Click on **Terminal > New Terminal** (top menu)
+   3. Select **bash** from the dropdown menu (top right in terminal)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-env-import.png" alt="Logo" width="600">
+      <img src="../imgs/sauder-ops-guide/vscode-terminal.png" alt="Logo" width="600">
    </div>
 
-4. Import Environment
+4. Let's set up the environment so that we can run our scripts and then launch their jupyter notebooks. We'll use 👷setup-test for reference to walk you through the steps.
 
-   1. A small window will open, navigate to the **the-project** folder on your computer and select the containing file: `environment.yml`
+   1. Run `$ conda env create -f environment.yml` in terminal from the directory containing the `environment.yml` file. This command creates an environment using the `environment.yml` file in the current directory.
 
-      > ⚠️ Do not manually enter the project name. This will automatically be filled in when you select the `environment.yml` and will be the same name as the project foler (i.e. the-project)
+      > 💡 You can navigate to the directory containing `environment.yml` in one of two ways:
+         > - Option 1: Open the folder in VS Code prior to launching a new terminal.
+         > - Option 2: Navigate to the folder directly from terminal. Refer to [Terminal Basics](terminal-basics.md) if you need help doing this.
+
+      > 👷 Working through the setup test? The environment setup-test will be created from `environment.yml` contained in your local **setup-test** folder.
+
+      > ⚠️ Do not worry about the project name. The environments share the project name and will be the same name as the project folder (i.e. the environment is named 👷setup-test)
 
       > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field matches your tool name after importing the yml file
 
-      > 👷 Working through the setup test? Import the `environment.yml` contained in your local **setup-test** folder.
+   1. Run the environment we just made using the command `$ conda activate <environment-name>` in terminal. Wait for installation to complete.
+      > 💡 This may take some time (shouldn't be any more than 20 minutes though). Make yourself a coffee and kick your feet up~
 
-   1. Select **Import** and wait for installation to complete
-      > 💡 This may take some time (upwards of 20 minutes). Note that this process can be sped up by working in Terminal instead of Anaconda-Navigator, if comfortable.
+      > 👷 In the case of setup-test, the command we run is `conda activate setup-test`
 
-   <div align="center">
-      <img src="../imgs/sauder-ops-guide/anaconda-import-box.png" alt="Logo" width="600">
-   </div>
 
 Once this completes, you will have successfully set up your environment! Now you are ready to run the tool. The following section goes through how to setup a single environment for all projects. We recommend this method over creating individual environments for each tool, as it requires the least amount of maintanace.
 
@@ -75,12 +80,13 @@ If you setup your universal environment correctly, you can use and update only t
 
 1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates) project to your computer (Not sure how? Revisit [Managing Projects with Github](github-project-management.md)).
 > - clone it to the same place you're keeping all of the projects: 💡 `Documents/GitHub/Sauder-Learning-Services/`
-3. In Anaconda Navigator, import the `universal-environment.yml` file in the `instructions-and-other-templates` folder (cloned from GitHub in Step 1)
-4. You should now see a new environment called **canvas-universal-env** in your environments list.
+2. Launch VS Code, open the project you just cloned from GitHub, and launch a new Bash terminal. Need help? Refer to the **Configuring Environments** section a few scrolls above.
+3. In terminal, run the commands `$ conda env create -f universal-environment.yml` followed by `$ conda activate instructions-and-other-templates`
+> - Be patient, you may have to wait a while for these two commands to run, especially the second one.
 
 ### Testing
 
-1. Select the ▶ button next to **canvas-universal-env**, then **Open with Jupyter Notebook**. Your browser should open automatically.
+1. Open **VS Code**, then launch a new bash terminal via **Terminal > New Terminal**. Run the command `jupyter notebook` or `jupyter-notebook`. This should open the browser automatically.
 2. Navigate to a project that supports the universal environment (👷 like setup-test for example) and select the jupyter notebook (.ipynb file)
 3. Read the instructions in the notebook to see if any additional steps are needed (and if so complete those steps)
 4. Select **Kernal** > **Restart & Run All**. The Jupyter Notebook may prompt you for some inputs but should otherwise run without errors.
