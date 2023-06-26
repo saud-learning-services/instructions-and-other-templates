@@ -51,8 +51,8 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 2. Open **VS Code**, and then open the folder where your project is located. The folder should contain an environment created using the environment.yml file in the same directory. Then select **Terminal > New Terminal** on the top menu, which opens the terminal. Then run the command `jupyter notebook` or `jupyter-notebook` in terminal, and that will launch the browser.
 
-   > - 💡 It would be smart to run via the universal environment given that all of our "saud-ls-ops" repositories should work with the universal environment!
-   > - ⚠️ Not working? Double check that you have imported the desired environment in the [Configuring Environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) step.
+   > 💡 It would be smart to run via the universal environment given that all of our "saud-ls-ops" repositories should work with the universal environment!
+   > ⚠️ Not working? Double check that you have imported the desired environment in the [Configuring Environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) step.
 
    <div align="center">
       <img src="../imgs/setup-test-command-ex.png" alt="Logo" width="600">
@@ -78,8 +78,10 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 > 👷 Working on the setup-test? At this point you should see a printout like "Hi {your-name}" in text art. If you aren't seeing this, the notebook will print an error giving you an indication of what is wrong. If your problem persists, contact someone on the Sauder LS, Canvas API team for support.
 
-> 👷 Setup-test worked correctly? Let's try the other method of inputting tokens. Stop your environment, delete the `.env` file and restart the whole thing again. After selecting **Kernal** > **Restart & Run All** the Jupyter Notebook will ask you to provide your token as input (This is the more common way you'll see it done but it's good to be familiar with both methods!)
+> 👷 Setup-test worked correctly? Let's try the other method of inputting tokens. Stop your environment, delete the `.env` file and restart the whole thing again. After selecting **Kernel** > **Restart & Run All** the Jupyter Notebook will ask you to provide your token as input (This is the more common way you'll see it done but it's good to be familiar with both methods!)
 
 6. Once you are done (if you are running in a Jupyter Notebook) a good practice is to **restart the kernel and clear all output**. Kernel -> Restart & Clear Output. Then you can exit the browser.
+
+> ⚠️ Getting errors? Confused? Don't forget to contact the Canvas API team for support.
 
 [➡️ Next: Updating Environments](updating-environments.md)

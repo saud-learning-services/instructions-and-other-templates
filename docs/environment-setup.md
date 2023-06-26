@@ -40,7 +40,7 @@ In this section we'll discuss setting up environments. Each project comes with t
    3. Select **bash** from the dropdown menu (top right in terminal)
 
    <div align="center">
-      <img src="../imgs/sauder-ops-guide/vscode-terminal.png" alt="Logo" width="600">
+      <img src="../imgs/vscode-terminal.png" alt="Logo" width="600">
    </div>
 
 4. Let's set up the environment so that we can run our scripts and then launch their jupyter notebooks. We'll use 👷setup-test for reference to walk you through the steps.
@@ -52,8 +52,6 @@ In this section we'll discuss setting up environments. Each project comes with t
          > - Option 2: Navigate to the folder directly from terminal. Refer to [Terminal Basics](terminal-basics.md) if you need help doing this.
 
       > 👷 Working through the setup test? The environment setup-test will be created from `environment.yml` contained in your local **setup-test** folder.
-
-      > ⚠️ Do not worry about the project name. The environments share the project name and will be the same name as the project folder (i.e. the environment is named 👷setup-test)
 
       > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field matches your tool name after importing the yml file
 
@@ -73,16 +71,16 @@ While each of our projects comes with thier own `environment.yml` file for setti
 
 If you setup your universal environment correctly, you can use and update only that environment instead of managing one independently for each project.
 
-> - ⚠️ Every project that supports the universal environment will say **supports universal environment 🌎** at the top of its GitHub page.
-> - 💡 Recommended for Operations team
+> ⚠️ Every project that supports the universal environment will say **supports universal environment 🌎** at the top of its GitHub page.
+> 💡 Recommended for Operations team
 
 ### Installation
 
 1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates) project to your computer (Not sure how? Revisit [Managing Projects with Github](github-project-management.md)).
-> - clone it to the same place you're keeping all of the projects: 💡 `Documents/GitHub/Sauder-Learning-Services/`
+> 💡 Clone the project to the same place you're keeping all of the projects: `Documents/GitHub/Sauder-Learning-Services/`
 2. Launch VS Code, open the project you just cloned from GitHub, and launch a new Bash terminal. Need help? Refer to the **Configuring Environments** section a few scrolls above.
 3. In terminal, run the commands `$ conda env create -f universal-environment.yml` followed by `$ conda activate instructions-and-other-templates`
-> - Be patient, you may have to wait a while for these two commands to run, especially the second one.
+> Be patient, you may have to wait a while for these two commands to run, especially the second one.
 
 ### Testing
 

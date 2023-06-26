@@ -35,7 +35,7 @@
 
 - :white_check_mark: [Download Miniconda](https://docs.conda.io/en/latest/miniconda.html) but make sure it's the right version for your specific device! After the download has finished, run the installer and accept the **default configuration** for all pages.
 <div align="center">
-    <img src="../imgs/miniconda_installation.png" alt="Logo" width="600">
+    <img src="../imgs/miniconda-installation.png" alt="Logo" width="600">
 </div>
 
 Once Miniconda is installed, open the Start Menu and search for the program called “Anaconda Prompt (miniconda3)”. When this opens you will see a prompt similar to `(base) C:\Users\your_name`. Type the following to check that your Python installation is working:
@@ -43,14 +43,15 @@ Once Miniconda is installed, open the Start Menu and search for the program call
 - :white_check_mark: run the command `conda --version` (a version number should print out)
 - If the installation was successful, the output should look similar to this:
 <div align="center">
-    <img src="../imgs/anaconda_prompt_check.png" alt="Logo" width="600">
+    <img src="../imgs/anaconda-prompt-check.png" alt="Logo" width="600">
 </div>
+
 > 💡If you get any error outputs, recheck if you downloaded the wrong version of Miniconda for your device. Otherwise, contact the Sauder Canvas API Team for for support.
 
 We can make the Anaconda Prompt available from the Git Bash terminal by default, which is what we will be using most of the time. Open the “Anaconda Prompt (miniconda3)” again and try this to configure Git Bash:
 - :white_check_mark: run the command `conda init bash` which should look similar to this:
 <div align="center">
-    <img src="../imgs/anaconda_prompt_check2.png" alt="Logo" width="500">
+    <img src="../imgs/conda-initialize-bash.png" alt="Logo" width="500">
 </div>
 
 Visual Studio Code (more commonly known as VS Code) is a popular code editor allowing us to write new code, modify existing code, or run command line tasks in its [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal). All our projects are built to run in both Jupyter notebooks and directly in terminal. Follow the steps below to download and configure VS Code:
@@ -59,6 +60,7 @@ Visual Studio Code (more commonly known as VS Code) is a popular code editor all
 <div align="center">
     <img src="../imgs/where-vscode-terminal.png" alt="Logo" width="600">
 </div>
+
 - :white_check_mark: (still working in VS Code Bash terminal) Run the command `$ conda install jupyter` and say yes/y to all configuration options. This allows users to work with Jupyter Notebook and other Jupyter-related components within your Conda environment.
 
 > 💡 If anything is still unclear regarding the VS Code setup, refer to [Running Scripts with Terminal & Visual Studio Code](terminal-vscode-running-instructions.md). If any errors have popped up, go through previous steps to see if you configured Git Bash correctly when working in the Anaconda Prompt (miniconda3) window. Otherwise, contact the Sauder Canvas API Team for support.
