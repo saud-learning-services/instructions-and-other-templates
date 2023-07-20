@@ -37,7 +37,7 @@ In this section we'll discuss setting up environments. Each project comes with t
  
    1. Open **VS Code** application
    2. Click on **Terminal > New Terminal** (top menu)
-   3. Select **bash** from the dropdown menu (top right in terminal)
+   3. Select **bash** or **Git Bash** from the dropdown menu (top right in terminal)
 
    <div align="center">
       <img src="../imgs/vscode-terminal.png" alt="Logo" width="600">
@@ -48,30 +48,31 @@ In this section we'll discuss setting up environments. Each project comes with t
    1. Run `$ conda env create -f environment.yml` in terminal from the directory containing the `environment.yml` file. This command creates an environment using the `environment.yml` file in the current directory.
 
       > 💡 You can navigate to the directory containing `environment.yml` in one of two ways:
-         > - Option 1: Open the folder in VS Code prior to launching a new terminal.
-         > - Option 2: Navigate to the folder directly from terminal. Refer to [Terminal Basics](terminal-basics.md) if you need help doing this.
+         > - Option 1: Open the folder containing `environment.yml` in VS Code prior to launching a new terminal.
+         > - Option 2: Navigate to the folder containing `environment.yml` directly from terminal. Refer to [Terminal Basics](terminal-basics.md) if you need help doing this.
 
       > 👷 Working through the setup test? The environment setup-test will be created from `environment.yml` contained in your local **setup-test** folder.
 
-      > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field matches your tool name after importing the yml file
+      > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field matches your tool name after importing the yml file.
 
-   1. Run the environment we just made using the command `$ conda activate <environment-name>` in terminal. Wait for installation to complete.
-      > 💡 This may take some time (shouldn't be any more than 20 minutes though). Make yourself a coffee and kick your feet up~
+   1. Activate the environment we just made using the command `$ conda activate <environment-name>` in terminal. Wait for installation to complete.
+      > 💡 This may take some time (shouldn't be any longer than 20 minutes though). Make yourself a coffee and kick your feet up~
 
-      > 👷 In the case of setup-test, the command we run is `conda activate setup-test`
+      > 👷 In the case of setup-test, the command we run is `conda activate setup-test` since **setup-test** is the environment name created in the previous step.
 
 
-Once this completes, you will have successfully set up your environment! Now you are ready to run the tool. The following section goes through how to setup a single environment for all projects. We recommend this method over creating individual environments for each tool, as it requires the least amount of maintanace.
+Once this completes, you will have successfully set up your environment! Now you are ready to run the tool. The following section goes through how to set up a single environment for all projects. We recommend this method over creating individual environments for each tool, as it requires the least amount of maintanace.
 
 [➡️ Next: Running Instructions](running-instructions.md)
 
 ## Universal Environment Setup
 
-While each of our projects comes with thier own `environment.yml` file for setting a project-specific environment, we also offer a universal environment, called **canvas-universal-env**, that can be used to run _any_ of our projects that work with Canvas.
+While each of our projects comes with their own `environment.yml` file for setting a project-specific environment, we also offer a universal environment, called **canvas-universal-env**, that can be used to run _any_ of our projects that work with Canvas.
 
 If you setup your universal environment correctly, you can use and update only that environment instead of managing one independently for each project.
 
 > ⚠️ Every project that supports the universal environment will say **supports universal environment 🌎** at the top of its GitHub page.
+
 > 💡 Recommended for Operations team
 
 ### Installation
@@ -84,9 +85,9 @@ If you setup your universal environment correctly, you can use and update only t
 
 ### Testing
 
-1. Open **VS Code**, then launch a new bash terminal via **Terminal > New Terminal**. Run the command `jupyter notebook` or `jupyter-notebook`. This should open the browser automatically.
-2. Navigate to a project that supports the universal environment (👷 like setup-test for example) and select the jupyter notebook (.ipynb file)
-3. Read the instructions in the notebook to see if any additional steps are needed (and if so complete those steps)
-4. Select **Kernal** > **Restart & Run All**. The Jupyter Notebook may prompt you for some inputs but should otherwise run without errors.
+1. Open **VS Code**, then launch a new bash terminal from the top menu via **Terminal > New Terminal**. Run the command `$ jupyter notebook` or `$ jupyter-notebook`. This should open the browser automatically.
+2. Navigate to a project that supports the universal environment (👷 like setup-test for example) and select the jupyter notebook (.ipynb file).
+3. Read the instructions in the notebook to see if any additional steps are needed, and if so, complete those steps.
+4. Select **Kernel** > **Restart & Run All**. The Jupyter Notebook may prompt you for some inputs but should otherwise run without errors.
 
 > ⚠️ Getting errors? Confused? Don't forget to contact the Canvas API team for support.

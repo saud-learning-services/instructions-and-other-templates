@@ -20,14 +20,14 @@
 > - A tool for getting/updating projects
 > - An environment to run it in
 
-[GitHub](https://github.com) is our tool for distributing projects and managing updates. We discuss GitHub in more detail in the next section ([managing projects with GitHub](github-project-management.md)). For now you'll need to:
+[GitHub](https://github.com) is our tool for distributing projects and managing updates. We discuss GitHub in more detail in a later section ([Managing Projects with GitHub](github-project-management.md)). For now you'll need to:
 
 -  :white_check_mark: [Create a free GitHub Account](https://github.com/join)
 -  :white_check_mark: _For LS-Ops:_ Contact someone on the Canvas API team to be added to the saud-learning-services/ls-ops team on GitHub (you'll need this to access certain projects)
 -  :white_check_mark: [Download GitHub Desktop](https://desktop.github.com)
 
-**This step is highly recommended to make life easier** GitHub Desktop isn't necessary if you'd prefer to work in [Terminal](terminal-basics.md) - but make sure you have [Git](https://git-scm.com/downloads) installed! Note that installing Git comes with Git Bash, a commonly used command-line interface (CLI). You won't have to worry about that information though, just follow the steps below.
-- :white_check_mark: install the latest version of [Git](https://git-scm.com/downloads)
+**This step is highly recommended to make life easier!** GitHub Desktop isn't necessary if you'd prefer to work in [Terminal](terminal-basics.md) - but make sure you have [Git](https://git-scm.com/downloads) installed! Note that installing Git comes with Git Bash, a commonly used command-line interface (CLI). You won't have to worry about that information though, just follow the steps below.
+- :white_check_mark: Install the latest version of [Git](https://git-scm.com/downloads)
 
 > 💡Git Bash offers a more consistent experience across different operating systems (Windows, macOS, Linux) and offers additional features and capabilities compared to the default Windows Command Prompt. In other words, you should really install Git!
 
@@ -38,9 +38,9 @@
     <img src="../imgs/miniconda-installation.png" alt="Logo" width="600">
 </div>
 
-Once Miniconda is installed, open the Start Menu and search for the program called “Anaconda Prompt (miniconda3)”. When this opens you will see a prompt similar to `(base) C:\Users\your_name`. Type the following to check that your Python installation is working:
-- :white_check_mark: run the command `python --version` (a version number should print out)
-- :white_check_mark: run the command `conda --version` (a version number should print out)
+Once Miniconda is installed, open the Start Menu. Typically, you can find the menu button along the top or bottom of your screen in the form of the Windows logo or Apple logo. Search for the program called _Anaconda Prompt (miniconda3)_. When this opens you will see a prompt similar to `(base) C:\Users\your_name`. Type the following to check that your Python installation is working:
+- :white_check_mark: Run the command `python --version` (a version number should print out)
+- :white_check_mark: Run the command `conda --version` (a version number should print out)
 - If the installation was successful, the output should look similar to this:
 <div align="center">
     <img src="../imgs/anaconda-prompt-check.png" alt="Logo" width="600">
@@ -49,7 +49,7 @@ Once Miniconda is installed, open the Start Menu and search for the program call
 > 💡If you get any error outputs, recheck if you downloaded the wrong version of Miniconda for your device. Otherwise, contact the Sauder Canvas API Team for for support.
 
 We can make the Anaconda Prompt available from the Git Bash terminal by default, which is what we will be using most of the time. Open the “Anaconda Prompt (miniconda3)” again and try this to configure Git Bash:
-- :white_check_mark: run the command `conda init bash` which should look similar to this:
+- :white_check_mark: Run the command `conda init bash` which should look similar to this:
 <div align="center">
     <img src="../imgs/conda-initialize-bash.png" alt="Logo" width="500">
 </div>
@@ -58,10 +58,10 @@ Visual Studio Code (more commonly known as VS Code) is a popular code editor all
 - :white_check_mark: [Download Visual Studio Code](https://code.visualstudio.com/download)
 - :white_check_mark: Launch VS Code, then launch a new terminal in VS Code. Do this by selecting from the top menu **Terminal > New Terminal**. Select the (Git) Bash command-line interface for the terminal (top right in the photo below). Then, run the commands `$ git --version` and `$ conda --version` (version numbers should print out). The end result should look similar to this:
 <div align="center">
-    <img src="../imgs/where-vscode-terminal.png" alt="Logo" width="600">
+    <img src="../imgs/vscode-terminal.png" alt="Logo" width="600">
 </div>
 
-- :white_check_mark: (still working in VS Code Bash terminal) Run the command `$ conda install jupyter` and say yes/y to all configuration options. This allows users to work with Jupyter Notebook and other Jupyter-related components within your Conda environment.
+- :white_check_mark: (still working in VS Code Bash terminal) Run the command `$ conda install jupyter` and respond with `yes` or `y` to all configuration options. This allows users to work with Jupyter Notebook and other Jupyter-related components within your Conda environment.
 
 > 💡 If anything is still unclear regarding the VS Code setup, refer to [Running Scripts with Terminal & Visual Studio Code](terminal-vscode-running-instructions.md). If any errors have popped up, go through previous steps to see if you configured Git Bash correctly when working in the Anaconda Prompt (miniconda3) window. Otherwise, contact the Sauder Canvas API Team for support.
 

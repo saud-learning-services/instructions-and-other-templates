@@ -19,6 +19,7 @@ You will occasionally have to update your environment, either due to updates in 
 
 ## Instructions for Updating in VS Code Terminal
 
+# HEY BRYAN U SHOULD ADD CHECK MARKS HERE
 1. Open **VS Code**
 2. Since you should have the most up-to-date version of your project/repo on your machine, open the project/repo folder. You can open it from the top menu via **File > Open Folder**
 3. Launch a new bash terminal from the top menu via **Terminal > New Terminal**

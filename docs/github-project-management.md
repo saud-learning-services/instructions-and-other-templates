@@ -23,8 +23,6 @@
 - [Why Use It?](#why-use-it)
 - [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop)
   - [Downloading a Project (GitHub Desktop)](#downloading-a-project-github-desktop)
-    - [Start from GitHub Desktop](#start-from-github-desktop)
-    - [Start from the GitHub Organization](#start-from-the-github-organization)
   - [Updating a Project (GitHub Desktop)](#updating-a-project-github-desktop)
 - [(Optional) Managing GitHub Projects Using Terminal](#optional-managing-github-projects-using-terminal)
   - [Downloading a Project (Terminal)](#downloading-a-project-terminal)
@@ -41,7 +39,7 @@ GitHub is a website that allows people to share and collaborate on software proj
 
 ## Why Use It?
 
-GitHub helps us with version control. Crucially, it'll help us ensure that everyone is using the most up-to-date version of our tools. It will also help us respond to problems faster and send fixed code back to our users without creating any kind of duplication or confusion around which version is correct.
+GitHub helps us with version control. Crucially, it'll help us ensure that everyone is using the most up-to-date versions of our tools. It will also help us respond to problems faster and send fixed code back to our users without creating any kind of duplication or confusion around which version is correct.
 
 _Here's a scenario we're trying to avoid..._
 
@@ -59,9 +57,9 @@ Now over time, we make improvements to the tool, and let you know we've posted v
 
 This has a lot of downsides:
 
-- it makes it hard to keep track of which version is the "right" version
-- data can get lost or forgotten in folders of previous versions
-- users can miss crucial updates
+- It makes it hard to keep track of which version is the "right" version
+- Data can get lost or forgotten in folders of previous versions
+- Users can miss crucial updates
 
 GitHub solves this by allowing us all to host all our tools online and have everybody connect to the same "folder in the cloud" so to speak. This way everyone can be sure they're on the latest version of the code and any changes to the code can reach everybody.
 
@@ -78,7 +76,7 @@ First, you'll need a GitHub account (Don't have one? [Create one](https://github
 
 > 💡 For any Learning Services staff, get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
 
-GitHub Desktop is a application that lets us download and contribute to with projects hosted on GitHub. If not already downloaded, go [here](https://desktop.github.com/)
+GitHub Desktop is a application that lets us download and contribute to with projects hosted on GitHub. If not already downloaded, go [here](https://desktop.github.com/).
 
 Once downloaded, open the application. It should look something like this:
 
@@ -87,13 +85,18 @@ Once downloaded, open the application. It should look something like this:
 </div>
 
 ### Create a local project folder
-:white_check_mark: We recommend using `Documents/GitHub/Sauder-Learning-Services` to store all projects. If you haven't already, create a GitHub folder in Documents, and a Sauder-Learning-Services folder within. 
+:white_check_mark: We recommend using `Documents/GitHub/Sauder-Learning-Services` to store all projects. If you haven't already, create a GitHub folder in Documents, and a Sauder-Learning-Services folder within.
+
+- Documents can be easily found in the File Explorer (Windows) or Finder (macOS) as it is one of the default user directories.
 
 ### Downloading a Project (GitHub Desktop)
 
-There are several options for getting projects from https://github.com/saud-learning-services to your local machine. Below are two options based on where you want to start: You can either 1. Start from GitHub Desktop or 2. Start from GitHub Organization (i.e. https://github.com/saud-learning-services)
+There are several options for getting projects from [Sauder LS repositories](https://github.com/saud-learning-services) to your local machine. Below are two options based on where you want to start. You can either:
+- a. Start from GitHub Desktop OR
+- b. Start from GitHub Organization (i.e. [a Sauder LS repository](https://github.com/saud-learning-services))
+Your choice! There is no right or wrong, and both choices accomplish the same task.
 
-#### :white_check_mark: 1. Start from GitHub Desktop
+#### :white_check_mark: a. Start from GitHub Desktop
 Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
 
 Once finished, under **Clone a Repository**, select the **URL** tab
@@ -104,7 +107,7 @@ Once finished, under **Clone a Repository**, select the **URL** tab
 
 In the top input (marked in green), enter the GitHub URL of the project you are trying to get. To find this, visit a project page on GitHub and copy the link as seen below (click "Code" then clipboard icon):
 
-> 👷 Working through the setup test? Visit that project and grab the URL like described above - [Link to test project](https://github.com/saud-learning-services/setup-test)
+> 👷 Working through the setup test? Visit that project and copy the URL as described above: [link to setup test repository](https://github.com/saud-learning-services/setup-test)
 
 <div align="center">
     <img src="../imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
@@ -118,7 +121,7 @@ After selecting clone, you should be able to see the new project has appeared in
 
 > 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
 
-#### 2. Start from the GitHub Organization
+#### b. Start from the GitHub Organization
 > :white_check_mark: Read about the alternative (give it a try if you want). 
 
 If you want to start from our GitHub organization at github.com/saud-learning-services/, you can select the project that you need to clone. And then select Clone -> Open with GitHub Desktop. This will fill in the Repository URL, and the local path.
@@ -135,7 +138,7 @@ If you want to start from our GitHub organization at github.com/saud-learning-se
 
 When we update a tool, we send those updates to GitHub where you can download or "fetch" them for your local copy.
 
-To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **main** and click **Fetch Origin**
+To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **main** or **master** and click **Fetch Origin**
 
 <div align="center">
     <img src="../imgs/github_desktop/fetch-origin-github-desktop.png" alt="Logo" width="800">
@@ -161,21 +164,21 @@ Terminal is a good way of managing GitHub projects if you are:
 
 > It is also an excellent way to be the envy of all your friends as you'll look like some kind of computer genius, with capabilities nothing short of magic-like [🧙‍♀️](https://tenor.com/view/clapping-harry-potter-applause-smile-happy-gif-5297465)
 
-Before reading on, you'll want to have read [terminal basics](./terminal-basics.md)
+Before reading on, you'll want to have read [terminal basics](./terminal-basics.md).
 
-You'll also want to make sure that you have **Git** installed and an account on **GitHub** (the two often get confused, however they're different things)
+You'll also want to make sure that you have **Git** installed and an account on **GitHub** (the two often get confused, however they're different things):
 
 - [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [Create GitHub Account](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/signing-up-for-a-new-github-account) and let us know you need to join the saud-learning-services organization
 
 ### Downloading a Project (Terminal)
-> Optional for LS Ops
+Keep in mind that this is **OPTIONAL** for LS Ops!
 
-Using the `cd` command, navigate to a folder where you'd like to store and run the project. We recommend keeping all Sauder LS projects in a single folder for ease of management
+Using the `cd` command, navigate to a folder where you'd like to store and run the project. 
 
-> 💡 Something like `.../Documents/GitHub/Sauder-Learning-Services`
+> 💡 We recommend keeping all Sauder LS projects in a single folder for ease of management. Something like `.../Documents/GitHub/Sauder-Learning-Services` will do the trick.
 
-Once you've navigated to the folder, you'll want to **clone** the project into it. This can be done using with:
+Once you've navigated to the folder, you'll want to **clone** the project into it. This can be done using with running this command in terminal:
 
 `$ git clone <URL>` (where `<URL>` is HTTPS link copied from the GitHub repo)
 
@@ -192,7 +195,7 @@ Using the `cd` command, navigate to the folder where your copy of the project is
 
 Check to see what branch you are on
 
-- `$ git branch` (the starred branch is your curråent branch; type **q** to exit)
+- `$ git branch` (the starred branch is your current branch; type **q** to exit)
 
 If not on **main**, switch to it
 
