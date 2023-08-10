@@ -4,7 +4,7 @@
     <img src="../imgs/vscode-icon.png" alt="Logo" width="80" height="80">
   </div>
 
-  <h3 align="center">Running Scripts with Terminal & Visual Studio Code</h3>
+  <h3 align="center">Running Scripts in Visual Studio Code Terminal</h3>
 
   <p align="center">
     Running scripts using command line prompts
@@ -90,4 +90,6 @@ Now that our environment is running and we've pasted our Canvas API token into t
 
 - `jupyter notebook`
 
-Just like running a notebook from Anaconda Navigator, this command should launch your browser, revealing the filestructure of the folder you've run the command in. Like any file, explorer you can navigate from here and open the Jupyter Notebook file (`.ipynb`). Once you open the notebook, the rest is exactly the same as the other method. Select **Kernal > Restart & Run All** after reading the instructions and follow any additional prompts.
+Just like running a notebook from Anaconda Navigator, this command should launch your browser, revealing the filestructure of the folder you've run the command in. Like any file, explorer you can navigate from here and open the Jupyter Notebook file (`.ipynb`). Once you open the notebook, the rest is exactly the same as the other method. Select **Kernel > Restart & Run All** after reading the instructions and follow any additional prompts.
+
+[➡️ Next: Managing Projects with GitHub](github-project-management.md)

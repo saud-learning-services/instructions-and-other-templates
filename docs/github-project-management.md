@@ -5,12 +5,12 @@
     <img src="../imgs/github-logo.png" alt="Logo" width="80" height="80">
   </div>
 
-  <h3 align="center">Managing Projects with Github</h3>
+  <h3 align="center">Managing Projects with GitHub</h3>
 
   <p align="center">
     A Guide for Managing Sauder LS Projects using GitHub
     <br />
-    (GitHub Desktop and Terminal)
+    (VS Code and Terminal)
   </p>
 </p>
 
@@ -21,9 +21,9 @@
 - [Table of Contents](#table-of-contents)
 - [What is GitHub?](#what-is-github)
 - [Why Use It?](#why-use-it)
-- [Managing Projects Using GitHub Desktop](#managing-projects-using-github-desktop)
-  - [Downloading a Project (GitHub Desktop)](#downloading-a-project-github-desktop)
-  - [Updating a Project (GitHub Desktop)](#updating-a-project-github-desktop)
+- [Managing Projects Using VS Code](#managing-projects-using-vs-code)
+  - [Downloading a Project (VS Code)](#downloading-a-project-vs-code)
+  - [Updating a Project (VS Code)](#updating-a-project-vs-code)
 - [(Optional) Managing GitHub Projects Using Terminal](#optional-managing-github-projects-using-terminal)
   - [Downloading a Project (Terminal)](#downloading-a-project-terminal)
   - [Updating a Project (Terminal)](#updating-a-project-terminal)
@@ -68,20 +68,25 @@ GitHub solves this by allowing us all to host all our tools online and have ever
     <p>sending out updates through GitHub</p>
 </div>
 
-## Managing Projects Using GitHub Desktop
+## Managing Projects Using VS Code
 
 > ⚠️ Recommended for Operations team
 
-First, you'll need a GitHub account (Don't have one? [Create one](https://github.com/join)).
+First, you'll need a GitHub account (Don't have one? [Create one!](https://github.com/join)).
 
 > 💡 For any Learning Services staff, get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects (for LS-ops) are private and you must be a member of the organization to view them.
 
-GitHub Desktop is a application that lets us download and contribute to with projects hosted on GitHub. If not already downloaded, go [here](https://desktop.github.com/).
+If not already downloaded, download [VS Code](https://desktop.github.com/). Among the things VS Code can do are: 
+
+- write new code
+- modify existing code
+- run command line tasks in its integrated terminal
+- download and contribute to projects hosted on GitHub
 
 Once downloaded, open the application. It should look something like this:
 
 <div align="center">
-    <img src="../imgs/github_desktop/github-desktop-first-opened.png" alt="Logo" width="500">
+    <img src="../imgs/vscode-new-window.png" alt="Logo" width="500">
 </div>
 
 ### Create a local project folder
@@ -89,68 +94,58 @@ Once downloaded, open the application. It should look something like this:
 
 - Documents can be easily found in the File Explorer (Windows) or Finder (macOS) as it is one of the default user directories.
 
-### Downloading a Project (GitHub Desktop)
+### Downloading a Project (VS Code)
 
-There are several options for getting projects from [Sauder LS repositories](https://github.com/saud-learning-services) to your local machine. Below are two options based on where you want to start. You can either:
-- a. Start from GitHub Desktop OR
-- b. Start from GitHub Organization (i.e. [a Sauder LS repository](https://github.com/saud-learning-services))
-Your choice! There is no right or wrong, and both choices accomplish the same task.
-
-#### :white_check_mark: a. Start from GitHub Desktop
-Select **Clone a Repository from the Internet...** You will be prompted to sign in using your GitHub login.
-
-Once finished, under **Clone a Repository**, select the **URL** tab
+Start by launching VS Code. Select the source control icon on the left navigation menu, as seen below:
 
 <div align="center">
-    <img src="../imgs/github_desktop/clone-a-repo.png" alt="Logo" width="500">
+    <img src="../imgs/vscode-source-control-icon.png" alt="Logo" width="800">
 </div>
 
-In the top input (marked in green), enter the GitHub URL of the project you are trying to get. To find this, visit a project page on GitHub and copy the link as seen below (click "Code" then clipboard icon):
+Next, obtain the GitHub URL of the project you are trying to get. To find this, visit a project page on GitHub and copy the link as seen below (click "Code" then clipboard icon):
 
 > 👷 Working through the setup test? Visit that project and copy the URL as described above: [link to setup test repository](https://github.com/saud-learning-services/setup-test)
 
 <div align="center">
-    <img src="../imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
+    <img src="../imgs/copy-github-link.png" alt="Logo" width="800">
 </div>
 
-In the bottom input (marked in grey), choose a folder to "clone" the project to. What this does is create a copy of the tool locally on your computer. We recommend creating a single folder, somewhere accessible, where you clone all Sauder LS GitHub Projects you need.
+Back in VS Code, click on the **Clone Repository** button, which should be blue. You will be prompted to input a repository URL. This is where you paste in the URL obtained from GitHub, then press the enter key. You will then be required to select a folder to place the project in. As mentioned earlier, we recommend creating a single folder where you clone all Sauder LS GitHub Projects you need.
 
-> 💡 We recommend using `.../Documents/GitHub/Sauder-Learning-Services` to store projects
+> 💡 We recommend using `.../Documents/GitHub/Sauder-Learning-Services` to store projects.
 
-After selecting clone, you should be able to see the new project has appeared in the folder you've specified.
+<div align="center">
+    <img src="../imgs/clone-repository-gif.mp4" alt="Logo" width="800">
+</div>
+<div align="center">
+    <img src="../imgs/recommended-saudls-folder.png" alt="Logo" width="800">
+</div>
+
+After cloning, this should open up a new window with the new project in the folder you've specified.
 
 > 👷 Working through the setup test? A folder titled **setup-test** should've appeared in the location.
 
-#### b. Start from the GitHub Organization
-> :white_check_mark: Read about the alternative (give it a try if you want). 
+> 💡 Double check the suggested Local Path! We suggest `.../Documents/GitHub/Sauder-Learning-Services` to store projects.
 
-If you want to start from our GitHub organization at github.com/saud-learning-services/, you can select the project that you need to clone. And then select Clone -> Open with GitHub Desktop. This will fill in the Repository URL, and the local path.
-
-> 💡 Double check the suggested Local Path! We suggest `.../Documents/GitHub/Sauder-Learning-Services` to store projects
-
-<div align="center">
-    <img src="../imgs/github_desktop/clone-from-github.png" alt="Logo" width="800">
-</div>
-
-### Updating a Project (GitHub Desktop)
+### Updating a Project (VS Code)
 
 :white_check_mark: _Read this - but note it won't apply your first time downloading a project because everything will be up to date!_
 
 When we update a tool, we send those updates to GitHub where you can download or "fetch" them for your local copy.
 
-To do this in GitHub Desktop, select the project under **Current Repository**, make sure **Current Branch** is set to **main** or **master** and click **Fetch Origin**
+To do this in VS Code, open up the project and follow the following sequence: **Source Control Tab > Views and More Actions... > Pull**. Note that there are many ways you can do this, including using **Pull from...** over **Pull**, but this is a quicker way to fetch any new changes from GitHub.
 
-<div align="center">
-    <img src="../imgs/github_desktop/fetch-origin-github-desktop.png" alt="Logo" width="800">
-</div>
+NEEDS GIF HERE
 
 Your project will update to the the most recent version! Same location as before and if you had any data outputs in the project folders prior to fetching, that data will persist.
 
-> ⚠️ Please **DO NOT select Commit to main** unless you are contributing code
+> If manually pulling from GitHub, and you're prompted to choose a branch, always choose either **main** or **master**.
+
+> ⚠️ Please **DO NOT select Commit to main** unless you are contributing code!
 
 > ⚠️ While we will try to communicate major updates to our team, it is advisable to "Fetch Origin" frequently (especially if you haven't used a tool in a while). This ensures it's up-to-date and only takes a few seconds.
 
-The following section on terminal is optional. If you'd like to continue to manage tools with GitHub Desktop, head to the next section on environment setup.
+The following section on terminal is optional. If you'd like to continue to manage tools as described above, head to the next section on environment setup.
 
 [➡️ Next: Environment Setup](environment-setup.md)
 

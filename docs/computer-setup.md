@@ -24,9 +24,8 @@
 
 -  :white_check_mark: [Create a free GitHub Account](https://github.com/join)
 -  :white_check_mark: _For LS-Ops:_ Contact someone on the Canvas API team to be added to the saud-learning-services/ls-ops team on GitHub (you'll need this to access certain projects)
--  :white_check_mark: [Download GitHub Desktop](https://desktop.github.com)
 
-**This step is highly recommended to make life easier!** GitHub Desktop isn't necessary if you'd prefer to work in [Terminal](terminal-basics.md) - but make sure you have [Git](https://git-scm.com/downloads) installed! Note that installing Git comes with Git Bash, a commonly used command-line interface (CLI). You won't have to worry about that information though, just follow the steps below.
+Next up, we'll be installing [Git](https://git-scm.com/downloads) - not to be confused with GitHub. Note that installing Git comes with Git Bash, a commonly used command-line interface (CLI). You won't have to worry about that information though, just follow the steps below.
 - :white_check_mark: Install the latest version of [Git](https://git-scm.com/downloads)
 
 > 💡Git Bash offers a more consistent experience across different operating systems (Windows, macOS, Linux) and offers additional features and capabilities compared to the default Windows Command Prompt. In other words, you should really install Git!

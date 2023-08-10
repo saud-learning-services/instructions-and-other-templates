@@ -18,10 +18,11 @@
 ## Documentation
 
 1. [Computer Setup](docs/computer-setup.md) _(start here if you are new to our projects)_
-2. [Getting & Managing Projects](docs/github-project-management.md)
-3. [Environment Setup](docs/environment-setup.md)
-4. [Running Scripts](docs/running-instructions.md)
-5. [Updating the Environment](docs/updating-environments.md)
+2. [Running Scripts in Visual Studio Code Terminal](docs/terminal-vscode-running-instructions.md)
+3. [Getting & Managing Projects](docs/github-project-management.md)
+4. [Environment Setup](docs/environment-setup.md)
+5. [Running Scripts](docs/running-instructions.md)
+6. [Updating the Environment](docs/updating-environments.md)
 
 ### Ops Setup Part 1
 > Use the documentation to get started if you are brand new
@@ -36,20 +37,23 @@ For your first time, we recommend using the following as a checklist as you read
 3. [Installing everything you need on your computer](docs/computer-setup.md)
    - a) [Download Anaconda Navigator](https://www.anaconda.com/products/individual#Downloads) _(recommended for most)_
       - select the **64-Bit Graphical Installer** for your operating system. Note that some older Windows computer may need to install the **32-Bit Graphical Installer** (you can check [here](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d))
-   - b) [Download GitHub Desktop](https://desktop.github.com)
-   - c) [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
+   - b) [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
+
+#### [Running Scripts in Visual Studio Code Terminal](docs/terminal-vscode-running-instructions.md)
+4. [Download VS Code](https://code.visualstudio.com/download)
+5. Practice [cloning repositories](docs/terminal-vscode-running-instructions.md#walkthrough-example) via the VS Code terminal.
 
 #### [Getting & Managing Projects](docs/github-project-management.md)
-4. [Create a place for the projects to live](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#create-a-local-project-folder): `Documents/GitHub/Sauder-Learning-Services/`
-5. [Clone your first repo](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#white_check_mark-1-start-from-github-desktop) - setup-test👷
-6. Read about an [alternative way to clone a project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#2-start-from-the-github-organization). 
-7. [Read about Updating a Project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#updating-a-project-github-desktop) (GitHub Desktop) -> note, because you are downloading the most recent version, there is nothing to do yet - but be aware that you should "Fetch origin" whenever you are using a script in the future (in case there are changes made).  
+6. [Create a place for the projects to live](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#create-a-local-project-folder): `Documents/GitHub/Sauder-Learning-Services/`
+7. [Clone your first repo](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#white_check_mark-1-start-from-github-desktop) - setup-test👷
+8. Read about an [alternative way to clone a project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#2-start-from-the-github-organization). 
+9. [Read about Updating a Project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#updating-a-project-github-desktop) (GitHub Desktop) -> note, because you are downloading the most recent version, there is nothing to do yet - but be aware that you should "Fetch origin" whenever you are using a script in the future (in case there are changes made).  
 
 #### [Environment Setup](docs/environment-setup.md)
-7. Create a [project-specific environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) for setup-test
+10. Create a [project-specific environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) for setup-test
 
 #### [Running Scripts](docs/running-instructions.md)
-8. [Run your first project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/running-instructions.md#running-the-script)
+11. [Run your first project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/running-instructions.md#running-the-script)
       - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
 By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
 
@@ -68,7 +72,6 @@ Once you have walked through the instructions above, and ran your first project 
 ## Additional Resources
 
 - [Terminal Basics](docs/terminal-basics.md)
-- [Running Scripts with Terminal & Visual Studio Code](docs/terminal-vscode-running-instructions.md)
 
 ## Projects
 

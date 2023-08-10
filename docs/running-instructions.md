@@ -12,7 +12,7 @@
   </p>
 </p>
 
-> 💡 Before you read on, ensure you've covered [Computer Setup](computer-setup.md), [Github Project Management](github-project-management.md) and [Environment Setup](environment-setup.md)
+> 💡 Before you read on, ensure you've covered [Computer Setup](computer-setup.md), [Running Scripts in Visual Studio Code Terminal](terminal-vscode-running-instructions.md), [GitHub Project Management](github-project-management.md), and [Environment Setup](environment-setup.md)
 
 > ⚠️ All references to **the-project** should be the name of the script or project you are running.
 
