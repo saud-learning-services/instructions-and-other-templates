@@ -16,9 +16,9 @@
 
 > Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command.
 
-Before reading on, please make sure you've [setup your computer](computer-setup.md) and have reviewed the [terminal basics](terminal-basics.md). You'll also want to download an application called Visual Studio Code (VS Code):
+Before reading on, please make sure you've [setup your computer](computer-setup.md) and have reviewed the [terminal basics](terminal-basics.md). You'll also want to download an application called Visual Studio Code (VS Code). If you have been following the order of the docs, you would have already done this last doc in [Computer Setup](computer-setup.md):
 
-- [Download VS Code](https://code.visualstudio.com/download)
+- :white_check_mark: [Download VS Code](https://code.visualstudio.com/download)
 
 VS Code is a popular code editor developed by Microsoft. On top of allowing us to write new code, or modify existing code, VS Code comes with a [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) that will allow us to perform command line tasks like setup our environments, run scripts, provide user input, see outputs and more. All our projects are built to run in both Jupyter notebooks and directly in terminal. In many cases, we'll encourage you to launch your notebook using the command `$ jupyter notebook` which will have the same outcome of launching one through Aniconda Navigator (but can be run in a fraction of the time).
 
@@ -50,7 +50,7 @@ When you launch your terminal for the first time, it'll open in your computer's 
 Now that we're in terminal test let's _clone in a project_. Visit the [setup-test repo](https://github.com/saud-learning-services/setup-test), select **Code** on the top right, select **HTTPS** and click on the clipboard icon to copy the project url (see screenshot below)
 
 <div align="center">
-    <img src="../imgs/github_desktop/copy-github-link.png" alt="Logo" width="800">
+    <img src="../imgs/copy-github-link.png" alt="Logo" width="800">
 </div>
 
 Back in VS Code type in the following command and paste in what you just copied in the specified location and hit enter:

@@ -76,4 +76,4 @@ Once everything is configured correctly, you should see an output of "Hey {your-
 
 > 💡 Every reference to the test project in the remainder of the docs will be labeled using the 👷 icon
 
-[➡️ Next: Managing Projects with GitHub](github-project-management.md)
+[➡️ Next: Managing Projects with GitHub](terminal-vscode-running-instructions.md)

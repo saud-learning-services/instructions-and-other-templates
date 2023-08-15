@@ -89,6 +89,9 @@ Once downloaded, open the application. It should look something like this:
     <img src="../imgs/vscode-new-window.png" alt="Logo" width="500">
 </div>
 
+### Downloading Extensions
+DUMMY SECTION, add extensions here (3 of them?)
+
 ### Create a local project folder
 :white_check_mark: We recommend using `Documents/GitHub/Sauder-Learning-Services` to store all projects. If you haven't already, create a GitHub folder in Documents, and a Sauder-Learning-Services folder within.
 

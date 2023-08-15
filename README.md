@@ -33,24 +33,26 @@ For your first time, we recommend using the following as a checklist as you read
 
 #### [Computer Setup](docs/computer-setup.md)
 1. [Create a free GitHub Account](https://github.com/join)
-2. Send a request to join the Saud-Learning-Services organization - email Alison or Marko who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team
+2. Send a request to join the Saud-Learning-Services organization - email the ops manager who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team.
 3. [Installing everything you need on your computer](docs/computer-setup.md)
-   - a) [Download Anaconda Navigator](https://www.anaconda.com/products/individual#Downloads) _(recommended for most)_
-      - select the **64-Bit Graphical Installer** for your operating system. Note that some older Windows computer may need to install the **32-Bit Graphical Installer** (you can check [here](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d))
-   - b) [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
+   - a) [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
+   - b) [Download Miniconda](https://docs.conda.io/en/latest/miniconda.html) _(recommended for most)_
 
 #### [Running Scripts in Visual Studio Code Terminal](docs/terminal-vscode-running-instructions.md)
 4. [Download VS Code](https://code.visualstudio.com/download)
-5. Practice [cloning repositories](docs/terminal-vscode-running-instructions.md#walkthrough-example) via the VS Code terminal.
+5. Download Python Extension Pack and Jupyter extensions in VS Code, which can both be found in the Extensions _(Ctrl+Shift+X)_ tab in VS Code.
+6. Download the GitHub Pull Requests and Issues extensions in VS Code. See step 5 for where to find this.
+7. Practice how to clone a repository using the extension downloaded in step 6.
+THIS IS WHERE WE REALLY HAVE TO START REARRANGING ORDER
 
 #### [Getting & Managing Projects](docs/github-project-management.md)
-6. [Create a place for the projects to live](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#create-a-local-project-folder): `Documents/GitHub/Sauder-Learning-Services/`
+6. [Create a place for the projects to live](docs/github-project-management.md#create-a-local-project-folder): `Documents/GitHub/Sauder-Learning-Services/`
 7. [Clone your first repo](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#white_check_mark-1-start-from-github-desktop) - setup-test👷
 8. Read about an [alternative way to clone a project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#2-start-from-the-github-organization). 
-9. [Read about Updating a Project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#updating-a-project-github-desktop) (GitHub Desktop) -> note, because you are downloading the most recent version, there is nothing to do yet - but be aware that you should "Fetch origin" whenever you are using a script in the future (in case there are changes made).  
+9. [Read about Updating a Project](docs/github-project-management.md#updating-a-project-vs-code).
 
 #### [Environment Setup](docs/environment-setup.md)
-10. Create a [project-specific environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) for setup-test
+10. Create a [project-specific environment](docs/environment-setup.md#configuring-environments) for setup-test.
 
 #### [Running Scripts](docs/running-instructions.md)
 11. [Run your first project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/running-instructions.md#running-the-script)
