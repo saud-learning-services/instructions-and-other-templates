@@ -51,7 +51,7 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 2. Open **VS Code**, and then open the folder where your project is located. The folder should contain an environment created using the environment.yml file in the same directory. Then select **Terminal > New Terminal** on the top menu, which opens the terminal. Then run the command `jupyter notebook` or `jupyter-notebook` in terminal, and that will launch the browser.
 
-   > 💡 It would be smart to run via the universal environment given that all of our "saud-ls-ops" repositories should work with the universal environment!
+   > 💡 It would be smart to run via the universal environment given that all of our "saud-ls-ops" repositories should work with the universal environment! We'll cover this in a few steps.
    > ⚠️ Not working? Double check that you have imported the desired environment in the [Configuring Environment](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#configuring-environments) step.
 
    <div align="center">
@@ -82,6 +82,6 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 
 6. Once you are done (if you are running in a Jupyter Notebook) a good practice is to **restart the kernel and clear all output**. Kernel -> Restart & Clear Output. Then you can exit the browser.
 
-> ⚠️ Getting errors? Confused? Don't forget to contact the Canvas API team for support.
+7. Remember how we mentioned that it would be nice to use a **universal environment** for our projects? Now, you have the skills necessary to install and test it out. Go back to the [previous section](environment-setup.md#universal-environment-setup) and do that!
 
-[➡️ Next: Updating Environments](updating-environments.md)
+> ⚠️ Getting errors? Confused? Don't forget to contact the Canvas API team for support.

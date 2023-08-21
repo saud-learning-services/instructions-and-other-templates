@@ -7,31 +7,31 @@
   <h3 align="center">Environment Setup</h3>
 
   <p align="center">
-  Setting up environments for Sauder LS, Canvas API Projects
+    Setting up Environments for Sauder LS Projects
     <br />
   </p>
 </p>
 
-> ⚠️ Before reading on, ensure you've covered [Computer Setup](computer-setup.md), [Running Scripts in Visual Studio Code Terminal](terminal-vscode-running-instructions.md), and [GitHub Project Management](github-project-management.md)
+> ⚠️ Before reading on, ensure you've covered [Computer Setup](computer-setup.md), [Visual Studio Code Setup](vscode-setup.md), and [Managing Projects with GitHub](github-project-management.md).
+
+> 💡 Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command. By "running a command", we mean typing that command and then pressing the _enter_ key. If ever stuck working in terminal, visit [Terminal Basics](terminal-basics.md).
 
 > ⚠️ All references to **the-project** should be the name of the tool you are running.
 
-> Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command.
-
 After downloading one of our projects for the first time, you'll want to start by getting your environment set up. Think of the files you download from GitHub as disassembled furniture, and environments as a way of putting the furniture together. Like assembling furniture, this is done _once_ and isn't repeated every time you want to use it.
 
-In this section we'll discuss setting up environments. Each project comes with their own `environment.yml` file (like instructions for how to assemble the furniture). You can create environments for each project, or you can utilize a **universal environment** that can be used to run any of our tools - we discuss how to get this setup [below](#universal-environment-setup).
+In this section we'll discuss setting up environments. Each project comes with their own `environment.yml` file (like instructions for how to assemble the furniture). You can create environments for each project, or you can utilize a **universal environment** that can be used to run any of our tools - we'll explore this [later](#universal-environment-setup).
 
 ## Configuring Environments
-:white_check_mark: Follow all of the steps below in "Configuring Environments" and then move on to Running Instructions (linked at the end). You will come back to "Universal Environment Setup" a bit later if you are following the checklist. 
+:white_check_mark: Follow all of the steps below in this subsection ("Configuring Environments") to know how to create a **unique project environment** configuration using Git Bash! From there, you can move onto the next section before coming back to this doc to know how to set up a **universal environment** configuration, as you will need some of the skills in the next section to test out the **universal environment**.
 
-1. Make sure your computer is [setup](computer-setup.md) to run our projects
+1. Make sure your computer is [setup](computer-setup.md) to run our projects.
     > If you have been following along, this should be done!
 
-2. Clone the project you need (i.e. make a local copy) from our GitHub. See [here](github-project-management.md) for detailed instructions on getting and managing projects.
+2. Clone the project you need (i.e. make a local copy) from our GitHub. The [previous section](github-project-management.md#cloning-a-project-vs-code) covered detailed instructions on cloning projects from GitHub.
 
    > 💡 We recommend cloning all of our projects into a single location like `.../Documents/GitHub/Sauder-Learning-Services`. It is important to recall where you are cloning to, as this is where you will find the `environment.yml` file (discussed below)
-   > If you are working through setup-test👷 and our docs, then this should be done! 
+   > If you are working through 👷 setup-test and our docs, then this should be done! 
 
 3. Open a new Bash terminal in Visual Studio Code:
  
@@ -63,7 +63,7 @@ In this section we'll discuss setting up environments. Each project comes with t
 
 Once this completes, you will have successfully set up your environment! Now you are ready to run the tool. The following section goes through how to set up a single environment for all projects. We recommend this method over creating individual environments for each tool, as it requires the least amount of maintanace.
 
-[➡️ Next: Running Instructions](running-instructions.md)
+[➡️ Next: Running Scripts](running-instructions.md)
 
 ## Universal Environment Setup
 
@@ -77,6 +77,8 @@ If you setup your universal environment correctly, you can use and update only t
 
 ### Installation
 
+:white_check_mark: Follow the steps in this subsection to properly install **canvas-universal-env** locally on your device.
+
 1. Clone [this](https://github.com/saud-learning-services/instructions-and-other-templates) project to your computer (Not sure how? Revisit [Managing Projects with Github](github-project-management.md)).
 > 💡 Clone the project to the same place you're keeping all of the projects: `Documents/GitHub/Sauder-Learning-Services/`
 2. Launch VS Code, open the project you just cloned from GitHub, and launch a new Bash terminal. Need help? Refer to the **Configuring Environments** section a few scrolls above.
@@ -85,9 +87,13 @@ If you setup your universal environment correctly, you can use and update only t
 
 ### Testing
 
+:white_check_mark: Follow the steps in this subsection to properly test that **canvas-universal-env** has been installed correctly.
+
 1. Open **VS Code**, then launch a new bash terminal from the top menu via **Terminal > New Terminal**. Run the command `$ jupyter notebook` or `$ jupyter-notebook`. This should open the browser automatically.
 2. Navigate to a project that supports the universal environment (👷 like setup-test for example) and select the jupyter notebook (.ipynb file).
 3. Read the instructions in the notebook to see if any additional steps are needed, and if so, complete those steps.
 4. Select **Kernel** > **Restart & Run All**. The Jupyter Notebook may prompt you for some inputs but should otherwise run without errors.
 
-> ⚠️ Getting errors? Confused? Don't forget to contact the Canvas API team for support.
+> ⚠️ Getting errors? Still confused? Don't forget to contact the Sauder Canvas API team for support.
+
+[➡️ Next: Running Scripts](running-instructions.md)
