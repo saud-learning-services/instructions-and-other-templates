@@ -55,13 +55,16 @@ We can make the Anaconda Prompt available from the Git Bash terminal by default,
 Visual Studio Code (more commonly known as VS Code) is a popular code editor allowing us to write new code, modify existing code, or run command line tasks in its integrated terminal. All our projects are built to run in both Jupyter notebooks and directly in terminal. Follow the steps below to download and configure VS Code:
 - :white_check_mark: [Download Visual Studio Code](https://code.visualstudio.com/download)
 - :white_check_mark: Launch VS Code, then launch a new terminal in VS Code. Do this by selecting from the top menu **Terminal > New Terminal**.
+
 <div align="center">
     <img src="../imgs/where-vscode-terminal.png" alt="Logo" width="600">
 </div>
-- :white_check_mark: Select the (Git) Bash command-line interface for the terminal (top right in the photo below). Then, run the commands `$ git --version`, `$ conda --version`, and `$ python --version` (version numbers should print out). The end result should look similar to this:
+
+- :white_check_mark: Select the (Git) Bash command-line interface for the terminal (top right in the photo below). Then, run the commands `$ python --version`, `$ conda --version`, and `$ python --version` (version numbers should print out). The end result should look similar to this:
 <div align="center">
     <img src="../imgs/vscode-terminal.png" alt="Logo" width="600">
 </div>
+
 - :white_check_mark: (still working in VS Code Bash terminal) Run the command `$ conda install jupyter` and respond with the `yes` or `y` command to all configuration options. This allows users to work with Jupyter Notebook and other Jupyter-related components within your conda environment.
 
 Once you have successfully done all the above, you're ready to start downloading and running projects.

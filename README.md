@@ -5,10 +5,10 @@
     <img src="imgs/sauder-logo.png" alt="Logo" height="50">
   </div>
 
-  <h3 align="center">Sauder Canvas API Guide</h3>
+  <h3 align="center">Sauder Canvas API Projects Guide</h3>
 
   <p align="center">
-  A home for the documentation and guides needed to work with Sauder LS, Canvas API Projects
+    Centre of Documentation and Guides Needed to Work With Sauder LS Projects!
     <br />
   </p>
 </p>
@@ -17,67 +17,67 @@
 
 ## Documentation
 
-1. [Computer Setup](docs/computer-setup.md) _(start here if you are new to our projects)_
-2. [Running Scripts in Visual Studio Code Terminal](docs/terminal-vscode-running-instructions.md)
-3. [Getting & Managing Projects](docs/github-project-management.md)
+1. [Computer Setup](docs/computer-setup.md) _(start here if you are new to our projects, and follow in chronological order)_
+2. [Visual Studio Code Setup](docs/vscode-setup.md)
+3. [Managing Projects with GitHub](docs/github-project-management.md)
 4. [Environment Setup](docs/environment-setup.md)
 5. [Running Scripts](docs/running-instructions.md)
-6. [Updating the Environment](docs/updating-environments.md)
 
-### Ops Setup Part 1
-> Use the documentation to get started if you are brand new
+### Ops Setup
 
 Throughout the documentation we have included 👷 as an indicator to follow along with setup-test. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). 
 
-For your first time, we recommend using the following as a checklist as you read and walk through the docs. You will notice :white_check_mark: in each of the docs that correspond to the steps listed below in Part 1. 
+💡 For your first time, we recommend using the following as a checklist as you read and walk through the docs. You will notice :white_check_mark: in each of the docs correspond to the steps listed below. Do note that this checklist is the compressed version of all the steps, and isn't exactly beginner-friendly. For more detailed instructions, feel free to jump into any of the docs as you work through the checklist.
+
+> 💡 Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command. By "running a command", we mean typing that command and then pressing the _enter_ key. If ever stuck working in terminal, visit [Terminal Basics](terminal-basics.md).
 
 #### [Computer Setup](docs/computer-setup.md)
-1. [Create a free GitHub Account](https://github.com/join)
-2. Send a request to join the Saud-Learning-Services organization - email the ops manager who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team.
-3. [Installing everything you need on your computer](docs/computer-setup.md)
-   - a) [Git](https://git-scm.com/downloads) (should be included in GitHub Desktop steps)
-   - b) [Download Miniconda](https://docs.conda.io/en/latest/miniconda.html) _(recommended for most)_
+- :white_check_mark: Install the latest version of [Git](https://git-scm.com/downloads).
+- :white_check_mark: Create a free [GitHub Account](https://github.com/join).
+- :white_check_mark: Send a request to join the Saud-Learning-Services organization on GitHub - email the ops manager who will add you to the [ls-ops](https://github.com/orgs/saud-learning-services/teams/ls-ops) team.
+- :white_check_mark: Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html). Make sure you're downloading the right version.
+- :white_check_mark: Open up the _Anaconda Prompt (miniconda3)_ program, and run the following commands: `$ git --version`, `$ python --version`, `$ conda --version`, and `conda init bash`.
+- :white_check_mark: Download [Visual Studio Code](https://code.visualstudio.com/download).
+- :white_check_mark: Open up VS Code, and launch a new Bash terminal. Run the command `$ conda install jupyter` and respond with `y` to all configuration options.
 
-#### [Running Scripts in Visual Studio Code Terminal](docs/terminal-vscode-running-instructions.md)
-4. [Download VS Code](https://code.visualstudio.com/download)
-5. Download Python Extension Pack and Jupyter extensions in VS Code, which can both be found in the Extensions _(Ctrl+Shift+X)_ tab in VS Code.
-6. Download the GitHub Pull Requests and Issues extensions in VS Code. See step 5 for where to find this.
-7. Practice how to clone a repository using the extension downloaded in step 6.
-THIS IS WHERE WE REALLY HAVE TO START REARRANGING ORDER
+#### [Visual Studio Code Setup](docs/vscode-setup.md)
+- :white_check_mark: Open up VS Code, and launch a new Bash terminal. Run the following commands, which should all output version numbers: `$ git --version`, `$ conda --version`, and `$ python --version`.
+- :white_check_mark: Install the _Jupyter_ extension in VS Code.
+- :white_check_mark: Install the _GitHub Pull Requests and Issues_ extension in VS Code.
 
-#### [Getting & Managing Projects](docs/github-project-management.md)
-6. [Create a place for the projects to live](docs/github-project-management.md#create-a-local-project-folder): `Documents/GitHub/Sauder-Learning-Services/`
-7. [Clone your first repo](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#white_check_mark-1-start-from-github-desktop) - setup-test👷
-8. Read about an [alternative way to clone a project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/github-project-management.md#2-start-from-the-github-organization). 
-9. [Read about Updating a Project](docs/github-project-management.md#updating-a-project-vs-code).
+#### [Managing Projects with GitHub](docs/github-project-management.md)
+- :white_check_mark: [Create a local project folder for all the projects to live in.](docs/github-project-management.md#create-a-local-project-folder) We recommend creating `.../Documents/GitHub/Sauder-Learning-Services/` to serve that purpose.
+- :white_check_mark: [Clone a repository from GitHub into VS Code](docs/github-project-management.md#cloning-a-project-vs-code). We recommend trying this for the first time with the 👷 [setup test project](https://github.com/saud-learning-services/setup-test).
+- :white_check_mark: [Read through how to update a project in VS Code](docs/github-project-management.md#updating-a-project-vs-code). Note that you will not have to do any updating when you run through this checklist for the first time, as you already have the most recent project version on locally on your device.
+- :white_check_mark: Read or try the [alternate way](docs/github-project-management.md#optional-managing-github-projects-using-terminal) to do the previous two checkpoints using the integrated terminal in VS Code. This is an optional step, but highly recommended if you are comfortable or interested in working in terminal.
 
 #### [Environment Setup](docs/environment-setup.md)
-10. Create a [project-specific environment](docs/environment-setup.md#configuring-environments) for setup-test.
+- :white_check_mark: Open up the project which we want to create an environment for in VS Code.
+- :white_check_mark: Run `$ conda env create -f environment.yml` in a Bash terminal from the directory containing the environment.yml file. This command creates an environment using the environment.yml file in the current directory.
+- :white_check_mark: Activate the environment just created by running the command `$ conda activate <environment-name>` in that same Bash terminal. Wait for installation to complete.
 
 #### [Running Scripts](docs/running-instructions.md)
-11. [Run your first project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/running-instructions.md#running-the-script)
-      - try it using the project environment from [setup-test](https://github.com/saud-learning-services/setup-test)
-By the end, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
+- :white_check_mark: Generate a Canvas token and note it somewhere. ⚠️ For security reasons, set the expiration date to the next day and discard the token once you no longer need it. Skip this step if your project does not work with Canvas.
+- :white_check_mark: Assign your token to the `.env` file and save the file. Skip this step if the project does not mention a `.env` on its GitHub page, or if the project does not work with Canvas at all.
+- :white_check_mark: Open the folder where your project is located in VS Code, then open a new Bash terminal. Run the command `$ jupyter notebook` or `$ jupyter-notebook` in the terminal, which should open the project in the browser.
+- :white_check_mark: Now working in browser, select the `.ipynb` file for your project.
+- :white_check_mark: Read the information contained in the `.ipynb` file, and then select **Kernel** > **Restart & Run All** to run the entire Jupyter notebook. Follow any prompts given to you after running the file (eg pasting the Canvas token).
+💡 We recommend restarting the kernel and clearing all outputs after you're done with the Jupyter notebook. Select **Kernel** > **Restart & Clear Output** before closing the Jupyter notebook/exiting the browser.
 
-### Ops Setup Part 2
-Once you have walked through the instructions above, and ran your first project (setup-test), you can get your computer ready for running ls-ops scripts.
+By this point, you should be able to now clone any projects/repos that you need, and know how to run the associated Jupyter notebooks!
 
-1. Review steps 1-4 above - have you installed everything, joined everything, and created your place for projects to live?
-2. Clone all of the saud-ls-ops projects into your new directory `Documents/GitHub/Sauder-Learning-Services/`
-    - a) from https://github.com/saud-learning-services you can use the search for the tag "saud-ls-ops" or see Projects list below
-    - b) clone each of the projects into your folder `Documents/GitHub/Sauder-Learning-Services/`
-      - ⚠️ Reminder how to clone: [Cloning your first repo](docs/github-project-management.md)
-      - ⚠️ make sure you have been added to the Saud-Learning-Services organization (step #2 above) or you may not see all of the projects.
-3. Set up the [universal environment 🌎](docs/environment-setup.md#universal-environment-setup) which you can use to run any of the "saud-ls-ops" projects 
-4. Try out the universal environment with the [👷 setup-test project](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/environment-setup.md#testing)
+#### Recommended Steps to Install a [Universal Environment](docs/environment-setup.md#universal-environment-setup) 🌎
+> 💡 This is highly recommended, as the universal environment 🌎 allows you to run any of our projects working with the Canvas API.
+- :white_check_mark: Install the universal environment 🌎 using the same steps above for "Environment Setup" section above. This [repository](https://github.com/saud-learning-services/instructions-and-other-templates) can be used to clone the project for the universal environment to your local device.
+- :white_check_mark: Test **canvas-universal-env** 🌎 using the same steps in the "Running Scripts" section directly above. We recommend trying this out with the 👷 setup-test project.
 
 ## Additional Resources
 
-- [Terminal Basics](docs/terminal-basics.md)
+- [Terminal Basics](docs/terminal-basics.md) - this is especially useful for working in VS Code terminal, which is used often in the documentation provided.
 
-## Projects
+## Sample Projects
 
-> All projects listed below support the universal environment 🌎
+> All projects listed below support the universal environment 🌎 - test them out at your own convenience!
 
 - [Canvas (Sauder) Semester Prep](https://github.com/saud-learning-services/canvas-saud-semester-prep): Generates a CSV that summarizes all Canvas courses that fall under a provided term id and account id(s).
 - [Canvas Batch Change Dates](https://github.com/saud-learning-services/canvas-batch-change-dates): Batch change the start and end dates for courses listed in a CSV.

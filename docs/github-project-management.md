@@ -17,20 +17,6 @@
 
 > 💡 Note that the `$` character in these docs is not part of the command but rather is a commonly used symbol to indicates that what follows is a terminal command. By "running a command", we mean typing that command and then pressing the _enter_ key. If ever stuck working in terminal, visit [Terminal Basics](terminal-basics.md).
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [What is GitHub?](#what-is-github)
-- [Why Use It?](#why-use-it)
-- [Managing Projects Using VS Code](#managing-projects-using-vs-code)
-  - [Downloading a Project (VS Code)](#downloading-a-project-vs-code)
-  - [Updating a Project (VS Code)](#updating-a-project-vs-code)
-- [(Optional) Managing GitHub Projects Using Terminal](#optional-managing-github-projects-using-terminal)
-  - [Downloading a Project (Terminal)](#downloading-a-project-terminal)
-  - [Updating a Project (Terminal)](#updating-a-project-terminal)
-
 ## What is GitHub?
 
 GitHub is a website that allows people to share and collaborate on software projects. All projects on GitHub use a version control system called Git, which you should have installed in [Computer Setup](computer-setup.md). For the purposes of using Sauder LS tools, it's enough to know that GitHub will be:
@@ -73,8 +59,7 @@ GitHub solves this by allowing us to host all our tools online and have everybod
 
 First, you'll need a GitHub account.
 - :white_check_mark: [Create a GitHub account!](https://github.com/join)
-
-> :white_check_mark: For any Sauder LS staff, get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects for LS-ops are private and you must be a member of the organization to view/use them.
+- :white_check_mark: For any Sauder LS staff, get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects for LS-ops are private and you must be a member of the organization to view/use them.
 
 :white_check_mark: If not already downloaded, download [VS Code](https://desktop.github.com/). Among the things VS Code can do are: 
 - write new code
