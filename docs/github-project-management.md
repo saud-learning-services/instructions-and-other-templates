@@ -33,13 +33,13 @@ _Here's a scenario we're trying to avoid..._
 Say you _manually_ download one of our tools to a folder on your computer like so:
 
 <div align="center">
-    <img src="../imgs/github_desktop/folder-single.png" alt="Logo" width="300">
+    <img src="../imgs/folder-single.png" alt="Logo" width="300">
 </div>
 
 Now over time, we make improvements to the tool, and let you know we've posted version 2, followed by version 3. Over time your project folder starts to look like:
 
 <div align="center">
-    <img src="../imgs/github_desktop/folder-messy.png" alt="Logo" width="300">
+    <img src="../imgs/folder-messy.png" alt="Logo" width="300">
 </div>
 
 This has a lot of downsides:
@@ -51,7 +51,7 @@ This has a lot of downsides:
 GitHub solves this by allowing us to host all our tools online and have everybody connect to the same "folder in the cloud" so to speak. This way everyone can be sure they're using the latest version of the code and any changes to the code can reach everybody.
 
 <div align="center">
-    <img src="../imgs/github_desktop/github_diagram.png" alt="Logo" width="500">
+    <img src="../imgs/github-diagram.png" alt="Logo" width="500">
     <p>e.g. how we send out updates through GitHub</p>
 </div>
 

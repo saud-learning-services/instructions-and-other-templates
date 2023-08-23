@@ -42,12 +42,14 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
    - The 👷 setup-test project comes with a `.env` to allow you to try both methods. You will need to follow this step if you are using setup-test.
    - Navigate to **the-project** folder on your computer and locate the `.env` file.
    > 💡 `.env` files are hidden by most operating systems by default. If you don't see a file called `.env` in **the-project** folder you likely need to _reveal hidden files_. We've included the instructions to do so below for Windows and MacOS, respectively.
+
    <div align="center">
       <img src="../imgs/unhide-env-windows.png" alt="Logo" width="600">
    </div>
    <div align="center">
       <img src="../imgs/unhide-env-mac.png" alt="Logo" width="600">
    </div>
+
    - Open the `.env` file with any application that can edit text _(like TextEdit or Notepad)_ Paste the token you copied from Canvas into the `.env` file. There will be an indicator in the file as to exactly where you should paste it.
    - Save the `.env` file after you've pasted in your token.
 
