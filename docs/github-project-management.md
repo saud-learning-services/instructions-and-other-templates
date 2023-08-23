@@ -121,7 +121,7 @@ When we update a tool, we send those updates to GitHub where you can download or
 To do this in VS Code, open up the project and follow the following sequence: **Source Control Tab > Views and More Actions... > Pull**. This tends to be the easiest method to manually pull updates from GitHub for beginners.
 
 <div align="center">
-    <img src="../imgs/update-repo.png" alt="Logo" width="800">
+    <img src="../imgs/update-repo-guide.png" alt="Logo" width="800">
 </div>
 
 Your project will update to the the most recent version! The project remains in the same location as before and if you had any data outputs in the project folders prior to fetching, that data will persist.
@@ -189,6 +189,7 @@ While on the main branch, grab the latest changes:
 - `$ git pull` which should output a short message stating whether or not the pull was successful
 
 > ⚠️ You will likely never have to ever **Push** or **Commit to main** since you will likely never have to contribute any code changes.
+
 > ⚠️ Getting errors? Still confused? Don't forget to contact the Sauder Canvas API team for support.
 
 [➡️ Next: Environment Setup](environment-setup.md)

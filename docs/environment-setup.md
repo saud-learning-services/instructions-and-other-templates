@@ -89,9 +89,11 @@ If you set up your universal environment correctly, you can use and update only 
 :white_check_mark: Follow the steps in this subsection to properly test that **canvas-universal-env** has been installed correctly.
 
 1. Open **VS Code**, then launch a new bash terminal from the top menu via **Terminal > New Terminal**. Run the command `$ jupyter notebook` or `$ jupyter-notebook`. This should open the browser automatically.
+
 <div align="center">
    <img src="../imgs/where-vscode-terminal.png" alt="Logo" width="600">
 </div>
+
 2. Now working in the browser, navigate to a project that supports the universal environment (👷 like setup-test for example) and select the jupyter notebook (.ipynb file).
 3. Read the instructions in the notebook to see if any additional steps are needed, and if so, complete those steps.
 4. Select **Kernel** > **Restart & Run All**. The Jupyter Notebook may prompt you for some inputs but should otherwise run without errors. If there are no errors, **canvas-universal-env** has been installed correctly.

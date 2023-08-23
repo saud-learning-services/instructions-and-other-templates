@@ -61,6 +61,7 @@ The _GitHub Pull Requests and Issues_ extension provides a seamless integration 
 If you installed these two extensions correctly, then the screens following the installation of the extensions should look similar to the photos provided. The blue **Install** button should have been replaced by a few other new buttons.
 
 > 💡If you cannot open a Git Bash terminal, then you may have skipped a step in [Computer Setup](computer-setup.md). In particular, try running the command `conda init bash` in the _Anaconda Prompt (miniconda3)_ program again.
+
 > ⚠️ Still confused? Don't forget to contact the Sauder Canvas API team for support.
 
 [➡️ Next: Managing Projects with GitHub](github-project-management.md)
