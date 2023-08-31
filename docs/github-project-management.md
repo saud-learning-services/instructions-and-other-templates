@@ -61,22 +61,16 @@ First, you'll need a GitHub account.
 - :white_check_mark: [Create a GitHub account!](https://github.com/join)
 - :white_check_mark: For any Sauder LS staff, get in touch to let someone from the API team and let them know you have an account and want to be added to the organization. Some projects for LS-ops are private and you must be a member of the organization to view/use them.
 
-:white_check_mark: If not already downloaded, download [VS Code](https://desktop.github.com/). Among the things VS Code can do are: 
-- write new code
-- modify existing code
-- run command line tasks in its integrated terminal
-- download and contribute to projects hosted on GitHub
-
-Once downloaded, open the application. It should look something like this:
-
-<div align="center">
-    <img src="../imgs/vscode-new-window.png" alt="Logo" width="500">
-</div>
+:white_check_mark: If not already downloaded, download [VS Code](https://desktop.github.com/).
 
 ## Create a local project folder
 :white_check_mark: We recommend using `Documents/GitHub/Sauder-Learning-Services` to store all projects. If you haven't already, create a GitHub folder in Documents, and a Sauder-Learning-Services folder within the GitHub folder. This way, it becomes much easier to find where all your projects are stored if you cloned them to the same folder `../Sauder-Learning-Services`.
 
 > 💡 Documents can be easily found in File Explorer (Windows) or Finder (macOS) as it is one of the default user directories.
+
+<div align="center">
+    <img src="../imgs/make-new-folder.png" alt="Logo" width="800">
+</div>
 
 ## Cloning a Project (VS Code)
 

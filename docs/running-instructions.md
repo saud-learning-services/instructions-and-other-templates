@@ -32,6 +32,10 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
    - Name it something of your choosing, set the expiration to the next day and select **Generate Token**.
    > ⚠️ For security reasons, we don't encourage setting late expiration days for tokens (keep it to a day or two).
 
+   <div align="center">
+      <img src="../imgs/canvas-token.png" alt="Logo" width="600">
+   </div>
+
 :white_check_mark: Note your token somewhere - _but keep it private!_
    - A long string of numbers and letters will appear, keep this somewhere on hand but **be careful to keep it private**, as it grants access to your Canvas account and should be treated as sensitive information.
    - You won't be able to access this token again once you close the dialogue box so be sure you've got it somewhere safe.
@@ -40,18 +44,9 @@ There are two ways of inputting Canvas API tokens into our tools. Most of our to
 :white_check_mark: Assign your token to the `.env` file. **If the tool you're using makes no mention of a `.env` on its GitHub page, skip this step.**
    - Note that most of our projects do not use `.env` files.
    - The 👷 setup-test project comes with a `.env` to allow you to try both methods. You will need to follow this step if you are using setup-test.
-   - Navigate to **the-project** folder on your computer and locate the `.env` file.
-   > 💡 `.env` files are hidden by most operating systems by default. If you don't see a file called `.env` in **the-project** folder you likely need to _reveal hidden files_. We've included the instructions to do so below for Windows and MacOS, respectively.
-
-   <div align="center">
-      <img src="../imgs/unhide-env-windows.png" alt="Logo" width="600">
-   </div>
-   <div align="center">
-      <img src="../imgs/unhide-env-mac.png" alt="Logo" width="600">
-   </div>
-
-   - Open the `.env` file with any application that can edit text _(like TextEdit or Notepad)_ Paste the token you copied from Canvas into the `.env` file. There will be an indicator in the file as to exactly where you should paste it.
-   - Save the `.env` file after you've pasted in your token.
+   - Navigate to **the-project** folder on VS Code.
+   - Open the `.env` file in VS Code. Paste the token you copied from Canvas into the `.env` file. There will be an indicator in the file as to exactly where you should paste it.
+   - Save _(Ctrl + S)_ the `.env` file after you've pasted in your token.
 
 :white_check_mark: Launch the browser from the VS Code terminal. Start here if your project does not work with Canvas.
    - Open **VS Code**, and then open the folder where your project is located. The folder should contain an environment created using the environment.yml file in the same directory.

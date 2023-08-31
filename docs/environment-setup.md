@@ -23,7 +23,7 @@ After downloading one of our projects for the first time, you'll want to start b
 In this section we'll discuss setting up environments. Each project comes with their own `environment.yml` file (like instructions for how to assemble the furniture). You can create environments for each project, or you can utilize a **universal environment** that can be used to run any of our tools - we'll explore this [later](#universal-environment-setup).
 
 ## Configuring Environments
-:white_check_mark: Follow all of the steps below in this subsection ("Configuring Environments") to know how to create a **unique project environment** configuration using Git Bash! From there, you can move onto the next section before coming back to this doc to know how to set up a **universal environment** configuration, as you will need some of the skills in the next section to install and test out the **universal environment**.
+:white_check_mark: Follow all of the steps below in this subsection ("Configuring Environments") to know how to create a **unique project environment** configuration using Git Bash! From there, you can move onto the next section before coming back to this doc to know how to set up a **universal environment** configuration, as you will need some of the skills in the next section to install and test out the **universal environment**. We highly recommend that you follow along using the 👷 setup-test project.
 
 1. Make sure your computer is [setup](computer-setup.md) to run our projects.
     > If you have been following along, this should be done!
@@ -46,19 +46,18 @@ In this section we'll discuss setting up environments. Each project comes with t
 
    1. Run `$ conda env create -f environment.yml` in terminal from the directory containing the `environment.yml` file. This command creates an environment using the `environment.yml` file in the current directory.
 
-      > 💡 You can navigate to the directory containing `environment.yml` in one of two ways:
-         > - Option 1: Open the folder containing `environment.yml` in VS Code prior to launching a new terminal.
-         > - Option 2: Navigate to the folder containing `environment.yml` directly from terminal. Refer to [Terminal Basics](terminal-basics.md) if you need help doing this.
-
       > 👷 Working through the setup test? The environment setup-test will be created from `environment.yml` contained in your local **setup-test** folder.
 
       > 💡 Note that every project has their own `environment.yml` file so it's important to make sure you select the right one. You can always ensure you have the right script by checking the name field matches your tool name after importing the yml file.
+
+      <div align="center">
+         <img src="../imgs/env-setup.png" alt="Logo" width="600">
+      </div>
 
    1. Activate the environment we just made using the command `$ conda activate <environment-name>` in terminal. Wait for installation to complete.
       > 💡 This may take some time (shouldn't be any longer than 20 minutes though). Make yourself a coffee and kick your feet up~
 
       > 👷 In the case of setup-test, the command we run is `conda activate setup-test` since **setup-test** is the environment name created in the previous step.
-
 
 Once this completes, you will have successfully set up your environment! Now you are ready to run the tool. The following subsection goes through how to set up a single environment for all projects. We recommend this method over creating individual environments for each tool, as it requires the least amount of maintanace.
 

@@ -37,6 +37,11 @@ Let us start by installing [Git](https://git-scm.com/downloads). Installing Git 
 </div>
 
 Once Miniconda is installed, open the _Start Menu_. Typically, you can find the menu button along the top or bottom of your screen in the form of the Windows icon (Windows OS) or Apple icon (macOS). Click on the icon and search for the program called _Anaconda Prompt (miniconda3)_. When this opens you will see a prompt similar to `(base) C:\Users\your_name`. Type the following to check that your installations are working:
+
+<div align="center">
+    <img src="../imgs/start-menu-windows.png" alt="Logo" width="600">
+</div>
+
 - :white_check_mark: Run the command `$ python --version` (a version number should print out)
 - :white_check_mark: Run the command `$ conda --version` (a version number should print out)
 - If the installation was successful, the output should look similar to this:
@@ -54,18 +59,6 @@ We can make the Anaconda Prompt available from the Git Bash terminal by default,
 
 Visual Studio Code (more commonly known as VS Code) is a popular code editor allowing us to write new code, modify existing code, or run command line tasks in its integrated terminal. All our projects are built to run in both Jupyter notebooks and directly in terminal. Follow the steps below to download and configure VS Code:
 - :white_check_mark: [Download Visual Studio Code](https://code.visualstudio.com/download)
-- :white_check_mark: Launch VS Code, then launch a new terminal in VS Code. Do this by selecting from the top menu **Terminal > New Terminal**.
-
-<div align="center">
-    <img src="../imgs/where-vscode-terminal.png" alt="Logo" width="600">
-</div>
-
-- :white_check_mark: Select the (Git) Bash command-line interface for the terminal (top right in the photo below). Then, run the commands `$ python --version`, `$ conda --version`, and `$ python --version` (version numbers should print out). The end result should look similar to this:
-<div align="center">
-    <img src="../imgs/vscode-terminal.png" alt="Logo" width="600">
-</div>
-
-- :white_check_mark: (still working in VS Code Bash terminal) Run the command `$ conda install jupyter` and respond with the `yes` or `y` command to all configuration options. This allows users to work with Jupyter Notebook and other Jupyter-related components within your conda environment.
 
 Once you have successfully done all the above, you're ready to start downloading and running projects.
 
