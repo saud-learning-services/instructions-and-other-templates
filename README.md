@@ -25,7 +25,7 @@
 
 ### Ops Setup
 
-Throughout the documentation we have included 👷 as an indicator to follow along with setup-test. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). 
+Throughout the documentation we have included this symbol 👷 as an indicator to follow along with setup-test. Watch out for our cautions ⚠️ and our tips 💡 (we might even reveal some of the magic [🧙‍♀️](https://tenor.com/EJvb.gif)). We know these docs are content heavy, but they are also for future reference as you learn more (or want to learn more). 
 
 💡 For your first time, we recommend using the following as a checklist as you read and walk through the docs. You will notice :white_check_mark: in each of the docs correspond to the steps listed below. Do note that this checklist is the compressed version of all the steps, and isn't exactly beginner-friendly. For more detailed instructions, feel free to jump into any of the docs as you work through the checklist.
 
